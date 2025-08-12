@@ -107,18 +107,52 @@
 					<figcaption>Starting with plain text and building a site around it</figcaption>
 				</figure>
 				<p class="section-text">
-					Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece
-					of classical Latin literature from 45 BC, making it over 2000 years old. Richard
-					McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the
-					more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the
-					cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum
-					comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes
-					of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
-					ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum
-					dolor sit amet..", comes from a line in section 1.10.32. The standard chunk of Lorem Ipsum
-					used since the 1500s is reproduced below for those interested. Sections 1.10.32 and
-					1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact
-					original form, accompanied by English versions from the 1914 translation by H. Rackham.
+					Next up was learning how to take a piece of free-flowing text and design a layout for it.
+					The twist here, of course, was to think about how to structure it in HTML _and_ figure out
+					what CSS would bring it to life. That meant every step, or misstep, would very much be our
+					own. Each of us was to transform one of Hans Christian Andersen's fairy tales into a
+					webpage that demonstrated the use of flexbox and floats, typography choices with fonts,
+					incorporated images, and drew inspiration from CSS Zen Garden while experimenting with
+					techniques from Jen Simmons' works. This project became an initiation into the rich
+					tradition of developers wrestling with CSS, losing hours to tweaking margin and padding,
+					and joining the ranks of those searching "how to center a div," and discovering that the
+					most valuable skills weren't memorizing CSS properties but learning to search for answers
+					effectively, debug systematically, and know when to ask for help.
+				</p>
+			</div>
+		</div>
+		<div class="gallery-grid short-stories-grid">
+			{#each shortStoriesProjects as project}
+				<div class="gallery-item">
+					<ImageCard {project} />
+				</div>
+			{/each}
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="section-intro">
+			<h2 class="section-title">Short Stories</h2>
+			<div class="section-content">
+				<figure class="section-image space-y-2">
+					<img
+						src={shortStories}
+						alt="plain markup of a hans christian andersen story"
+						class=" h-96 -rotate-2 rounded-sm border-2 border-black object-cover"
+					/>
+					<figcaption>Starting with plain text and building a site around it</figcaption>
+				</figure>
+				<p class="section-text">
+					After proving to ourselves that we could wrestle code into submission and make something
+					that looked intentional, it was time to think bigger. This meant moving beyond the
+					technical stuff and getting philosophical about it. Why make a personal website at all?
+					What's the point of having your own space when social media exists? We spent time reading
+					manifestos from people who'd carved out weird, wonderful places on the web, thinking about
+					digital gardens versus blogs, and doing what we called "personal archaeology"; digging
+					through our own interests and obsessions to figure out what we thought would occupy this
+					corner we'd be making. The goal wasn't to build the perfect website right away (we had,
+					like, 10 days), but to plant seeds for something that could grow over time, something that
+					felt ours rather than another template-driven platform presence online.
 				</p>
 			</div>
 		</div>
@@ -146,6 +180,34 @@
 					}}
 				/>
 			{/each}
+		</div>
+	</section>
+
+	<section class="cta-section">
+		<div class="cta-container">
+			<h2 class="cta-title">This course is open source</h2>
+			<p class="cta-text">
+				Explore the full curriculum, teaching materials, and student work. Everything is freely
+				available for anyone to go through.
+			</p>
+			<div class="cta-buttons">
+				<a
+					href="https://teaching.aman.bh/web2025"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="cta-button primary"
+				>
+					View Course Site
+				</a>
+				<a
+					href="https://github.com/open-making/web2025-dev-notes"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="cta-button secondary"
+				>
+					Dev Notes
+				</a>
+			</div>
 		</div>
 	</section>
 </main>
@@ -266,6 +328,101 @@
 		.gallery-item {
 			grid-column: span 1 !important;
 			grid-row: span 1 !important;
+		}
+	}
+
+	.cta-section {
+		background: var(--color-purple);
+		padding: 4rem 2rem;
+		margin-top: 2rem;
+	}
+
+	.cta-container {
+		max-width: 800px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.cta-title {
+		font-family: 'LibreCaslonCondensed', serif;
+		font-size: 2.5rem;
+		font-weight: bold;
+		color: white;
+		margin-bottom: 1rem;
+		line-height: 1.1;
+	}
+
+	.cta-text {
+		font-family: 'Atkinson Hyperlegible', sans-serif;
+		font-size: 1.125rem;
+		color: white;
+		margin-bottom: 2rem;
+		opacity: 0.9;
+		line-height: 1.6;
+	}
+
+	.cta-buttons {
+		display: flex;
+		gap: 1rem;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.cta-button {
+		font-family: 'Atkinson Hyperlegible', sans-serif;
+		font-size: 1rem;
+		font-weight: 600;
+		padding: 0.75rem 1.5rem;
+		border-radius: 8px;
+		text-decoration: none;
+		transition: all 0.2s ease;
+		border: 2px solid transparent;
+	}
+
+	.cta-button.primary {
+		background: white;
+		color: var(--color-purple);
+		border-color: white;
+	}
+
+	.cta-button.primary:hover {
+		background: transparent;
+		color: white;
+		border-color: white;
+	}
+
+	.cta-button.secondary {
+		background: transparent;
+		color: white;
+		border-color: white;
+	}
+
+	.cta-button.secondary:hover {
+		background: white;
+		color: var(--color-purple);
+	}
+
+	@media (max-width: 768px) {
+		.cta-section {
+			padding: 3rem 1rem;
+		}
+
+		.cta-title {
+			font-size: 2rem;
+		}
+
+		.cta-text {
+			font-size: 1rem;
+		}
+
+		.cta-buttons {
+			flex-direction: column;
+			gap: 0.75rem;
+		}
+
+		.cta-button {
+			width: 100%;
+			max-width: 300px;
 		}
 	}
 </style>
