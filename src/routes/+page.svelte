@@ -8,6 +8,7 @@
 	import heyJude from '$lib/assets/images/hey-jude.png';
 	import shortStories from '$lib/assets/images/short-stories.png';
 	import { getDisplayName } from '$lib/components/utils';
+	import websitesData from '$lib/assets/images/web2025/metadata.json';
 	const heyJudeImages = import.meta.glob('$lib/assets/images/hey-jude/processed/*.webp', {
 		eager: true,
 		import: 'default'
@@ -18,6 +19,10 @@
 		import: 'default'
 	});
 
+	const websiteImages = import.meta.glob('$lib/assets/images/web2025/processed/*.webp', {
+		eager: true,
+		import: 'default'
+	});
 	function shuffleArray(array: any[]) {
 		const shuffled = [...array];
 		for (let i = shuffled.length - 1; i > 0; i--) {
@@ -42,6 +47,15 @@
 			imageSrc:
 				shortStoriesImages[`/src/lib/assets/images/short-stories/processed/${project.imageName}`]
 		}))
+	);
+
+	const websiteProjects = shuffleArray(
+		websitesData
+			.filter((item) => item.url && item.imageName)
+			.map((project) => ({
+				...project,
+				imageSrc: websiteImages[`/src/lib/assets/images/web2025/processed/${project.imageName}`]
+			}))
 	);
 
 	// Process student data for student cards
@@ -132,16 +146,8 @@
 
 	<section class="section">
 		<div class="section-intro">
-			<h2 class="section-title">Short Stories</h2>
-			<div class="section-content">
-				<figure class="section-image space-y-2">
-					<img
-						src={shortStories}
-						alt="plain markup of a hans christian andersen story"
-						class=" h-96 -rotate-2 rounded-sm border-2 border-black object-cover"
-					/>
-					<figcaption>Starting with plain text and building a site around it</figcaption>
-				</figure>
+			<h2 class="section-title">Digital Gardens</h2>
+
 				<p class="section-text">
 					After proving to ourselves that we could wrestle code into submission and make something
 					that looked intentional, it was time to think bigger. This meant moving beyond the
@@ -155,9 +161,9 @@
 					felt ours rather than another template-driven platform presence online.
 				</p>
 			</div>
-		</div>
+		
 		<div class="gallery-grid short-stories-grid">
-			{#each shortStoriesProjects as project}
+			{#each websiteProjects as project}
 				<div class="gallery-item">
 					<ImageCard {project} />
 				</div>
@@ -167,7 +173,7 @@
 
 	<section class="section">
 		<div class="section-intro">
-			<h2 class="section-title">Meet the team</h2>
+			<h2 class="section-title">Meet the devs</h2>
 		</div>
 		<div class="students-grid">
 			{#each students as student}
