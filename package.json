@@ -58,6 +58,7 @@
 	},
 	"dependencies": {
 		"@fontsource/atkinson-hyperlegible": "^5.2.6",
+		"@iconify/svelte": "^5.0.1",
 		"d3": "^7.9.0",
 		"dotenv": "^17.2.1",
 		"octokit": "^5.0.3",

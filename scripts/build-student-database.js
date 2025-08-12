@@ -509,26 +509,76 @@ async function buildStudentDatabase(options = {}) {
   return studentDatabase;
 }
 
+async function matchStudentWithMetadata(student, metadataFiles) {
+  const matches = {};
+  
+  for (const [metadataName, metadata] of Object.entries(metadataFiles)) {
+    if (metadata.entries) {
+      const studentEntries = metadata.entries.filter(entry => entry.author === student.username);
+      if (studentEntries.length > 0) {
+        matches[metadataName] = studentEntries;
+      }
+    }
+  }
+  
+  return matches;
+}
+
+async function loadMetadataFiles(outputDir) {
+  const metadataFiles = {};
+  
+  try {
+    const files = await fs.readdir(outputDir);
+    const metadataFileNames = files.filter(file => 
+      file.endsWith('-metadata.json') && file !== 'student-database.json'
+    );
+    
+    for (const fileName of metadataFileNames) {
+      const filePath = path.join(outputDir, fileName);
+      try {
+        const content = await fs.readFile(filePath, 'utf8');
+        const metadata = JSON.parse(content);
+        const baseName = fileName.replace('-metadata.json', '');
+        metadataFiles[baseName] = metadata;
+        console.log(`📋 Loaded metadata file: ${fileName}`);
+      } catch (error) {
+        console.warn(`⚠️  Could not load metadata file ${fileName}: ${error.message}`);
+      }
+    }
+  } catch (error) {
+    console.log('ℹ️  No metadata files found or error reading directory');
+  }
+  
+  return metadataFiles;
+}
+
 async function saveStudentDatabase(database, outputDir = 'src/lib/data') {
   // Ensure output directory exists
   await fs.mkdir(outputDir, { recursive: true });
 
+  // Load existing metadata files
+  const metadataFiles = await loadMetadataFiles(outputDir);
+  
   // Save complete database
   const fullDatabasePath = path.join(outputDir, 'student-database.json');
   await fs.writeFile(fullDatabasePath, JSON.stringify(database, null, 2));
 
   console.log(`📁 Complete database saved to: ${fullDatabasePath}`);
 
-  // Save individual student files
+  // Save individual student files with matched metadata
   const studentsDir = path.join(outputDir, 'students');
   await fs.mkdir(studentsDir, { recursive: true });
 
   for (const [username, student] of Object.entries(database.students)) {
+    // Match student with metadata files
+    const metadataMatches = await matchStudentWithMetadata(student, metadataFiles);
+    
     const studentPath = path.join(studentsDir, `${username}.json`);
     const studentData = {
       ...student,
       generatedAt: database.generatedAt,
-      repositories: database.repositories
+      repositories: database.repositories,
+      projectSubmissions: metadataMatches // Add matched metadata
     };
 
     await fs.writeFile(studentPath, JSON.stringify(studentData, null, 2));

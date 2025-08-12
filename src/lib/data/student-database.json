@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-08-12T12:33:26.959Z",
+  "generatedAt": "2025-08-12T17:38:15.681Z",
   "repositories": [
     {
       "name": "web2025-dev-notes",
@@ -256,285 +256,14 @@
       "statistics": {
         "totalNotes": 11,
         "totalSubmissions": 1,
-        "totalCommits": 50,
+        "totalCommits": 0,
         "firstActivity": "2025-07-21T09:52:53.000Z",
-        "lastActivity": "2025-08-12T11:53:07.000Z",
-        "mostActiveDay": "2025-08-10",
+        "lastActivity": "2025-08-05T16:13:58.000Z",
+        "mostActiveDay": "2025-07-21",
         "totalEntries": 12,
         "averageWordCount": 153
       },
-      "commitsByDate": {
-        "2025-08-12": [
-          {
-            "message": "working on gallery stamp",
-            "repository": "web2025-monika-site",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "updated gallery page with hover over image code,now have to add real images",
-            "repository": "web2025-monika-site",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "again a typo",
-            "repository": "web2025-monika-site",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "corrected typo mistake",
-            "repository": "web2025-monika-site",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "making quotes card componenet",
-            "repository": "web2025-monika-site",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "fixed the hover effect in sidebar",
-            "repository": "web2025-monika-site",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "fixed the margin of h1 website name",
-            "repository": "web2025-monika-site",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "updated stamps for different pages",
-            "repository": "web2025-monika-site",
-            "time": "August 12, 2025"
-          }
-        ],
-        "2025-08-11": [
-          {
-            "message": "linked pages to recommendation page, updated the page with stamps",
-            "repository": "web2025-monika-site",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "made quotes page, linked them with all page",
-            "repository": "web2025-monika-site",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "updated list page",
-            "repository": "web2025-monika-site",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "almost done with about page styling for now!",
-            "repository": "web2025-monika-site",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "updated about page with header",
-            "repository": "web2025-monika-site",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "added postcard component",
-            "repository": "web2025-monika-site",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "added postcardhorizontal componenet",
-            "repository": "web2025-monika-site",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "fixed the Post Card component in about page",
-            "repository": "web2025-monika-site",
-            "time": "August 11, 2025"
-          }
-        ],
-        "2025-08-10": [
-          {
-            "message": "size of images in all linked pages",
-            "repository": "web2025-monika-site",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "updated and completed the home page",
-            "repository": "web2025-monika-site",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "font in heading",
-            "repository": "web2025-monika-site",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "working on sidebar menu",
-            "repository": "web2025-monika-site",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "about page",
-            "repository": "web2025-monika-site",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "did some changes in about page",
-            "repository": "web2025-monika-site",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "added WIP stamps in all pages",
-            "repository": "web2025-monika-site",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "added heading font",
-            "repository": "web2025-monika-site",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "linked all the pages",
-            "repository": "web2025-monika-site",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "Added illustrations and changes in main menu",
-            "repository": "web2025-monika-site",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "added stickysidebar",
-            "repository": "web2025-monika-site",
-            "time": "August 10, 2025"
-          }
-        ],
-        "2025-08-08": [
-          {
-            "message": "linked every pages, update te  about page design",
-            "repository": "web2025-monika-site",
-            "time": "August 8, 2025"
-          },
-          {
-            "message": "made chnages in landing page",
-            "repository": "web2025-monika-site",
-            "time": "August 8, 2025"
-          },
-          {
-            "message": "updated landing page",
-            "repository": "web2025-monika-site",
-            "time": "August 8, 2025"
-          },
-          {
-            "message": "linked landing page to about page",
-            "repository": "web2025-monika-site",
-            "time": "August 8, 2025"
-          },
-          {
-            "message": "component changes",
-            "repository": "web2025-monika-site",
-            "time": "August 8, 2025"
-          },
-          {
-            "message": "new menu layout",
-            "repository": "web2025-monika-site",
-            "time": "August 8, 2025"
-          },
-          {
-            "message": "changes in menulayout",
-            "repository": "web2025-monika-site",
-            "time": "August 8, 2025"
-          }
-        ],
-        "2025-08-07": [
-          {
-            "message": "did some changes in about page. still have to work, made postcard component",
-            "repository": "web2025-monika-site",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "working on anout page layout",
-            "repository": "web2025-monika-site",
-            "time": "August 7, 2025"
-          }
-        ],
-        "2025-08-05": [
-          {
-            "message": "worked on the home page grid",
-            "repository": "web2025-monika-site",
-            "time": "August 5, 2025"
-          },
-          {
-            "message": "added button component",
-            "repository": "web2025-monika-site",
-            "time": "August 5, 2025"
-          },
-          {
-            "message": "added About page, navigation",
-            "repository": "web2025-monika-site",
-            "time": "August 5, 2025"
-          },
-          {
-            "message": "added header",
-            "repository": "tutorial-astro",
-            "time": "August 5, 2025"
-          },
-          {
-            "message": "added footer",
-            "repository": "tutorial-astro",
-            "time": "August 5, 2025"
-          },
-          {
-            "message": "added navigation component and more components and how to link them",
-            "repository": "tutorial-astro",
-            "time": "August 5, 2025"
-          }
-        ],
-        "2025-08-04": [
-          {
-            "message": "added global css",
-            "repository": "tutorial-astro",
-            "time": "August 4, 2025"
-          }
-        ],
-        "2025-08-03": [
-          {
-            "message": "added post folder and post 1 2 3",
-            "repository": "tutorial-astro",
-            "time": "August 3, 2025"
-          },
-          {
-            "message": "Added two new pages - about and blog",
-            "repository": "tutorial-astro",
-            "time": "August 3, 2025"
-          }
-        ],
-        "2025-08-01": [
-          {
-            "message": "h2 added",
-            "repository": "tutorial-astro",
-            "time": "August 1, 2025"
-          },
-          {
-            "message": "h1 changed",
-            "repository": "tutorial-astro",
-            "time": "August 1, 2025"
-          }
-        ],
-        "2025-07-28": [
-          {
-            "message": "add css styles and code for grid",
-            "repository": "Monika-grid",
-            "time": "July 28, 2025"
-          },
-          {
-            "message": "call for help",
-            "repository": "Monika-grid",
-            "time": "July 28, 2025"
-          },
-          {
-            "message": "adds index.html",
-            "repository": "Monika-grid",
-            "time": "July 28, 2025"
-          }
-        ]
-      }
+      "commitsByDate": {}
     },
     "Tanyamehra14": {
       "username": "Tanyamehra14",
@@ -797,76 +526,14 @@
       "statistics": {
         "totalNotes": 11,
         "totalSubmissions": 1,
-        "totalCommits": 11,
+        "totalCommits": 0,
         "firstActivity": "2025-07-21T09:53:42.000Z",
         "lastActivity": "2025-08-05T16:55:11.000Z",
-        "mostActiveDay": "2025-08-03",
+        "mostActiveDay": "2025-07-21",
         "totalEntries": 12,
         "averageWordCount": 123
       },
-      "commitsByDate": {
-        "2025-08-04": [
-          {
-            "message": "changes",
-            "repository": "practicetanya",
-            "time": "August 4, 2025"
-          }
-        ],
-        "2025-08-03": [
-          {
-            "message": "changes",
-            "repository": "practicetanya",
-            "time": "August 3, 2025"
-          },
-          {
-            "message": "changes",
-            "repository": "practicetanya",
-            "time": "August 3, 2025"
-          },
-          {
-            "message": "change",
-            "repository": "practicetanya",
-            "time": "August 3, 2025"
-          },
-          {
-            "message": "change",
-            "repository": "practicetanya",
-            "time": "August 3, 2025"
-          },
-          {
-            "message": "yo",
-            "repository": "practicetanya",
-            "time": "August 3, 2025"
-          },
-          {
-            "message": "change",
-            "repository": "practicetanya",
-            "time": "August 3, 2025"
-          },
-          {
-            "message": "changes blog 3",
-            "repository": "practicetanya",
-            "time": "August 3, 2025"
-          },
-          {
-            "message": "changes",
-            "repository": "practicetanya",
-            "time": "August 3, 2025"
-          }
-        ],
-        "2025-08-01": [
-          {
-            "message": "save changes",
-            "repository": "practicetanya",
-            "time": "August 1, 2025"
-          },
-          {
-            "message": "save changes",
-            "repository": "practicetanya",
-            "time": "August 1, 2025"
-          }
-        ]
-      }
+      "commitsByDate": {}
     },
     "Manasi1114": {
       "username": "Manasi1114",
@@ -1120,27 +787,14 @@
       "statistics": {
         "totalNotes": 11,
         "totalSubmissions": 1,
-        "totalCommits": 2,
+        "totalCommits": 0,
         "firstActivity": "2025-07-21T09:54:18.000Z",
         "lastActivity": "2025-08-05T18:00:28.000Z",
-        "mostActiveDay": "2025-07-31",
+        "mostActiveDay": "2025-07-23",
         "totalEntries": 12,
         "averageWordCount": 141
       },
-      "commitsByDate": {
-        "2025-07-31": [
-          {
-            "message": "Initial commit",
-            "repository": "web2025-manasi-site",
-            "time": "July 31, 2025"
-          },
-          {
-            "message": "initial commit",
-            "repository": "fairy-tales",
-            "time": "July 31, 2025"
-          }
-        ]
-      }
+      "commitsByDate": {}
     },
     "Diksha0702": {
       "username": "Diksha0702",
@@ -1346,69 +1000,23 @@
       "statistics": {
         "totalNotes": 9,
         "totalSubmissions": 1,
-        "totalCommits": 8,
+        "totalCommits": 0,
         "firstActivity": "2025-07-21T09:53:08.000Z",
-        "lastActivity": "2025-08-12T09:00:56.000Z",
-        "mostActiveDay": "2025-08-05",
+        "lastActivity": "2025-08-05T18:03:48.000Z",
+        "mostActiveDay": "2025-07-22",
         "totalEntries": 10,
         "averageWordCount": 98
       },
-      "commitsByDate": {
-        "2025-08-12": [
-          {
-            "message": "added memories page and photocard",
-            "repository": "diksha-portfolio",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "made changes in thought and note",
-            "repository": "diksha-portfolio",
-            "time": "August 12, 2025"
-          }
-        ],
-        "2025-08-11": [
-          {
-            "message": "add styling thought pages",
-            "repository": "diksha-portfolio",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "added about page and thougts page",
-            "repository": "diksha-portfolio",
-            "time": "August 11, 2025"
-          }
-        ],
-        "2025-08-05": [
-          {
-            "message": "created homepage",
-            "repository": "diksha-portfolio",
-            "time": "August 5, 2025"
-          },
-          {
-            "message": "updated astro project",
-            "repository": "diksha-portfolio",
-            "time": "August 5, 2025"
-          },
-          {
-            "message": "Update README.md",
-            "repository": "diksha-portfolio",
-            "time": "August 5, 2025"
-          }
-        ],
-        "2025-07-31": [
-          {
-            "message": "Initial commit",
-            "repository": "diksha-portfolio",
-            "time": "July 31, 2025"
-          }
-        ]
-      }
+      "commitsByDate": {}
     },
     "Dishita195": {
       "username": "Dishita195",
-      "name": null,
-      "website": null,
-      "socialLinks": [],
+      "name": "Dishita Jain",
+      "website": "https://nirvikalpa-dishitajain.netlify.app/",
+      "socialLinks": [
+        "https://www.instagram.com/_dishitajain",
+        "https://www.linkedin.com/in/dishitajain19"
+      ],
       "devNotes": [
         {
           "id": "dev-notes-2-comment-3095975828",
@@ -1525,153 +1133,37 @@
           "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/12#issuecomment-3156175564"
         }
       ],
-      "submissions": [],
+      "submissions": [
+        {
+          "id": "submissions-15-issue",
+          "type": "issue-body",
+          "repository": "web2025",
+          "issueNumber": 15,
+          "issueTitle": "Dishita Jain",
+          "content": "### Student Name\n\nDishita Jain\n\n### Website URL\n\nhttps://nirvikalpa-dishitajain.netlify.app/\n\n### Social Link 1 (Optional)\n\nhttps://www.instagram.com/_dishitajain\n\n### Social Link 2 (Optional)\n\nhttps://www.linkedin.com/in/dishitajain19\n\n### Social Link 3 (Optional)\n\n_No response_",
+          "urls": [
+            "https://nirvikalpa-dishitajain.netlify.app/"
+          ],
+          "wordCount": 28,
+          "date": {
+            "iso": "2025-08-12T13:28:04.000Z",
+            "date": "2025-08-12",
+            "formatted": "August 12, 2025"
+          },
+          "issueUrl": "https://github.com/open-making/web2025/issues/15"
+        }
+      ],
       "statistics": {
         "totalNotes": 6,
-        "totalSubmissions": 0,
-        "totalCommits": 24,
+        "totalSubmissions": 1,
+        "totalCommits": 0,
         "firstActivity": "2025-07-21T09:54:20.000Z",
-        "lastActivity": "2025-08-12T08:48:17.000Z",
-        "mostActiveDay": "2025-08-04",
-        "totalEntries": 6,
-        "averageWordCount": 163
+        "lastActivity": "2025-08-05T18:29:00.000Z",
+        "mostActiveDay": "2025-07-21",
+        "totalEntries": 7,
+        "averageWordCount": 144
       },
-      "commitsByDate": {
-        "2025-08-12": [
-          {
-            "message": "added bug images",
-            "repository": "Nirvikalpa",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "added sticky header js",
-            "repository": "Nirvikalpa",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "added images to insect grid",
-            "repository": "Nirvikalpa",
-            "time": "August 12, 2025"
-          }
-        ],
-        "2025-08-11": [
-          {
-            "message": "home page menu",
-            "repository": "Nirvikalpa",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "fixed img path",
-            "repository": "Nirvikalpa",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "added header colorBoxes",
-            "repository": "Nirvikalpa",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "css for Jainism page",
-            "repository": "Nirvikalpa",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "home page css",
-            "repository": "Nirvikalpa",
-            "time": "August 11, 2025"
-          }
-        ],
-        "2025-08-10": [
-          {
-            "message": "imported header",
-            "repository": "Nirvikalpa",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "refined code, added header",
-            "repository": "Nirvikalpa",
-            "time": "August 10, 2025"
-          }
-        ],
-        "2025-08-05": [
-          {
-            "message": "added home page text",
-            "repository": "Nirvikalpa",
-            "time": "August 5, 2025"
-          },
-          {
-            "message": "added home and jainism page; global.css file",
-            "repository": "Nirvikalpa",
-            "time": "August 5, 2025"
-          },
-          {
-            "message": "created landing page",
-            "repository": "Nirvikalpa",
-            "time": "August 5, 2025"
-          }
-        ],
-        "2025-08-04": [
-          {
-            "message": "added some css",
-            "repository": "astro-trial",
-            "time": "August 5, 2025"
-          },
-          {
-            "message": "Added header and footer with socials",
-            "repository": "astro-trial",
-            "time": "August 5, 2025"
-          },
-          {
-            "message": "added navigation component",
-            "repository": "astro-trial",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "added 3 posts; imported global.css",
-            "repository": "astro-trial",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "Added two new pages - about and blog",
-            "repository": "astro-trial",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "commit 3",
-            "repository": "astro-trial",
-            "time": "August 4, 2025"
-          }
-        ],
-        "2025-08-03": [
-          {
-            "message": "added h2",
-            "repository": "astro-trial",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "initial commit",
-            "repository": "astro-trial",
-            "time": "August 4, 2025"
-          }
-        ],
-        "2025-07-28": [
-          {
-            "message": "added grids and styling",
-            "repository": "dishita-grid",
-            "time": "July 28, 2025"
-          },
-          {
-            "message": "trial don't read",
-            "repository": "dishita-grid",
-            "time": "July 28, 2025"
-          },
-          {
-            "message": "adds index.html",
-            "repository": "dishita-grid",
-            "time": "July 28, 2025"
-          }
-        ]
-      }
+      "commitsByDate": {}
     },
     "aimansayeed02": {
       "username": "aimansayeed02",
@@ -1933,525 +1425,14 @@
       "statistics": {
         "totalNotes": 11,
         "totalSubmissions": 1,
-        "totalCommits": 98,
+        "totalCommits": 0,
         "firstActivity": "2025-07-21T09:53:37.000Z",
-        "lastActivity": "2025-08-12T10:30:55.000Z",
-        "mostActiveDay": "2025-08-07",
+        "lastActivity": "2025-08-05T18:49:50.000Z",
+        "mostActiveDay": "2025-07-21",
         "totalEntries": 12,
         "averageWordCount": 161
       },
-      "commitsByDate": {
-        "2025-08-12": [
-          {
-            "message": "text update on ink2021 page",
-            "repository": "web-portfolio",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "about page text",
-            "repository": "web-portfolio",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "text-update on pages",
-            "repository": "web-portfolio",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "font update",
-            "repository": "web-portfolio",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "images optimized and fonts",
-            "repository": "web-portfolio",
-            "time": "August 12, 2025"
-          }
-        ],
-        "2025-08-11": [
-          {
-            "message": "images and hover added",
-            "repository": "web-portfolio",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "images on photos page",
-            "repository": "web-portfolio",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "photos page",
-            "repository": "web-portfolio",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "optimize image installed",
-            "repository": "web-portfolio",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "photos page work in progress",
-            "repository": "web-portfolio",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "hover on homepage",
-            "repository": "web-portfolio",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "footer change",
-            "repository": "web-portfolio",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "placement of things",
-            "repository": "web-portfolio",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "cover page update",
-            "repository": "web-portfolio",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "workinpage update",
-            "repository": "web-portfolio",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "photos update",
-            "repository": "web-portfolio",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "update-img-location",
-            "repository": "web-portfolio",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "update on images",
-            "repository": "web-portfolio",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "journal update",
-            "repository": "web-portfolio",
-            "time": "August 11, 2025"
-          }
-        ],
-        "2025-08-10": [
-          {
-            "message": "fontupdate",
-            "repository": "web-portfolio",
-            "time": "August 10, 2025"
-          },
-          {
-            "message": "mainpageupdate",
-            "repository": "web-portfolio",
-            "time": "August 10, 2025"
-          },
-          {
-            "message": "images on coverpage",
-            "repository": "web-portfolio",
-            "time": "August 10, 2025"
-          },
-          {
-            "message": "hover effects added",
-            "repository": "web-portfolio",
-            "time": "August 10, 2025"
-          },
-          {
-            "message": "cover - fixed margins",
-            "repository": "web-portfolio",
-            "time": "August 10, 2025"
-          },
-          {
-            "message": "border on corner page",
-            "repository": "web-portfolio",
-            "time": "August 10, 2025"
-          },
-          {
-            "message": "image + text left aligned",
-            "repository": "web-portfolio",
-            "time": "August 10, 2025"
-          },
-          {
-            "message": "upadate on cover(10 aug)",
-            "repository": "web-portfolio",
-            "time": "August 10, 2025"
-          }
-        ],
-        "2025-08-09": [
-          {
-            "message": "cover page txt change",
-            "repository": "web-portfolio",
-            "time": "August 10, 2025"
-          },
-          {
-            "message": "cover page update",
-            "repository": "web-portfolio",
-            "time": "August 9, 2025"
-          },
-          {
-            "message": "2021 inktober",
-            "repository": "web-portfolio",
-            "time": "August 9, 2025"
-          },
-          {
-            "message": "ink 2021",
-            "repository": "web-portfolio",
-            "time": "August 9, 2025"
-          },
-          {
-            "message": "ink2023 page update",
-            "repository": "web-portfolio",
-            "time": "August 9, 2025"
-          },
-          {
-            "message": "hover on inktober",
-            "repository": "web-portfolio",
-            "time": "August 9, 2025"
-          },
-          {
-            "message": "project page update",
-            "repository": "web-portfolio",
-            "time": "August 9, 2025"
-          },
-          {
-            "message": "checkchange",
-            "repository": "web-portfolio",
-            "time": "August 9, 2025"
-          },
-          {
-            "message": "work in progress page",
-            "repository": "web-portfolio",
-            "time": "August 9, 2025"
-          },
-          {
-            "message": "work in progress page",
-            "repository": "web-portfolio",
-            "time": "August 9, 2025"
-          },
-          {
-            "message": "check img",
-            "repository": "web-portfolio",
-            "time": "August 9, 2025"
-          },
-          {
-            "message": "font update check",
-            "repository": "web-portfolio",
-            "time": "August 9, 2025"
-          },
-          {
-            "message": "pictures2023",
-            "repository": "web-portfolio",
-            "time": "August 9, 2025"
-          },
-          {
-            "message": "inktober images",
-            "repository": "web-portfolio",
-            "time": "August 9, 2025"
-          }
-        ],
-        "2025-08-08": [
-          {
-            "message": "ink23 update",
-            "repository": "web-portfolio",
-            "time": "August 8, 2025"
-          },
-          {
-            "message": "inktober-arrangment",
-            "repository": "web-portfolio",
-            "time": "August 8, 2025"
-          },
-          {
-            "message": "images at inkt2024page",
-            "repository": "web-portfolio",
-            "time": "August 8, 2025"
-          },
-          {
-            "message": "ink2024 new page",
-            "repository": "web-portfolio",
-            "time": "August 8, 2025"
-          },
-          {
-            "message": "music page work in progress #4",
-            "repository": "web-portfolio",
-            "time": "August 8, 2025"
-          },
-          {
-            "message": "contact page  design closes #3",
-            "repository": "web-portfolio",
-            "time": "August 8, 2025"
-          }
-        ],
-        "2025-08-07": [
-          {
-            "message": "coverpage-changes",
-            "repository": "web-portfolio",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "inktober layout closes #2",
-            "repository": "web-portfolio",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "links for inktober",
-            "repository": "web-portfolio",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "inktober-page-final",
-            "repository": "web-portfolio",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "fix url, closes #1",
-            "repository": "web-portfolio",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "fix url",
-            "repository": "web-portfolio",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "inktober page -journal",
-            "repository": "web-portfolio",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "buttons on artpage",
-            "repository": "web-portfolio",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "artpage-layout",
-            "repository": "web-portfolio",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "star on art",
-            "repository": "web-portfolio",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "grid at homepage",
-            "repository": "web-portfolio",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "3 button background",
-            "repository": "web-portfolio",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "added gif",
-            "repository": "web-portfolio",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "infopage alignment",
-            "repository": "web-portfolio",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "update-alignment",
-            "repository": "web-portfolio",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "aligment of info page",
-            "repository": "web-portfolio",
-            "time": "August 7, 2025"
-          }
-        ],
-        "2025-08-06": [
-          {
-            "message": "august 6 last update",
-            "repository": "web-portfolio",
-            "time": "August 6, 2025"
-          },
-          {
-            "message": "two-year journal",
-            "repository": "web-portfolio",
-            "time": "August 6, 2025"
-          },
-          {
-            "message": "journalimg(need to add text)",
-            "repository": "web-portfolio",
-            "time": "August 6, 2025"
-          },
-          {
-            "message": "inktober-img-aligned",
-            "repository": "web-portfolio",
-            "time": "August 6, 2025"
-          },
-          {
-            "message": "inktober page alignment",
-            "repository": "web-portfolio",
-            "time": "August 6, 2025"
-          },
-          {
-            "message": "inktober-text",
-            "repository": "web-portfolio",
-            "time": "August 6, 2025"
-          },
-          {
-            "message": "project synced with portfolio",
-            "repository": "web-portfolio",
-            "time": "August 6, 2025"
-          },
-          {
-            "message": "art button connect",
-            "repository": "web-portfolio",
-            "time": "August 6, 2025"
-          },
-          {
-            "message": "3 buttonsaddition",
-            "repository": "web-portfolio",
-            "time": "August 6, 2025"
-          },
-          {
-            "message": "bluebutton-homepage",
-            "repository": "web-portfolio",
-            "time": "August 6, 2025"
-          },
-          {
-            "message": "discord-update",
-            "repository": "web-portfolio",
-            "time": "August 6, 2025"
-          },
-          {
-            "message": "conactpage",
-            "repository": "web-portfolio",
-            "time": "August 6, 2025"
-          },
-          {
-            "message": "center logo changable",
-            "repository": "web-portfolio",
-            "time": "August 6, 2025"
-          },
-          {
-            "message": "footer-movement",
-            "repository": "web-portfolio",
-            "time": "August 6, 2025"
-          }
-        ],
-        "2025-08-05": [
-          {
-            "message": "experince text",
-            "repository": "web-portfolio",
-            "time": "August 5, 2025"
-          },
-          {
-            "message": "aboutpagegrid",
-            "repository": "web-portfolio",
-            "time": "August 5, 2025"
-          },
-          {
-            "message": "aboutme-page",
-            "repository": "web-portfolio",
-            "time": "August 5, 2025"
-          },
-          {
-            "message": "updatedat2",
-            "repository": "web-portfolio",
-            "time": "August 5, 2025"
-          },
-          {
-            "message": "updateabout",
-            "repository": "web-portfolio",
-            "time": "August 5, 2025"
-          },
-          {
-            "message": "about-button",
-            "repository": "web-portfolio",
-            "time": "August 5, 2025"
-          },
-          {
-            "message": "walk-img added",
-            "repository": "web-portfolio",
-            "time": "August 5, 2025"
-          },
-          {
-            "message": "shape rotate",
-            "repository": "web-portfolio",
-            "time": "August 5, 2025"
-          },
-          {
-            "message": "imageon side",
-            "repository": "web-portfolio",
-            "time": "August 5, 2025"
-          }
-        ],
-        "2025-08-04": [
-          {
-            "message": "textupdate",
-            "repository": "web-portfolio",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "textdescription",
-            "repository": "web-portfolio",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "footertext",
-            "repository": "web-portfolio",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "boxand text",
-            "repository": "web-portfolio",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "text box update",
-            "repository": "web-portfolio",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "text-box",
-            "repository": "web-portfolio",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "hoveradded",
-            "repository": "web-portfolio",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "added fonts",
-            "repository": "web-portfolio",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": " blue box addition",
-            "repository": "web-portfolio",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "update02",
-            "repository": "web-portfolio",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "update01",
-            "repository": "web-portfolio",
-            "time": "August 4, 2025"
-          }
-        ],
-        "2025-07-31": [
-          {
-            "message": "trial commit",
-            "repository": "first-repo",
-            "time": "July 31, 2025"
-          }
-        ]
-      }
+      "commitsByDate": {}
     },
     "jaipalsingh11": {
       "username": "jaipalsingh11",
@@ -2698,125 +1679,14 @@
       "statistics": {
         "totalNotes": 11,
         "totalSubmissions": 1,
-        "totalCommits": 18,
+        "totalCommits": 0,
         "firstActivity": "2025-07-21T09:52:37.000Z",
-        "lastActivity": "2025-08-12T11:42:32.000Z",
-        "mostActiveDay": "2025-08-12",
+        "lastActivity": "2025-08-05T20:00:00.000Z",
+        "mostActiveDay": "2025-07-21",
         "totalEntries": 12,
         "averageWordCount": 103
       },
-      "commitsByDate": {
-        "2025-08-12": [
-          {
-            "message": "Made the homepage responsive to some extent",
-            "repository": "Jaypee",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "Mobile Try 1",
-            "repository": "Jaypee",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "max with 600px for mobile",
-            "repository": "Jaypee",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "tried to make the homepage for mobile",
-            "repository": "Jaypee",
-            "time": "August 12, 2025"
-          }
-        ],
-        "2025-08-10": [
-          {
-            "message": "Added Some more projects",
-            "repository": "Jaypee",
-            "time": "August 10, 2025"
-          },
-          {
-            "message": "Added custom cursor and added project pages and some cool stuff",
-            "repository": "Jaypee",
-            "time": "August 10, 2025"
-          }
-        ],
-        "2025-08-09": [
-          {
-            "message": "Added Some Overlay Effect on Homepage",
-            "repository": "Jaypee",
-            "time": "August 9, 2025"
-          }
-        ],
-        "2025-08-08": [
-          {
-            "message": "almost completed my story page",
-            "repository": "Jaypee",
-            "time": "August 8, 2025"
-          }
-        ],
-        "2025-08-06": [
-          {
-            "message": "worked on My Story Page",
-            "repository": "Jaypee",
-            "time": "August 7, 2025"
-          }
-        ],
-        "2025-08-05": [
-          {
-            "message": "Homepage 80%",
-            "repository": "Jaypee",
-            "time": "August 6, 2025"
-          }
-        ],
-        "2025-08-04": [
-          {
-            "message": "Header and footer",
-            "repository": "Jaypee",
-            "time": "August 4, 2025"
-          }
-        ],
-        "2025-08-03": [
-          {
-            "message": "DId some javascripting",
-            "repository": "Jaypee",
-            "time": "August 3, 2025"
-          },
-          {
-            "message": "Learning updates",
-            "repository": "Jaypee",
-            "time": "August 3, 2025"
-          }
-        ],
-        "2025-08-01": [
-          {
-            "message": "new changes test",
-            "repository": "Jaypee",
-            "time": "August 1, 2025"
-          },
-          {
-            "message": "First Change",
-            "repository": "Jaypee",
-            "time": "August 1, 2025"
-          },
-          {
-            "message": "Birth",
-            "repository": "Jaypee",
-            "time": "August 1, 2025"
-          }
-        ],
-        "2025-07-28": [
-          {
-            "message": "New m",
-            "repository": "jaipal-grid",
-            "time": "July 28, 2025"
-          },
-          {
-            "message": "adds index.html",
-            "repository": "jaipal-grid",
-            "time": "July 28, 2025"
-          }
-        ]
-      }
+      "commitsByDate": {}
     },
     "amruta712b": {
       "username": "amruta712b",
@@ -3072,397 +1942,14 @@
       "statistics": {
         "totalNotes": 11,
         "totalSubmissions": 1,
-        "totalCommits": 72,
+        "totalCommits": 0,
         "firstActivity": "2025-07-21T09:54:36.000Z",
-        "lastActivity": "2025-08-12T10:48:46.000Z",
-        "mostActiveDay": "2025-08-04",
+        "lastActivity": "2025-08-06T08:13:32.000Z",
+        "mostActiveDay": "2025-07-21",
         "totalEntries": 12,
         "averageWordCount": 171
       },
-      "commitsByDate": {
-        "2025-08-12": [
-          {
-            "message": "homepage window change",
-            "repository": "amruta-portfolio-website",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "sidebar changes",
-            "repository": "amruta-portfolio-website",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "contact mailbox animation",
-            "repository": "amruta-portfolio-website",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "scroll down in about",
-            "repository": "amruta-portfolio-website",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "contact webp",
-            "repository": "amruta-portfolio-website",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "notes webp",
-            "repository": "amruta-portfolio-website",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "webp works images",
-            "repository": "amruta-portfolio-website",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "icons webp",
-            "repository": "amruta-portfolio-website",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "optimized images",
-            "repository": "amruta-portfolio-website",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "Merge remote-tracking branch 'origin/aman/illo-pages'",
-            "repository": "amruta-portfolio-website",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "WIP save",
-            "repository": "amruta-portfolio-website",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "changed footer",
-            "repository": "amruta-portfolio-website",
-            "time": "August 12, 2025"
-          }
-        ],
-        "2025-08-11": [
-          {
-            "message": "contact me page",
-            "repository": "amruta-portfolio-website",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "footer changes in contact",
-            "repository": "amruta-portfolio-website",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "footer changes in contact page",
-            "repository": "amruta-portfolio-website",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "homepage window change",
-            "repository": "amruta-portfolio-website",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "scroll down fixed",
-            "repository": "amruta-portfolio-website",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "logo position fix",
-            "repository": "amruta-portfolio-website",
-            "time": "August 11, 2025"
-          }
-        ],
-        "2025-08-10": [
-          {
-            "message": "favicon change",
-            "repository": "amruta-portfolio-website",
-            "time": "August 10, 2025"
-          },
-          {
-            "message": "edition in works page",
-            "repository": "amruta-portfolio-website",
-            "time": "August 10, 2025"
-          },
-          {
-            "message": "added text in works",
-            "repository": "amruta-portfolio-website",
-            "time": "August 10, 2025"
-          },
-          {
-            "message": "button side bar logo change",
-            "repository": "amruta-portfolio-website",
-            "time": "August 10, 2025"
-          },
-          {
-            "message": "made changes in sideba",
-            "repository": "amruta-portfolio-website",
-            "time": "August 10, 2025"
-          },
-          {
-            "message": "created illustration page",
-            "repository": "amruta-portfolio-website",
-            "time": "August 10, 2025"
-          },
-          {
-            "message": "new illustration page",
-            "repository": "amruta-portfolio-website",
-            "time": "August 10, 2025"
-          }
-        ],
-        "2025-08-09": [
-          {
-            "message": "changes in grid",
-            "repository": "amruta-portfolio-website",
-            "time": "August 10, 2025"
-          }
-        ],
-        "2025-08-07": [
-          {
-            "message": "added grids in works page",
-            "repository": "amruta-portfolio-website",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "animation",
-            "repository": "amruta-portfolio-website",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "scroll down",
-            "repository": "amruta-portfolio-website",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "added images",
-            "repository": "amruta-portfolio-website",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "illustrations page",
-            "repository": "amruta-portfolio-website",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "changes is padding about page",
-            "repository": "amruta-portfolio-website",
-            "time": "August 7, 2025"
-          }
-        ],
-        "2025-08-06": [
-          {
-            "message": "works page",
-            "repository": "amruta-portfolio-website",
-            "time": "August 6, 2025"
-          }
-        ],
-        "2025-08-05": [
-          {
-            "message": "added grid",
-            "repository": "amruta-portfolio-website",
-            "time": "August 5, 2025"
-          },
-          {
-            "message": "added notes images",
-            "repository": "amruta-portfolio-website",
-            "time": "August 5, 2025"
-          },
-          {
-            "message": "added notes",
-            "repository": "amruta-portfolio-website",
-            "time": "August 5, 2025"
-          },
-          {
-            "message": "added footer",
-            "repository": "amruta-portfolio-website",
-            "time": "August 5, 2025"
-          },
-          {
-            "message": "added notes",
-            "repository": "amruta-portfolio-website",
-            "time": "August 5, 2025"
-          },
-          {
-            "message": "made more image path chnages",
-            "repository": "amruta-portfolio-website",
-            "time": "August 5, 2025"
-          },
-          {
-            "message": "image path change",
-            "repository": "amruta-portfolio-website",
-            "time": "August 5, 2025"
-          }
-        ],
-        "2025-08-04": [
-          {
-            "message": "change",
-            "repository": "amruta-portfolio-website",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "added button link",
-            "repository": "amruta-portfolio-website",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "made changes in about page",
-            "repository": "amruta-portfolio-website",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "made changes in buttom",
-            "repository": "amruta-portfolio-website",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "more changes in about",
-            "repository": "amruta-portfolio-website",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "changes in window",
-            "repository": "amruta-portfolio-website",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "added hover",
-            "repository": "amruta-portfolio-website",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "window changes",
-            "repository": "amruta-portfolio-website",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "adding windows",
-            "repository": "amruta-portfolio-website",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "added logo",
-            "repository": "amruta-portfolio-website",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "changed menu width",
-            "repository": "amruta-portfolio-website",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "changed menu",
-            "repository": "amruta-portfolio-website",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "aded menu",
-            "repository": "amruta-portfolio-website",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "added bg color",
-            "repository": "amruta-portfolio-website",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "made changes",
-            "repository": "amruta-portfolio-website",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "made more changes",
-            "repository": "practice-project-tutorial",
-            "time": "August 4, 2025"
-          }
-        ],
-        "2025-08-03": [
-          {
-            "message": "added hamburger",
-            "repository": "practice-project-tutorial",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "new changes",
-            "repository": "practice-project-tutorial",
-            "time": "August 3, 2025"
-          },
-          {
-            "message": "footer header",
-            "repository": "practice-project-tutorial",
-            "time": "August 3, 2025"
-          },
-          {
-            "message": "added footer",
-            "repository": "practice-project-tutorial",
-            "time": "August 3, 2025"
-          },
-          {
-            "message": "added variables",
-            "repository": "practice-project-tutorial",
-            "time": "August 3, 2025"
-          },
-          {
-            "message": "changes",
-            "repository": "practice-project-tutorial",
-            "time": "August 3, 2025"
-          },
-          {
-            "message": "changed name",
-            "repository": "practice-project-tutorial",
-            "time": "August 3, 2025"
-          },
-          {
-            "message": "addded blogs",
-            "repository": "practice-project-tutorial",
-            "time": "August 3, 2025"
-          },
-          {
-            "message": "moved blkog",
-            "repository": "practice-project-tutorial",
-            "time": "August 3, 2025"
-          },
-          {
-            "message": "made blogs",
-            "repository": "practice-project-tutorial",
-            "time": "August 3, 2025"
-          },
-          {
-            "message": "changed index",
-            "repository": "practice-project-tutorial",
-            "time": "August 3, 2025"
-          },
-          {
-            "message": "added links",
-            "repository": "practice-project-tutorial",
-            "time": "August 3, 2025"
-          },
-          {
-            "message": "moved astro",
-            "repository": "practice-project-tutorial",
-            "time": "August 3, 2025"
-          },
-          {
-            "message": "about page",
-            "repository": "practice-project-tutorial",
-            "time": "August 3, 2025"
-          }
-        ],
-        "2025-08-01": [
-          {
-            "message": "initial commit",
-            "repository": "practice-project-tutorial",
-            "time": "August 1, 2025"
-          }
-        ],
-        "2025-07-28": [
-          {
-            "message": "adds index.html",
-            "repository": "amruta-grid",
-            "time": "July 28, 2025"
-          }
-        ]
-      }
+      "commitsByDate": {}
     },
     "Meetbaxi17": {
       "username": "Meetbaxi17",
@@ -3717,106 +2204,14 @@
       "statistics": {
         "totalNotes": 11,
         "totalSubmissions": 1,
-        "totalCommits": 15,
+        "totalCommits": 0,
         "firstActivity": "2025-07-21T09:53:14.000Z",
-        "lastActivity": "2025-08-12T09:41:24.000Z",
-        "mostActiveDay": "2025-08-12",
+        "lastActivity": "2025-08-06T08:19:01.000Z",
+        "mostActiveDay": "2025-07-21",
         "totalEntries": 12,
         "averageWordCount": 140
       },
-      "commitsByDate": {
-        "2025-08-12": [
-          {
-            "message": "added resume",
-            "repository": "https---github.com-Meetbaxi17-tryerror",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "complete personal projects",
-            "repository": "https---github.com-Meetbaxi17-tryerror",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "personalprojects done",
-            "repository": "https---github.com-Meetbaxi17-tryerror",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "updated portfolio",
-            "repository": "https---github.com-Meetbaxi17-tryerror",
-            "time": "August 12, 2025"
-          }
-        ],
-        "2025-08-11": [
-          {
-            "message": "portfolio page",
-            "repository": "https---github.com-Meetbaxi17-tryerror",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "ticket-fixed",
-            "repository": "https---github.com-Meetbaxi17-tryerror",
-            "time": "August 11, 2025"
-          }
-        ],
-        "2025-08-08": [
-          {
-            "message": "added ticket in about page",
-            "repository": "https---github.com-Meetbaxi17-tryerror",
-            "time": "August 9, 2025"
-          }
-        ],
-        "2025-08-07": [
-          {
-            "message": "about page setup-half",
-            "repository": "https---github.com-Meetbaxi17-tryerror",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "fix topbar html",
-            "repository": "https---github.com-Meetbaxi17-tryerror",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "updated the dashboard",
-            "repository": "https---github.com-Meetbaxi17-tryerror",
-            "time": "August 7, 2025"
-          }
-        ],
-        "2025-08-05": [
-          {
-            "message": "5aug",
-            "repository": "https---github.com-Meetbaxi17-tryerror",
-            "time": "August 5, 2025"
-          },
-          {
-            "message": "MainWebsite",
-            "repository": "https---github.com-Meetbaxi17-tryerror",
-            "time": "August 5, 2025"
-          }
-        ],
-        "2025-08-03": [
-          {
-            "message": "Added two new pages - about and blog",
-            "repository": "MeetBaxi",
-            "time": "August 4, 2025"
-          }
-        ],
-        "2025-08-01": [
-          {
-            "message": "initial commit",
-            "repository": "MeetBaxi",
-            "time": "August 1, 2025"
-          }
-        ],
-        "2025-07-28": [
-          {
-            "message": "adds index.html",
-            "repository": "meet-grid",
-            "time": "July 28, 2025"
-          }
-        ]
-      }
+      "commitsByDate": {}
     },
     "digianna": {
       "username": "digianna",
@@ -3935,8 +2330,8 @@
     },
     "vanshi021": {
       "username": "vanshi021",
-      "name": null,
-      "website": null,
+      "name": "Vanshika Singal",
+      "website": "https://vanshika-site.netlify.app/",
       "socialLinks": [],
       "devNotes": [
         {
@@ -4117,81 +2512,37 @@
           "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/12#issuecomment-3160264053"
         }
       ],
-      "submissions": [],
+      "submissions": [
+        {
+          "id": "submissions-16-issue",
+          "type": "issue-body",
+          "repository": "web2025",
+          "issueNumber": 16,
+          "issueTitle": "[STUDENT] Vanshika-Singal",
+          "content": "### Student Name\n\nVanshika Singal\n\n### Website URL\n\nhttps://vanshika-site.netlify.app/\n\n### Social Link 1 (Optional)\n\n_No response_\n\n### Social Link 2 (Optional)\n\n_No response_\n\n### Social Link 3 (Optional)\n\n_No response_",
+          "urls": [
+            "https://vanshika-site.netlify.app/"
+          ],
+          "wordCount": 30,
+          "date": {
+            "iso": "2025-08-12T14:38:33.000Z",
+            "date": "2025-08-12",
+            "formatted": "August 12, 2025"
+          },
+          "issueUrl": "https://github.com/open-making/web2025/issues/16"
+        }
+      ],
       "statistics": {
         "totalNotes": 9,
-        "totalSubmissions": 0,
-        "totalCommits": 10,
+        "totalSubmissions": 1,
+        "totalCommits": 0,
         "firstActivity": "2025-07-21T10:00:10.000Z",
-        "lastActivity": "2025-08-12T10:14:34.000Z",
+        "lastActivity": "2025-08-06T13:50:11.000Z",
         "mostActiveDay": "2025-07-24",
-        "totalEntries": 9,
-        "averageWordCount": 153
+        "totalEntries": 10,
+        "averageWordCount": 141
       },
-      "commitsByDate": {
-        "2025-08-12": [
-          {
-            "message": "cursor changed",
-            "repository": "vanshika-site",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "addition to manifesto page and some elements",
-            "repository": "vanshika-site",
-            "time": "August 12, 2025"
-          }
-        ],
-        "2025-08-11": [
-          {
-            "message": "attention to details part 2 (11th aug)",
-            "repository": "vanshika-site",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "attention to the details",
-            "repository": "vanshika-site",
-            "time": "August 11, 2025"
-          }
-        ],
-        "2025-08-08": [
-          {
-            "message": "changes in manifesto page (the basics)",
-            "repository": "vanshika-site",
-            "time": "August 8, 2025"
-          },
-          {
-            "message": "Added manifesto page, made changes in aboutme page",
-            "repository": "vanshika-site",
-            "time": "August 8, 2025"
-          },
-          {
-            "message": "About link updated",
-            "repository": "vanshika-site",
-            "time": "August 8, 2025"
-          }
-        ],
-        "2025-08-06": [
-          {
-            "message": "about me changes",
-            "repository": "vanshika-site",
-            "time": "August 6, 2025"
-          }
-        ],
-        "2025-08-05": [
-          {
-            "message": "added homepage",
-            "repository": "vanshika-site",
-            "time": "August 5, 2025"
-          }
-        ],
-        "2025-07-28": [
-          {
-            "message": "adds index.html",
-            "repository": "vanshika-grid",
-            "time": "July 28, 2025"
-          }
-        ]
-      }
+      "commitsByDate": {}
     },
     "Nishtha-afk": {
       "username": "Nishtha-afk",
@@ -4414,239 +2765,14 @@
       "statistics": {
         "totalNotes": 10,
         "totalSubmissions": 1,
-        "totalCommits": 42,
+        "totalCommits": 0,
         "firstActivity": "2025-07-21T09:54:07.000Z",
-        "lastActivity": "2025-08-12T10:03:25.000Z",
-        "mostActiveDay": "2025-08-07",
+        "lastActivity": "2025-08-06T14:21:53.000Z",
+        "mostActiveDay": "2025-07-22",
         "totalEntries": 11,
         "averageWordCount": 97
       },
-      "commitsByDate": {
-        "2025-08-12": [
-          {
-            "message": "hmmmm",
-            "repository": "final-project",
-            "time": "August 12, 2025"
-          }
-        ],
-        "2025-08-11": [
-          {
-            "message": "for now 3rd page done",
-            "repository": "final-project",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "this page done so far",
-            "repository": "final-project",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "changed the grid",
-            "repository": "final-project",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "fixed right panel",
-            "repository": "final-project",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "added a 3rd page",
-            "repository": "final-project",
-            "time": "August 11, 2025"
-          }
-        ],
-        "2025-08-07": [
-          {
-            "message": "phewww!",
-            "repository": "final-project",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "setup almost done wohoo",
-            "repository": "final-project",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "staged image",
-            "repository": "final-project",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "arranged 1text box",
-            "repository": "final-project",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "added header section",
-            "repository": "final-project",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "good to go for now",
-            "repository": "final-project",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "final editz",
-            "repository": "final-project",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "forth part coming on its way",
-            "repository": "final-project",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "here comes 3rd part",
-            "repository": "final-project",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "second part",
-            "repository": "final-project",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "fixed 1st parth phewww",
-            "repository": "final-project",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "managing stuff here and there",
-            "repository": "final-project",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "finally reached here damn",
-            "repository": "final-project",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "new menu",
-            "repository": "final-project",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "testing my branch",
-            "repository": "final-project",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "changed file locations",
-            "repository": "final-project",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "create about page",
-            "repository": "final-project",
-            "time": "August 7, 2025"
-          }
-        ],
-        "2025-08-06": [
-          {
-            "message": "final edit doneeee",
-            "repository": "final-project",
-            "time": "August 6, 2025"
-          },
-          {
-            "message": "final edit done",
-            "repository": "final-project",
-            "time": "August 6, 2025"
-          },
-          {
-            "message": "added 2 gifs",
-            "repository": "final-project",
-            "time": "August 6, 2025"
-          }
-        ],
-        "2025-08-05": [
-          {
-            "message": "added gif",
-            "repository": "final-project",
-            "time": "August 5, 2025"
-          },
-          {
-            "message": "final",
-            "repository": "final-project",
-            "time": "August 5, 2025"
-          },
-          {
-            "message": "final done",
-            "repository": "final-project",
-            "time": "August 5, 2025"
-          },
-          {
-            "message": "fixed two words",
-            "repository": "final-project",
-            "time": "August 5, 2025"
-          }
-        ],
-        "2025-08-04": [
-          {
-            "message": "more",
-            "repository": "final-project",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "andd more changes",
-            "repository": "final-project",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "few changes",
-            "repository": "final-project",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "did the styling a little bit",
-            "repository": "final-project",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "added images",
-            "repository": "final-project",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "one moree",
-            "repository": "final-project",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "setup page 1 done",
-            "repository": "final-project",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "change 1.3",
-            "repository": "final-project",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "change 1.2",
-            "repository": "final-project",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "change 1",
-            "repository": "final-project",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "adds index.html",
-            "repository": "final-project",
-            "time": "August 4, 2025"
-          }
-        ],
-        "2025-08-01": [
-          {
-            "message": "adds site",
-            "repository": "Dummy-Blog",
-            "time": "August 1, 2025"
-          }
-        ]
-      }
+      "commitsByDate": {}
     },
     "aahana823": {
       "username": "aahana823",
@@ -4832,87 +2958,14 @@
       "statistics": {
         "totalNotes": 8,
         "totalSubmissions": 1,
-        "totalCommits": 12,
+        "totalCommits": 0,
         "firstActivity": "2025-07-21T09:48:55.000Z",
-        "lastActivity": "2025-08-12T10:25:35.000Z",
-        "mostActiveDay": "2025-08-07",
+        "lastActivity": "2025-08-06T15:02:53.000Z",
+        "mostActiveDay": "2025-07-21",
         "totalEntries": 9,
         "averageWordCount": 55
       },
-      "commitsByDate": {
-        "2025-08-12": [
-          {
-            "message": "up to now",
-            "repository": "web2025-aahana-site",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "up to now",
-            "repository": "web2025-aahana-site",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "up to now",
-            "repository": "web2025-aahana-site",
-            "time": "August 12, 2025"
-          }
-        ],
-        "2025-08-11": [
-          {
-            "message": "up to now",
-            "repository": "web2025-aahana-site",
-            "time": "August 11, 2025"
-          }
-        ],
-        "2025-08-07": [
-          {
-            "message": "up to now",
-            "repository": "web2025-aahana-site",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "up to now",
-            "repository": "web2025-aahana-site",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "up to now",
-            "repository": "web2025-aahana-site",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "adds git",
-            "repository": "web2025-aahana-site",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "adds git",
-            "repository": "https---github.com-aahana823-web2025-aahana-site",
-            "time": "August 7, 2025"
-          }
-        ],
-        "2025-08-06": [
-          {
-            "message": "up to now",
-            "repository": "first-repo",
-            "time": "August 6, 2025"
-          }
-        ],
-        "2025-08-01": [
-          {
-            "message": "initial commit",
-            "repository": "aahana-astro-site",
-            "time": "August 1, 2025"
-          }
-        ],
-        "2025-07-31": [
-          {
-            "message": "initial",
-            "repository": "first-repo",
-            "time": "July 31, 2025"
-          }
-        ]
-      }
+      "commitsByDate": {}
     },
     "Iksha918": {
       "username": "Iksha918",
@@ -5071,22 +3124,14 @@
       "statistics": {
         "totalNotes": 7,
         "totalSubmissions": 1,
-        "totalCommits": 1,
+        "totalCommits": 0,
         "firstActivity": "2025-07-21T09:55:05.000Z",
-        "lastActivity": "2025-08-12T10:24:29.000Z",
+        "lastActivity": "2025-08-07T14:06:55.000Z",
         "mostActiveDay": "2025-07-21",
         "totalEntries": 8,
         "averageWordCount": 91
       },
-      "commitsByDate": {
-        "2025-08-12": [
-          {
-            "message": "new site",
-            "repository": "website",
-            "time": "August 12, 2025"
-          }
-        ]
-      }
+      "commitsByDate": {}
     },
     "rajakr1256": {
       "username": "rajakr1256",
@@ -5476,173 +3521,14 @@
       "statistics": {
         "totalNotes": 8,
         "totalSubmissions": 1,
-        "totalCommits": 28,
+        "totalCommits": 0,
         "firstActivity": "2025-07-21T09:52:13.000Z",
-        "lastActivity": "2025-08-12T10:17:17.000Z",
-        "mostActiveDay": "2025-08-04",
+        "lastActivity": "2025-08-07T17:28:17.000Z",
+        "mostActiveDay": "2025-07-21",
         "totalEntries": 9,
         "averageWordCount": 81
       },
-      "commitsByDate": {
-        "2025-08-12": [
-          {
-            "message": "Started Interests section",
-            "repository": "Meri-Website",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "Resized all images and added Scroll smooth",
-            "repository": "Meri-Website",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "Adding final work desc.",
-            "repository": "Meri-Website",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "Resize bg image",
-            "repository": "Meri-Website",
-            "time": "August 12, 2025"
-          }
-        ],
-        "2025-08-11": [
-          {
-            "message": "Adding work content",
-            "repository": "Meri-Website",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "Added all thumbnails",
-            "repository": "Meri-Website",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "Added bahance links for project",
-            "repository": "Meri-Website",
-            "time": "August 12, 2025"
-          },
-          {
-            "message": "Removed Instagram link",
-            "repository": "Meri-Website",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "Undo the folders location",
-            "repository": "Meri-Website",
-            "time": "August 11, 2025"
-          },
-          {
-            "message": "Changed Folder",
-            "repository": "Meri-Website",
-            "time": "August 11, 2025"
-          }
-        ],
-        "2025-08-08": [
-          {
-            "message": "Some changes",
-            "repository": "Meri-Website",
-            "time": "August 8, 2025"
-          },
-          {
-            "message": "Working on WORK page",
-            "repository": "Meri-Website",
-            "time": "August 8, 2025"
-          }
-        ],
-        "2025-08-07": [
-          {
-            "message": "Changed Imge names",
-            "repository": "Meri-Website",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "Final ABOUT page",
-            "repository": "Meri-Website",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "Adding Footer",
-            "repository": "Meri-Website",
-            "time": "August 7, 2025"
-          },
-          {
-            "message": "Made final TIMELINE Section",
-            "repository": "Meri-Website",
-            "time": "August 7, 2025"
-          }
-        ],
-        "2025-08-06": [
-          {
-            "message": "Made Final Header",
-            "repository": "Meri-Website",
-            "time": "August 6, 2025"
-          },
-          {
-            "message": "Added header",
-            "repository": "Meri-Website",
-            "time": "August 6, 2025"
-          },
-          {
-            "message": "ku",
-            "repository": "Meri-Website",
-            "time": "August 6, 2025"
-          },
-          {
-            "message": "ok",
-            "repository": "Meri-Website",
-            "time": "August 6, 2025"
-          }
-        ],
-        "2025-08-04": [
-          {
-            "message": "Added Header and made it Responsive",
-            "repository": "My-astro-tutorial",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "Added Footer and links for social contact",
-            "repository": "My-astro-tutorial",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "Added content in About and changed layout of all three pages.",
-            "repository": "My-astro-tutorial",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "Changing color and sizes of text in About",
-            "repository": "My-astro-tutorial",
-            "time": "August 4, 2025"
-          },
-          {
-            "message": "Added some content in about, blog and posted some blogs.",
-            "repository": "My-astro-tutorial",
-            "time": "August 4, 2025"
-          }
-        ],
-        "2025-08-03": [
-          {
-            "message": "Added two new pages-about and blog",
-            "repository": "My-astro-tutorial",
-            "time": "August 3, 2025"
-          }
-        ],
-        "2025-08-01": [
-          {
-            "message": "initial commit",
-            "repository": "My-astro-tutorial",
-            "time": "August 1, 2025"
-          }
-        ],
-        "2025-07-31": [
-          {
-            "message": "intiial",
-            "repository": "first-repo",
-            "time": "July 31, 2025"
-          }
-        ]
-      }
+      "commitsByDate": {}
     },
     "not11Khushi": {
       "username": "not11Khushi",
@@ -5778,22 +3664,14 @@
       "statistics": {
         "totalNotes": 6,
         "totalSubmissions": 0,
-        "totalCommits": 1,
+        "totalCommits": 0,
         "firstActivity": "2025-07-21T10:09:34.000Z",
         "lastActivity": "2025-07-31T21:16:09.000Z",
         "mostActiveDay": "2025-07-21",
         "totalEntries": 6,
         "averageWordCount": 141
       },
-      "commitsByDate": {
-        "2025-07-31": [
-          {
-            "message": "intial",
-            "repository": "hello",
-            "time": "July 31, 2025"
-          }
-        ]
-      }
+      "commitsByDate": {}
     },
     "Anoushka-d": {
       "username": "Anoushka-d",
@@ -5862,32 +3740,24 @@
       "statistics": {
         "totalNotes": 3,
         "totalSubmissions": 0,
-        "totalCommits": 1,
+        "totalCommits": 0,
         "firstActivity": "2025-07-21T19:52:10.000Z",
-        "lastActivity": "2025-08-01T04:20:49.000Z",
+        "lastActivity": "2025-07-29T18:17:59.000Z",
         "mostActiveDay": "2025-07-21",
         "totalEntries": 3,
         "averageWordCount": 159
       },
-      "commitsByDate": {
-        "2025-08-01": [
-          {
-            "message": "initial message",
-            "repository": "first-repo",
-            "time": "August 1, 2025"
-          }
-        ]
-      }
+      "commitsByDate": {}
     }
   },
   "statistics": {
-    "totalIssues": 24,
+    "totalIssues": 26,
     "totalComments": 156,
     "totalStudents": 18,
     "dateRange": {
       "earliest": "2025-07-21T09:02:54.000Z",
-      "latest": "2025-08-12T12:09:26.000Z"
+      "latest": "2025-08-12T14:38:33.000Z"
     },
-    "totalCommits": 393
+    "totalCommits": 0
   }
 }

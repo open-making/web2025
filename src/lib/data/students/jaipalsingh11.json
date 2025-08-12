@@ -243,126 +243,15 @@
   "statistics": {
     "totalNotes": 11,
     "totalSubmissions": 1,
-    "totalCommits": 18,
+    "totalCommits": 0,
     "firstActivity": "2025-07-21T09:52:37.000Z",
-    "lastActivity": "2025-08-12T11:42:32.000Z",
-    "mostActiveDay": "2025-08-12",
+    "lastActivity": "2025-08-05T20:00:00.000Z",
+    "mostActiveDay": "2025-07-21",
     "totalEntries": 12,
     "averageWordCount": 103
   },
-  "commitsByDate": {
-    "2025-08-12": [
-      {
-        "message": "Made the homepage responsive to some extent",
-        "repository": "Jaypee",
-        "time": "August 12, 2025"
-      },
-      {
-        "message": "Mobile Try 1",
-        "repository": "Jaypee",
-        "time": "August 12, 2025"
-      },
-      {
-        "message": "max with 600px for mobile",
-        "repository": "Jaypee",
-        "time": "August 12, 2025"
-      },
-      {
-        "message": "tried to make the homepage for mobile",
-        "repository": "Jaypee",
-        "time": "August 12, 2025"
-      }
-    ],
-    "2025-08-10": [
-      {
-        "message": "Added Some more projects",
-        "repository": "Jaypee",
-        "time": "August 10, 2025"
-      },
-      {
-        "message": "Added custom cursor and added project pages and some cool stuff",
-        "repository": "Jaypee",
-        "time": "August 10, 2025"
-      }
-    ],
-    "2025-08-09": [
-      {
-        "message": "Added Some Overlay Effect on Homepage",
-        "repository": "Jaypee",
-        "time": "August 9, 2025"
-      }
-    ],
-    "2025-08-08": [
-      {
-        "message": "almost completed my story page",
-        "repository": "Jaypee",
-        "time": "August 8, 2025"
-      }
-    ],
-    "2025-08-06": [
-      {
-        "message": "worked on My Story Page",
-        "repository": "Jaypee",
-        "time": "August 7, 2025"
-      }
-    ],
-    "2025-08-05": [
-      {
-        "message": "Homepage 80%",
-        "repository": "Jaypee",
-        "time": "August 6, 2025"
-      }
-    ],
-    "2025-08-04": [
-      {
-        "message": "Header and footer",
-        "repository": "Jaypee",
-        "time": "August 4, 2025"
-      }
-    ],
-    "2025-08-03": [
-      {
-        "message": "DId some javascripting",
-        "repository": "Jaypee",
-        "time": "August 3, 2025"
-      },
-      {
-        "message": "Learning updates",
-        "repository": "Jaypee",
-        "time": "August 3, 2025"
-      }
-    ],
-    "2025-08-01": [
-      {
-        "message": "new changes test",
-        "repository": "Jaypee",
-        "time": "August 1, 2025"
-      },
-      {
-        "message": "First Change",
-        "repository": "Jaypee",
-        "time": "August 1, 2025"
-      },
-      {
-        "message": "Birth",
-        "repository": "Jaypee",
-        "time": "August 1, 2025"
-      }
-    ],
-    "2025-07-28": [
-      {
-        "message": "New m",
-        "repository": "jaipal-grid",
-        "time": "July 28, 2025"
-      },
-      {
-        "message": "adds index.html",
-        "repository": "jaipal-grid",
-        "time": "July 28, 2025"
-      }
-    ]
-  },
-  "generatedAt": "2025-08-12T12:33:26.959Z",
+  "commitsByDate": {},
+  "generatedAt": "2025-08-12T17:38:15.681Z",
   "repositories": [
     {
       "name": "web2025-dev-notes",
@@ -374,5 +263,45 @@
       "type": "submissions",
       "description": "Project submissions and student work"
     }
-  ]
+  ],
+  "projectSubmissions": {
+    "hey-jude": [
+      {
+        "url": "https://web2025-hey-jude-jaipal.netlify.app/",
+        "author": "jaipalsingh11",
+        "authorType": "commenter",
+        "issueNumber": 1,
+        "issueTitle": "Take a sad site, and make it sadder",
+        "issueUrl": "https://github.com/open-making/web2025-hey-jude/issues/1",
+        "commentUrl": "https://github.com/open-making/web2025-hey-jude/issues/1#issuecomment-3102197848",
+        "createdAt": "2025-07-22T10:47:59Z",
+        "imageName": "web2025-hey-jude-jaipal.netlify.app.webp"
+      }
+    ],
+    "short-stories": [
+      {
+        "url": "https://the-tin-soldier.netlify.app/",
+        "author": "jaipalsingh11",
+        "authorType": "issue_author",
+        "issueNumber": 12,
+        "issueTitle": "[Story Submission]",
+        "issueUrl": "https://github.com/open-making/web2025-short-stories/issues/12",
+        "createdAt": "2025-07-25T10:04:46Z",
+        "imageName": "the-tin-soldier.netlify.app.webp"
+      }
+    ],
+    "test-issue": [
+      {
+        "url": "https://jaypeeweb.netlify.app/",
+        "author": "jaipalsingh11",
+        "authorType": "commenter",
+        "issueNumber": 12,
+        "issueTitle": "Day 12: [Project Day 2] Don't stop me now",
+        "issueUrl": "https://github.com/open-making/web2025-dev-notes/issues/12",
+        "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/12#issuecomment-3156460780",
+        "createdAt": "2025-08-05T20:00:00Z",
+        "imageName": "jaypeeweb.netlify.app.webp"
+      }
+    ]
+  }
 }

@@ -155,23 +155,15 @@
   "statistics": {
     "totalNotes": 7,
     "totalSubmissions": 1,
-    "totalCommits": 1,
+    "totalCommits": 0,
     "firstActivity": "2025-07-21T09:55:05.000Z",
-    "lastActivity": "2025-08-12T10:24:29.000Z",
+    "lastActivity": "2025-08-07T14:06:55.000Z",
     "mostActiveDay": "2025-07-21",
     "totalEntries": 8,
     "averageWordCount": 91
   },
-  "commitsByDate": {
-    "2025-08-12": [
-      {
-        "message": "new site",
-        "repository": "website",
-        "time": "August 12, 2025"
-      }
-    ]
-  },
-  "generatedAt": "2025-08-12T12:33:26.959Z",
+  "commitsByDate": {},
+  "generatedAt": "2025-08-12T17:38:15.681Z",
   "repositories": [
     {
       "name": "web2025-dev-notes",
@@ -183,5 +175,20 @@
       "type": "submissions",
       "description": "Project submissions and student work"
     }
-  ]
+  ],
+  "projectSubmissions": {
+    "hey-jude": [
+      {
+        "url": "https://web2025-hey-dude-ikshu.netlify.app/",
+        "author": "Iksha918",
+        "authorType": "commenter",
+        "issueNumber": 1,
+        "issueTitle": "Take a sad site, and make it sadder",
+        "issueUrl": "https://github.com/open-making/web2025-hey-jude/issues/1",
+        "commentUrl": "https://github.com/open-making/web2025-hey-jude/issues/1#issuecomment-3102221630",
+        "createdAt": "2025-07-22T10:56:01Z",
+        "imageName": "web2025-hey-dude-ikshu.netlify.app.webp"
+      }
+    ]
+  }
 }

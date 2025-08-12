@@ -250,28 +250,15 @@
   "statistics": {
     "totalNotes": 11,
     "totalSubmissions": 1,
-    "totalCommits": 2,
+    "totalCommits": 0,
     "firstActivity": "2025-07-21T09:54:18.000Z",
     "lastActivity": "2025-08-05T18:00:28.000Z",
-    "mostActiveDay": "2025-07-31",
+    "mostActiveDay": "2025-07-23",
     "totalEntries": 12,
     "averageWordCount": 141
   },
-  "commitsByDate": {
-    "2025-07-31": [
-      {
-        "message": "Initial commit",
-        "repository": "web2025-manasi-site",
-        "time": "July 31, 2025"
-      },
-      {
-        "message": "initial commit",
-        "repository": "fairy-tales",
-        "time": "July 31, 2025"
-      }
-    ]
-  },
-  "generatedAt": "2025-08-12T12:33:26.959Z",
+  "commitsByDate": {},
+  "generatedAt": "2025-08-12T17:38:15.681Z",
   "repositories": [
     {
       "name": "web2025-dev-notes",
@@ -283,5 +270,45 @@
       "type": "submissions",
       "description": "Project submissions and student work"
     }
-  ]
+  ],
+  "projectSubmissions": {
+    "hey-jude": [
+      {
+        "url": "https://hey-jude-by-manasi.netlify.app",
+        "author": "Manasi1114",
+        "authorType": "commenter",
+        "issueNumber": 1,
+        "issueTitle": "Take a sad site, and make it sadder",
+        "issueUrl": "https://github.com/open-making/web2025-hey-jude/issues/1",
+        "commentUrl": "https://github.com/open-making/web2025-hey-jude/issues/1#issuecomment-3102212434",
+        "createdAt": "2025-07-22T10:53:06Z",
+        "imageName": "hey-jude-by-manasi.netlify.app.webp"
+      }
+    ],
+    "short-stories": [
+      {
+        "url": "https://what-the-old-man-does.netlify.app/",
+        "author": "Manasi1114",
+        "authorType": "issue_author",
+        "issueNumber": 16,
+        "issueTitle": "[Story Submission]",
+        "issueUrl": "https://github.com/open-making/web2025-short-stories/issues/16",
+        "createdAt": "2025-07-25T10:17:02Z",
+        "imageName": "what-the-old-man-does.netlify.app.webp"
+      }
+    ],
+    "test-issue": [
+      {
+        "url": "https://daintyduck.netlify.app/",
+        "author": "Manasi1114",
+        "authorType": "commenter",
+        "issueNumber": 12,
+        "issueTitle": "Day 12: [Project Day 2] Don't stop me now",
+        "issueUrl": "https://github.com/open-making/web2025-dev-notes/issues/12",
+        "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/12#issuecomment-3156090017",
+        "createdAt": "2025-08-05T18:00:28Z",
+        "imageName": "daintyduck.netlify.app.webp"
+      }
+    ]
+  }
 }

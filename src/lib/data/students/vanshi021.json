@@ -1,7 +1,7 @@
 {
   "username": "vanshi021",
-  "name": null,
-  "website": null,
+  "name": "Vanshika Singal",
+  "website": "https://vanshika-site.netlify.app/",
   "socialLinks": [],
   "devNotes": [
     {
@@ -182,82 +182,38 @@
       "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/12#issuecomment-3160264053"
     }
   ],
-  "submissions": [],
+  "submissions": [
+    {
+      "id": "submissions-16-issue",
+      "type": "issue-body",
+      "repository": "web2025",
+      "issueNumber": 16,
+      "issueTitle": "[STUDENT] Vanshika-Singal",
+      "content": "### Student Name\n\nVanshika Singal\n\n### Website URL\n\nhttps://vanshika-site.netlify.app/\n\n### Social Link 1 (Optional)\n\n_No response_\n\n### Social Link 2 (Optional)\n\n_No response_\n\n### Social Link 3 (Optional)\n\n_No response_",
+      "urls": [
+        "https://vanshika-site.netlify.app/"
+      ],
+      "wordCount": 30,
+      "date": {
+        "iso": "2025-08-12T14:38:33.000Z",
+        "date": "2025-08-12",
+        "formatted": "August 12, 2025"
+      },
+      "issueUrl": "https://github.com/open-making/web2025/issues/16"
+    }
+  ],
   "statistics": {
     "totalNotes": 9,
-    "totalSubmissions": 0,
-    "totalCommits": 10,
+    "totalSubmissions": 1,
+    "totalCommits": 0,
     "firstActivity": "2025-07-21T10:00:10.000Z",
-    "lastActivity": "2025-08-12T10:14:34.000Z",
+    "lastActivity": "2025-08-06T13:50:11.000Z",
     "mostActiveDay": "2025-07-24",
-    "totalEntries": 9,
-    "averageWordCount": 153
+    "totalEntries": 10,
+    "averageWordCount": 141
   },
-  "commitsByDate": {
-    "2025-08-12": [
-      {
-        "message": "cursor changed",
-        "repository": "vanshika-site",
-        "time": "August 12, 2025"
-      },
-      {
-        "message": "addition to manifesto page and some elements",
-        "repository": "vanshika-site",
-        "time": "August 12, 2025"
-      }
-    ],
-    "2025-08-11": [
-      {
-        "message": "attention to details part 2 (11th aug)",
-        "repository": "vanshika-site",
-        "time": "August 11, 2025"
-      },
-      {
-        "message": "attention to the details",
-        "repository": "vanshika-site",
-        "time": "August 11, 2025"
-      }
-    ],
-    "2025-08-08": [
-      {
-        "message": "changes in manifesto page (the basics)",
-        "repository": "vanshika-site",
-        "time": "August 8, 2025"
-      },
-      {
-        "message": "Added manifesto page, made changes in aboutme page",
-        "repository": "vanshika-site",
-        "time": "August 8, 2025"
-      },
-      {
-        "message": "About link updated",
-        "repository": "vanshika-site",
-        "time": "August 8, 2025"
-      }
-    ],
-    "2025-08-06": [
-      {
-        "message": "about me changes",
-        "repository": "vanshika-site",
-        "time": "August 6, 2025"
-      }
-    ],
-    "2025-08-05": [
-      {
-        "message": "added homepage",
-        "repository": "vanshika-site",
-        "time": "August 5, 2025"
-      }
-    ],
-    "2025-07-28": [
-      {
-        "message": "adds index.html",
-        "repository": "vanshika-grid",
-        "time": "July 28, 2025"
-      }
-    ]
-  },
-  "generatedAt": "2025-08-12T12:33:26.959Z",
+  "commitsByDate": {},
+  "generatedAt": "2025-08-12T17:38:15.681Z",
   "repositories": [
     {
       "name": "web2025-dev-notes",
@@ -269,5 +225,56 @@
       "type": "submissions",
       "description": "Project submissions and student work"
     }
-  ]
+  ],
+  "projectSubmissions": {
+    "hey-jude": [
+      {
+        "url": "https://its-very-sad.netlify.app/",
+        "author": "vanshi021",
+        "authorType": "commenter",
+        "issueNumber": 1,
+        "issueTitle": "Take a sad site, and make it sadder",
+        "issueUrl": "https://github.com/open-making/web2025-hey-jude/issues/1",
+        "commentUrl": "https://github.com/open-making/web2025-hey-jude/issues/1#issuecomment-3109222000",
+        "createdAt": "2025-07-23T15:55:27Z",
+        "imageName": "its-very-sad.netlify.app.webp"
+      }
+    ],
+    "short-stories": [
+      {
+        "url": "https://the-darning-needle-vs.netlify.app/",
+        "author": "vanshi021",
+        "authorType": "issue_author",
+        "issueNumber": 8,
+        "issueTitle": "[Story Submission]",
+        "issueUrl": "https://github.com/open-making/web2025-short-stories/issues/8",
+        "createdAt": "2025-07-25T09:59:21Z",
+        "imageName": "the-darning-needle-vs.netlify.app.webp"
+      }
+    ],
+    "test-issue": [
+      {
+        "url": "https://vanshika-site.netlify.app/",
+        "author": "vanshi021",
+        "authorType": "commenter",
+        "issueNumber": 12,
+        "issueTitle": "Day 12: [Project Day 2] Don't stop me now",
+        "issueUrl": "https://github.com/open-making/web2025-dev-notes/issues/12",
+        "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/12#issuecomment-3160264053",
+        "createdAt": "2025-08-06T13:50:11Z",
+        "imageName": "vanshika-site.netlify.app.webp"
+      },
+      {
+        "url": "https://vanshikasite.netlify.app/",
+        "author": "vanshi021",
+        "authorType": "commenter",
+        "issueNumber": 11,
+        "issueTitle": "Day 11: [Project Day 1] Here comes the sun",
+        "issueUrl": "https://github.com/open-making/web2025-dev-notes/issues/11",
+        "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/11#issuecomment-3153295967",
+        "createdAt": "2025-08-05T04:59:20Z",
+        "imageName": "vanshikasite.netlify.app.webp"
+      }
+    ]
+  }
 }

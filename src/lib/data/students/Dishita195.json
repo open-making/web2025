@@ -1,8 +1,11 @@
 {
   "username": "Dishita195",
-  "name": null,
-  "website": null,
-  "socialLinks": [],
+  "name": "Dishita Jain",
+  "website": "https://nirvikalpa-dishitajain.netlify.app/",
+  "socialLinks": [
+    "https://www.instagram.com/_dishitajain",
+    "https://www.linkedin.com/in/dishitajain19"
+  ],
   "devNotes": [
     {
       "id": "dev-notes-2-comment-3095975828",
@@ -119,154 +122,38 @@
       "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/12#issuecomment-3156175564"
     }
   ],
-  "submissions": [],
+  "submissions": [
+    {
+      "id": "submissions-15-issue",
+      "type": "issue-body",
+      "repository": "web2025",
+      "issueNumber": 15,
+      "issueTitle": "Dishita Jain",
+      "content": "### Student Name\n\nDishita Jain\n\n### Website URL\n\nhttps://nirvikalpa-dishitajain.netlify.app/\n\n### Social Link 1 (Optional)\n\nhttps://www.instagram.com/_dishitajain\n\n### Social Link 2 (Optional)\n\nhttps://www.linkedin.com/in/dishitajain19\n\n### Social Link 3 (Optional)\n\n_No response_",
+      "urls": [
+        "https://nirvikalpa-dishitajain.netlify.app/"
+      ],
+      "wordCount": 28,
+      "date": {
+        "iso": "2025-08-12T13:28:04.000Z",
+        "date": "2025-08-12",
+        "formatted": "August 12, 2025"
+      },
+      "issueUrl": "https://github.com/open-making/web2025/issues/15"
+    }
+  ],
   "statistics": {
     "totalNotes": 6,
-    "totalSubmissions": 0,
-    "totalCommits": 24,
+    "totalSubmissions": 1,
+    "totalCommits": 0,
     "firstActivity": "2025-07-21T09:54:20.000Z",
-    "lastActivity": "2025-08-12T08:48:17.000Z",
-    "mostActiveDay": "2025-08-04",
-    "totalEntries": 6,
-    "averageWordCount": 163
+    "lastActivity": "2025-08-05T18:29:00.000Z",
+    "mostActiveDay": "2025-07-21",
+    "totalEntries": 7,
+    "averageWordCount": 144
   },
-  "commitsByDate": {
-    "2025-08-12": [
-      {
-        "message": "added bug images",
-        "repository": "Nirvikalpa",
-        "time": "August 12, 2025"
-      },
-      {
-        "message": "added sticky header js",
-        "repository": "Nirvikalpa",
-        "time": "August 12, 2025"
-      },
-      {
-        "message": "added images to insect grid",
-        "repository": "Nirvikalpa",
-        "time": "August 12, 2025"
-      }
-    ],
-    "2025-08-11": [
-      {
-        "message": "home page menu",
-        "repository": "Nirvikalpa",
-        "time": "August 11, 2025"
-      },
-      {
-        "message": "fixed img path",
-        "repository": "Nirvikalpa",
-        "time": "August 11, 2025"
-      },
-      {
-        "message": "added header colorBoxes",
-        "repository": "Nirvikalpa",
-        "time": "August 11, 2025"
-      },
-      {
-        "message": "css for Jainism page",
-        "repository": "Nirvikalpa",
-        "time": "August 11, 2025"
-      },
-      {
-        "message": "home page css",
-        "repository": "Nirvikalpa",
-        "time": "August 11, 2025"
-      }
-    ],
-    "2025-08-10": [
-      {
-        "message": "imported header",
-        "repository": "Nirvikalpa",
-        "time": "August 11, 2025"
-      },
-      {
-        "message": "refined code, added header",
-        "repository": "Nirvikalpa",
-        "time": "August 10, 2025"
-      }
-    ],
-    "2025-08-05": [
-      {
-        "message": "added home page text",
-        "repository": "Nirvikalpa",
-        "time": "August 5, 2025"
-      },
-      {
-        "message": "added home and jainism page; global.css file",
-        "repository": "Nirvikalpa",
-        "time": "August 5, 2025"
-      },
-      {
-        "message": "created landing page",
-        "repository": "Nirvikalpa",
-        "time": "August 5, 2025"
-      }
-    ],
-    "2025-08-04": [
-      {
-        "message": "added some css",
-        "repository": "astro-trial",
-        "time": "August 5, 2025"
-      },
-      {
-        "message": "Added header and footer with socials",
-        "repository": "astro-trial",
-        "time": "August 5, 2025"
-      },
-      {
-        "message": "added navigation component",
-        "repository": "astro-trial",
-        "time": "August 4, 2025"
-      },
-      {
-        "message": "added 3 posts; imported global.css",
-        "repository": "astro-trial",
-        "time": "August 4, 2025"
-      },
-      {
-        "message": "Added two new pages - about and blog",
-        "repository": "astro-trial",
-        "time": "August 4, 2025"
-      },
-      {
-        "message": "commit 3",
-        "repository": "astro-trial",
-        "time": "August 4, 2025"
-      }
-    ],
-    "2025-08-03": [
-      {
-        "message": "added h2",
-        "repository": "astro-trial",
-        "time": "August 4, 2025"
-      },
-      {
-        "message": "initial commit",
-        "repository": "astro-trial",
-        "time": "August 4, 2025"
-      }
-    ],
-    "2025-07-28": [
-      {
-        "message": "added grids and styling",
-        "repository": "dishita-grid",
-        "time": "July 28, 2025"
-      },
-      {
-        "message": "trial don't read",
-        "repository": "dishita-grid",
-        "time": "July 28, 2025"
-      },
-      {
-        "message": "adds index.html",
-        "repository": "dishita-grid",
-        "time": "July 28, 2025"
-      }
-    ]
-  },
-  "generatedAt": "2025-08-12T12:33:26.959Z",
+  "commitsByDate": {},
+  "generatedAt": "2025-08-12T17:38:15.681Z",
   "repositories": [
     {
       "name": "web2025-dev-notes",
@@ -278,5 +165,45 @@
       "type": "submissions",
       "description": "Project submissions and student work"
     }
-  ]
+  ],
+  "projectSubmissions": {
+    "hey-jude": [
+      {
+        "url": "https://css-trial.netlify.app/",
+        "author": "Dishita195",
+        "authorType": "commenter",
+        "issueNumber": 1,
+        "issueTitle": "Take a sad site, and make it sadder",
+        "issueUrl": "https://github.com/open-making/web2025-hey-jude/issues/1",
+        "commentUrl": "https://github.com/open-making/web2025-hey-jude/issues/1#issuecomment-3102223281",
+        "createdAt": "2025-07-22T10:56:36Z",
+        "imageName": "css-trial.netlify.app.webp"
+      }
+    ],
+    "short-stories": [
+      {
+        "url": "https://the-angel-hans-christian-andersen.netlify.app/",
+        "author": "Dishita195",
+        "authorType": "issue_author",
+        "issueNumber": 14,
+        "issueTitle": "[Story Submission]",
+        "issueUrl": "https://github.com/open-making/web2025-short-stories/issues/14",
+        "createdAt": "2025-07-25T10:07:20Z",
+        "imageName": "the-angel-hans-christian-andersen.netlify.app.webp"
+      }
+    ],
+    "test-issue": [
+      {
+        "url": "https://nirvikalpa-dishitajain.netlify.app/",
+        "author": "Dishita195",
+        "authorType": "commenter",
+        "issueNumber": 12,
+        "issueTitle": "Day 12: [Project Day 2] Don't stop me now",
+        "issueUrl": "https://github.com/open-making/web2025-dev-notes/issues/12",
+        "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/12#issuecomment-3156175564",
+        "createdAt": "2025-08-05T18:29:00Z",
+        "imageName": "nirvikalpa-dishitajain.netlify.app.webp"
+      }
+    ]
+  }
 }

@@ -2,6 +2,8 @@
 	import type { PageData } from './$types';
 	import * as Accordion from '$lib/components/ui/accordion';
 	import MarkdownContent from '$lib/components/MarkdownContent.svelte';
+	import GitGraph from '$lib/components/GitGraph.svelte';
+	import SocialLinks from '$lib/components/SocialLinks.svelte';
 
 	export let data: PageData;
 
@@ -48,10 +50,28 @@
 		}));
 	}
 
+	// Process commits from commitsByDate object
+	function processCommits(commitsByDate: any) {
+		if (!commitsByDate) return [];
+
+		const allCommits: any[] = [];
+		Object.entries(commitsByDate).forEach(([date, commits]: [string, any[]]) => {
+			commits.forEach(commit => {
+				allCommits.push({
+					...commit,
+					date: date // Use the date key as the commit date
+				});
+			});
+		});
+
+		return allCommits;
+	}
+
 	$: initials = getInitials(student.name, student.username);
 	$: displayName = getDisplayName(student.name, student.username);
 	$: avatarUrl = `https://api.dicebear.com/7.x/initials/svg?seed=${encodeURIComponent(initials)}&backgroundColor=f3f4f6&textColor=374151`;
 	$: devNotesByDay = studentData?.devNotes ? groupDevNotesByDay(studentData.devNotes) : [];
+	$: allCommits = studentData?.commitsByDate ? processCommits(studentData.commitsByDate) : [];
 </script>
 
 <svelte:head>
@@ -61,7 +81,7 @@
 <main class="mx-auto min-h-screen max-w-7xl p-8">
 	<div class="grid grid-cols-1 relative gap-12 md:grid-cols-3">
 		<!-- Left Column: Student Header + Work -->
-		<div class="space-y-8 sticky top-8 h-fit">
+		<div class="space-y-8 md:sticky md:top-8 h-fit">
 			<!-- Student Header -->
 			<div class="space-y-6">
 				<div class="flex items-center gap-6">
@@ -86,32 +106,11 @@
 					</div>
 				</div>
 
-				{#if student.socialLinks?.length > 0 || student.website}
-					<div class="flex flex-wrap gap-3">
-						{#if student.website}
-							<a
-								href={student.website}
-								class="inline-block rounded-xl border-2 border-black bg-white px-6 py-2 text-sm font-medium text-gray-800 transition-all duration-200 hover:-translate-y-1 hover:shadow-lg"
-								style="font-family: 'Atkinson Hyperlegible', sans-serif;"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								Website
-							</a>
-						{/if}
-						{#each student.socialLinks as link}
-							<a
-								href={link}
-								class="inline-block rounded-xl border-2 border-black bg-white px-6 py-2 text-sm font-medium text-gray-800 transition-all duration-200 hover:-translate-y-1 hover:shadow-lg"
-								style="font-family: 'Atkinson Hyperlegible', sans-serif;"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								Social Link
-							</a>
-						{/each}
-					</div>
-				{/if}
+				<SocialLinks 
+					username={student.username}
+					website={student.website} 
+					socialLinks={student.socialLinks || []} 
+				/>
 			</div>
 
 			<!-- Work Cards -->
@@ -204,10 +203,18 @@
 				</div>
 			{/if}
 
-			<!-- Future content sections can go here -->
-			<div class="min-h-[50vh]">
-				<!-- Space for additional content -->
-			</div>
+			<!-- Git Graph Section -->
+			{#if allCommits.length > 0}
+				<div class="space-y-6">
+					<!-- <h2
+						class="text-4xl leading-tight font-bold text-gray-800"
+						style="font-family: 'LibreCaslonCondensed', serif; letter-spacing: -0.02em;"
+					>
+						Git Activity
+					</h2> -->
+					<GitGraph commits={allCommits} />
+				</div>
+			{/if}
 		</div>
 	</div>
 </main>

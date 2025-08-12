@@ -214,8 +214,8 @@ body {
 
   a {
     color: var(--color-purple-800);
-    text-decoration-line: underline;
-    text-decoration-style: wavy;
+    /* text-decoration-line: underline;
+    text-decoration-style: wavy; */
     text-underline-offset: 4px;
     font-weight: 600;
   }

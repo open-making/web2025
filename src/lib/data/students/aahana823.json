@@ -182,88 +182,15 @@
   "statistics": {
     "totalNotes": 8,
     "totalSubmissions": 1,
-    "totalCommits": 12,
+    "totalCommits": 0,
     "firstActivity": "2025-07-21T09:48:55.000Z",
-    "lastActivity": "2025-08-12T10:25:35.000Z",
-    "mostActiveDay": "2025-08-07",
+    "lastActivity": "2025-08-06T15:02:53.000Z",
+    "mostActiveDay": "2025-07-21",
     "totalEntries": 9,
     "averageWordCount": 55
   },
-  "commitsByDate": {
-    "2025-08-12": [
-      {
-        "message": "up to now",
-        "repository": "web2025-aahana-site",
-        "time": "August 12, 2025"
-      },
-      {
-        "message": "up to now",
-        "repository": "web2025-aahana-site",
-        "time": "August 12, 2025"
-      },
-      {
-        "message": "up to now",
-        "repository": "web2025-aahana-site",
-        "time": "August 12, 2025"
-      }
-    ],
-    "2025-08-11": [
-      {
-        "message": "up to now",
-        "repository": "web2025-aahana-site",
-        "time": "August 11, 2025"
-      }
-    ],
-    "2025-08-07": [
-      {
-        "message": "up to now",
-        "repository": "web2025-aahana-site",
-        "time": "August 7, 2025"
-      },
-      {
-        "message": "up to now",
-        "repository": "web2025-aahana-site",
-        "time": "August 7, 2025"
-      },
-      {
-        "message": "up to now",
-        "repository": "web2025-aahana-site",
-        "time": "August 7, 2025"
-      },
-      {
-        "message": "adds git",
-        "repository": "web2025-aahana-site",
-        "time": "August 7, 2025"
-      },
-      {
-        "message": "adds git",
-        "repository": "https---github.com-aahana823-web2025-aahana-site",
-        "time": "August 7, 2025"
-      }
-    ],
-    "2025-08-06": [
-      {
-        "message": "up to now",
-        "repository": "first-repo",
-        "time": "August 6, 2025"
-      }
-    ],
-    "2025-08-01": [
-      {
-        "message": "initial commit",
-        "repository": "aahana-astro-site",
-        "time": "August 1, 2025"
-      }
-    ],
-    "2025-07-31": [
-      {
-        "message": "initial",
-        "repository": "first-repo",
-        "time": "July 31, 2025"
-      }
-    ]
-  },
-  "generatedAt": "2025-08-12T12:33:26.959Z",
+  "commitsByDate": {},
+  "generatedAt": "2025-08-12T17:38:15.681Z",
   "repositories": [
     {
       "name": "web2025-dev-notes",
@@ -275,5 +202,45 @@
       "type": "submissions",
       "description": "Project submissions and student work"
     }
-  ]
+  ],
+  "projectSubmissions": {
+    "hey-jude": [
+      {
+        "url": "https://we2025-hey-jude-aahana.netlify.app/",
+        "author": "aahana823",
+        "authorType": "commenter",
+        "issueNumber": 1,
+        "issueTitle": "Take a sad site, and make it sadder",
+        "issueUrl": "https://github.com/open-making/web2025-hey-jude/issues/1",
+        "commentUrl": "https://github.com/open-making/web2025-hey-jude/issues/1#issuecomment-3102211830",
+        "createdAt": "2025-07-22T10:52:54Z",
+        "imageName": "we2025-hey-jude-aahana.netlify.app.webp"
+      }
+    ],
+    "short-stories": [
+      {
+        "url": "https://thebutterflystory.netlify.app/",
+        "author": "aahana823",
+        "authorType": "issue_author",
+        "issueNumber": 13,
+        "issueTitle": "[Story Submission]",
+        "issueUrl": "https://github.com/open-making/web2025-short-stories/issues/13",
+        "createdAt": "2025-07-25T10:06:51Z",
+        "imageName": "thebutterflystory.netlify.app.webp"
+      }
+    ],
+    "test-issue": [
+      {
+        "url": "https://aahanapatel.netlify.app/",
+        "author": "aahana823",
+        "authorType": "commenter",
+        "issueNumber": 12,
+        "issueTitle": "Day 12: [Project Day 2] Don't stop me now",
+        "issueUrl": "https://github.com/open-making/web2025-dev-notes/issues/12",
+        "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/12#issuecomment-3160545866",
+        "createdAt": "2025-08-06T15:02:53Z",
+        "imageName": "aahanapatel.netlify.app.webp"
+      }
+    ]
+  }
 }
