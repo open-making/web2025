@@ -7,6 +7,7 @@
 	import studentDatabase from '$lib/data/student-database.json';
 	import heyJude from '$lib/assets/images/hey-jude.png';
 	import shortStories from '$lib/assets/images/short-stories.png';
+	import { getDisplayName } from '$lib/components/utils';
 	const heyJudeImages = import.meta.glob('$lib/assets/images/hey-jude/processed/*.webp', {
 		eager: true,
 		import: 'default'
@@ -138,7 +139,7 @@
 			{#each students as student}
 				<StudentCard
 					student={{
-						username: student.username,
+						username: getDisplayName(student.name, student.username, 'lowercase'),
 						name: student.name,
 						website: student.website,
 						socialLinks: student.socialLinks

@@ -1,30 +1,33 @@
 import { error } from '@sveltejs/kit';
 import type { PageLoad } from './$types';
 import studentDatabase from '$lib/data/student-database.json';
+import { getDisplayName } from '$lib/components/utils';
 
 export const load: PageLoad = async ({ params, fetch }) => {
 	const { username } = params;
 
-	// Find student in database
+	// Find student in database by matching the lowercase display name
 	const student = Object.values(studentDatabase.students).find(
-		(s: any) => s.username === username
+		(s: any) => getDisplayName(s.name, s.username, 'lowercase') === username
 	);
 
 	if (!student) {
 		throw error(404, 'Student not found');
 	}
 
+	// Use the actual username from the database for fetching data
+	const actualUsername = student.username;
 	
 	// Try to load detailed student data
 	let studentData = null;
 	try {
-		const response = await fetch(`/src/lib/data/students/${username}.json`);
+		const response = await fetch(`/src/lib/data/students/${actualUsername}.json`);
 		if (response.ok) {
 			studentData = await response.json();
 		}
 	} catch (e) {
 		// Detailed data not available, continue with basic data
-		console.log(`No detailed data found for ${username}`);
+		console.log(`No detailed data found for ${actualUsername}`);
 	}
 
 	return {
