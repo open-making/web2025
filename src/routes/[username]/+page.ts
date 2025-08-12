@@ -21,10 +21,8 @@ export const load: PageLoad = async ({ params, fetch }) => {
 	// Try to load detailed student data
 	let studentData = null;
 	try {
-		const response = await fetch(`/src/lib/data/students/${actualUsername}.json`);
-		if (response.ok) {
-			studentData = await response.json();
-		}
+		const module = await import(`$lib/data/students/${actualUsername}.json`);
+		studentData = module.default;
 	} catch (e) {
 		// Detailed data not available, continue with basic data
 		console.log(`No detailed data found for ${actualUsername}`);
