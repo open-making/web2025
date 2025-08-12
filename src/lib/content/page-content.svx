@@ -1,0 +1,162 @@
+<script>
+	import Sidenote from '$lib/components/Sidenote.svelte';
+	import HeyJudeGallery from '$lib/components/HeyJudeGallery.svelte';
+	import ShortStoriesGallery from '$lib/components/ShortStoriesGallery.svelte';
+</script>
+
+<section class="section">
+	<div class="section-intro">
+		<div class="section-content">
+			<div class="section-image">
+				<div class="image-placeholder"></div>
+			</div>
+			<div class="section-text">
+
+# Take a Sad Site, and Make it Sadder
+
+Day 2 was getting introduced to <Sidenote id="html-css" note="HTML (HyperText Markup Language) and CSS (Cascading Style Sheets) are the foundational technologies of web design. HTML provides structure while CSS handles presentation and styling.">HTML and CSS</Sidenote>! Before we even *thought* about designing things that looked "nice" and worthy of being made by designers, it felt like a better idea to get our hands and brains a little messy. 
+
+This exercise was <Sidenote id="messy-approach" note="The 'messy' approach to learning web design helps students break free from perfectionism and encourages experimentation with different CSS properties and techniques.">similar to splashing paint on walls or doodling on the back of notebooks</Sidenote>; except we needed to get our sites to look as <Sidenote id="ugly-design" note="The 'ugly design' exercise is a pedagogical technique that helps students focus on learning CSS properties without the pressure of creating something aesthetically pleasing.">ugly as possible</Sidenote> with any new CSS properties we could discover.
+
+			</div>
+		</div>
+	</div>
+	<HeyJudeGallery />
+</section>
+
+<section class="section">
+	<div class="section-intro">
+		<div class="section-content">
+			<div class="section-image">
+				<div class="image-placeholder"></div>
+			</div>
+			<div class="section-text">
+
+# Short Stories
+
+Contrary to popular belief, <Sidenote id="lorem-ipsum" note="Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it.">Lorem Ipsum is not simply random text</Sidenote>. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. 
+
+<Sidenote id="mcclintock" note="Richard McClintock was a Latin scholar who discovered the true origins of Lorem Ipsum by tracing the word 'consectetur' through classical literature.">Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia</Sidenote>, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. 
+
+Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of <Sidenote id="cicero" note="Cicero's 'De Finibus Bonorum et Malorum' is one of the most important works on ethics in classical literature, exploring the nature of good and evil.">**"de Finibus Bonorum et Malorum"** (The Extremes of Good and Evil) by Cicero</Sidenote>, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+
+			</div>
+		</div>
+	</div>
+	<ShortStoriesGallery />
+</section>
+
+<style>
+	.section {
+		padding: 4rem 2rem;
+		max-width: 1400px; /* Increased to allow space for sidenotes */
+		margin: 0 auto;
+		position: relative;
+		overflow: visible; /* Allow sidenotes to extend into margins */
+	}
+
+	.section-intro {
+		margin-bottom: 3rem;
+	}
+
+	.section-content {
+		display: grid;
+		grid-template-columns: 200px 1fr;
+		gap: 3rem;
+		align-items: start;
+	}
+
+	.section-image {
+		position: sticky;
+		top: 2rem;
+	}
+
+	.image-placeholder {
+		width: 200px;
+		height: 200px;
+		background: var(--color-base-200);
+		border: 3px dashed var(--color-base-300);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-family: 'Atkinson Hyperlegible', sans-serif;
+		font-size: 1rem;
+		color: var(--color-base-300);
+		font-weight: 500;
+	}
+
+	.image-placeholder::after {
+		content: 'Image';
+	}
+
+	.section-text {
+		font-family: 'Atkinson Hyperlegible', sans-serif;
+		font-size: 1.125rem;
+		line-height: 1.7;
+		color: var(--color-neutral);
+		text-align: justify;
+		columns: 2;
+		column-gap: 2rem;
+		max-width: 800px; /* Constrain content width to allow sidenotes */
+		position: relative;
+		overflow: visible; /* Allow sidenotes to overflow */
+	}
+
+	.section-text :global(h1) {
+		font-family: 'LibreCaslonCondensed', serif;
+		font-size: 3rem;
+		font-weight: bold;
+		line-height: 0.85;
+		margin-bottom: 1.5rem;
+		color: var(--color-neutral);
+		letter-spacing: -0.02em;
+		column-span: all;
+	}
+
+	.section-text :global(p:first-of-type::first-letter) {
+		font-family: 'LibreCaslonCondensed', serif;
+		font-size: 4rem;
+		font-weight: bold;
+		line-height: 0.75;
+		float: left;
+		margin: 0.1rem 0.2rem 0 0;
+		color: var(--color-purple);
+	}
+
+	@media (max-width: 768px) {
+		.section {
+			padding: 2rem 1rem;
+		}
+
+		.section-content {
+			grid-template-columns: 1fr;
+			gap: 1.5rem;
+		}
+
+		.section-image {
+			justify-self: center;
+			position: static;
+		}
+
+		.image-placeholder {
+			width: 150px;
+			height: 150px;
+		}
+
+		.section-text {
+			columns: 1;
+			font-size: 1rem;
+			margin-right: 0;
+		}
+
+		.section-text :global(h1) {
+			font-size: 2.5rem;
+			margin-bottom: 1rem;
+		}
+
+		.section-text :global(p:first-of-type::first-letter) {
+			font-size: 3rem;
+			margin: 0.1rem 0.15rem 0 0;
+		}
+	}
+</style>
