@@ -205,15 +205,78 @@
   "statistics": {
     "totalNotes": 9,
     "totalSubmissions": 1,
-    "totalCommits": 0,
+    "totalCommits": 10,
     "firstActivity": "2025-07-21T10:00:10.000Z",
-    "lastActivity": "2025-08-06T13:50:11.000Z",
+    "lastActivity": "2025-08-12T10:14:34.000Z",
     "mostActiveDay": "2025-07-24",
     "totalEntries": 10,
     "averageWordCount": 141
   },
-  "commitsByDate": {},
-  "generatedAt": "2025-08-12T17:38:15.681Z",
+  "commitsByDate": {
+    "2025-08-12": [
+      {
+        "message": "cursor changed",
+        "repository": "vanshika-site",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "addition to manifesto page and some elements",
+        "repository": "vanshika-site",
+        "time": "August 12, 2025"
+      }
+    ],
+    "2025-08-11": [
+      {
+        "message": "attention to details part 2 (11th aug)",
+        "repository": "vanshika-site",
+        "time": "August 11, 2025"
+      },
+      {
+        "message": "attention to the details",
+        "repository": "vanshika-site",
+        "time": "August 11, 2025"
+      }
+    ],
+    "2025-08-08": [
+      {
+        "message": "changes in manifesto page (the basics)",
+        "repository": "vanshika-site",
+        "time": "August 8, 2025"
+      },
+      {
+        "message": "Added manifesto page, made changes in aboutme page",
+        "repository": "vanshika-site",
+        "time": "August 8, 2025"
+      },
+      {
+        "message": "About link updated",
+        "repository": "vanshika-site",
+        "time": "August 8, 2025"
+      }
+    ],
+    "2025-08-06": [
+      {
+        "message": "about me changes",
+        "repository": "vanshika-site",
+        "time": "August 6, 2025"
+      }
+    ],
+    "2025-08-05": [
+      {
+        "message": "added homepage",
+        "repository": "vanshika-site",
+        "time": "August 5, 2025"
+      }
+    ],
+    "2025-07-28": [
+      {
+        "message": "adds index.html",
+        "repository": "vanshika-grid",
+        "time": "July 28, 2025"
+      }
+    ]
+  },
+  "generatedAt": "2025-08-12T17:47:46.343Z",
   "repositories": [
     {
       "name": "web2025-dev-notes",
@@ -274,6 +337,18 @@
         "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/11#issuecomment-3153295967",
         "createdAt": "2025-08-05T04:59:20Z",
         "imageName": "vanshikasite.netlify.app.webp"
+      }
+    ],
+    "web2025": [
+      {
+        "url": "https://vanshika-site.netlify.app/",
+        "author": "vanshi021",
+        "authorType": "issue_author",
+        "issueNumber": 16,
+        "issueTitle": "[STUDENT] Vanshika-Singal",
+        "issueUrl": "https://github.com/open-making/web2025/issues/16",
+        "createdAt": "2025-08-12T14:38:33Z",
+        "imageName": "vanshika-site.netlify.app.webp"
       }
     ]
   }

@@ -251,15 +251,107 @@
   "statistics": {
     "totalNotes": 11,
     "totalSubmissions": 1,
-    "totalCommits": 0,
+    "totalCommits": 15,
     "firstActivity": "2025-07-21T09:53:14.000Z",
-    "lastActivity": "2025-08-06T08:19:01.000Z",
-    "mostActiveDay": "2025-07-21",
+    "lastActivity": "2025-08-12T09:41:24.000Z",
+    "mostActiveDay": "2025-08-12",
     "totalEntries": 12,
     "averageWordCount": 140
   },
-  "commitsByDate": {},
-  "generatedAt": "2025-08-12T17:38:15.681Z",
+  "commitsByDate": {
+    "2025-08-12": [
+      {
+        "message": "added resume",
+        "repository": "https---github.com-Meetbaxi17-tryerror",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "complete personal projects",
+        "repository": "https---github.com-Meetbaxi17-tryerror",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "personalprojects done",
+        "repository": "https---github.com-Meetbaxi17-tryerror",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "updated portfolio",
+        "repository": "https---github.com-Meetbaxi17-tryerror",
+        "time": "August 12, 2025"
+      }
+    ],
+    "2025-08-11": [
+      {
+        "message": "portfolio page",
+        "repository": "https---github.com-Meetbaxi17-tryerror",
+        "time": "August 11, 2025"
+      },
+      {
+        "message": "ticket-fixed",
+        "repository": "https---github.com-Meetbaxi17-tryerror",
+        "time": "August 11, 2025"
+      }
+    ],
+    "2025-08-08": [
+      {
+        "message": "added ticket in about page",
+        "repository": "https---github.com-Meetbaxi17-tryerror",
+        "time": "August 9, 2025"
+      }
+    ],
+    "2025-08-07": [
+      {
+        "message": "about page setup-half",
+        "repository": "https---github.com-Meetbaxi17-tryerror",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "fix topbar html",
+        "repository": "https---github.com-Meetbaxi17-tryerror",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "updated the dashboard",
+        "repository": "https---github.com-Meetbaxi17-tryerror",
+        "time": "August 7, 2025"
+      }
+    ],
+    "2025-08-05": [
+      {
+        "message": "5aug",
+        "repository": "https---github.com-Meetbaxi17-tryerror",
+        "time": "August 5, 2025"
+      },
+      {
+        "message": "MainWebsite",
+        "repository": "https---github.com-Meetbaxi17-tryerror",
+        "time": "August 5, 2025"
+      }
+    ],
+    "2025-08-03": [
+      {
+        "message": "Added two new pages - about and blog",
+        "repository": "MeetBaxi",
+        "time": "August 4, 2025"
+      }
+    ],
+    "2025-08-01": [
+      {
+        "message": "initial commit",
+        "repository": "MeetBaxi",
+        "time": "August 1, 2025"
+      }
+    ],
+    "2025-07-28": [
+      {
+        "message": "adds index.html",
+        "repository": "meet-grid",
+        "time": "July 28, 2025"
+      }
+    ]
+  },
+  "generatedAt": "2025-08-12T17:47:46.343Z",
   "repositories": [
     {
       "name": "web2025-dev-notes",
@@ -309,6 +401,18 @@
         "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/12#issuecomment-3158121378",
         "createdAt": "2025-08-06T08:19:01Z",
         "imageName": "meetbaxi17.netlify.app.webp"
+      }
+    ],
+    "web2025": [
+      {
+        "url": "https://meetbaxi-test.netlify.app/",
+        "author": "Meetbaxi17",
+        "authorType": "issue_author",
+        "issueNumber": 3,
+        "issueTitle": "Meet Baxi",
+        "issueUrl": "https://github.com/open-making/web2025/issues/3",
+        "createdAt": "2025-08-12T10:17:07Z",
+        "imageName": "meetbaxi-test.netlify.app.webp"
       }
     ]
   }

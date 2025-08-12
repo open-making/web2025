@@ -187,15 +187,174 @@
   "statistics": {
     "totalNotes": 8,
     "totalSubmissions": 1,
-    "totalCommits": 0,
+    "totalCommits": 28,
     "firstActivity": "2025-07-21T09:52:13.000Z",
-    "lastActivity": "2025-08-07T17:28:17.000Z",
-    "mostActiveDay": "2025-07-21",
+    "lastActivity": "2025-08-12T10:17:17.000Z",
+    "mostActiveDay": "2025-08-04",
     "totalEntries": 9,
     "averageWordCount": 81
   },
-  "commitsByDate": {},
-  "generatedAt": "2025-08-12T17:38:15.681Z",
+  "commitsByDate": {
+    "2025-08-12": [
+      {
+        "message": "Started Interests section",
+        "repository": "Meri-Website",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "Resized all images and added Scroll smooth",
+        "repository": "Meri-Website",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "Adding final work desc.",
+        "repository": "Meri-Website",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "Resize bg image",
+        "repository": "Meri-Website",
+        "time": "August 12, 2025"
+      }
+    ],
+    "2025-08-11": [
+      {
+        "message": "Adding work content",
+        "repository": "Meri-Website",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "Added all thumbnails",
+        "repository": "Meri-Website",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "Added bahance links for project",
+        "repository": "Meri-Website",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "Removed Instagram link",
+        "repository": "Meri-Website",
+        "time": "August 11, 2025"
+      },
+      {
+        "message": "Undo the folders location",
+        "repository": "Meri-Website",
+        "time": "August 11, 2025"
+      },
+      {
+        "message": "Changed Folder",
+        "repository": "Meri-Website",
+        "time": "August 11, 2025"
+      }
+    ],
+    "2025-08-08": [
+      {
+        "message": "Some changes",
+        "repository": "Meri-Website",
+        "time": "August 8, 2025"
+      },
+      {
+        "message": "Working on WORK page",
+        "repository": "Meri-Website",
+        "time": "August 8, 2025"
+      }
+    ],
+    "2025-08-07": [
+      {
+        "message": "Changed Imge names",
+        "repository": "Meri-Website",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "Final ABOUT page",
+        "repository": "Meri-Website",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "Adding Footer",
+        "repository": "Meri-Website",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "Made final TIMELINE Section",
+        "repository": "Meri-Website",
+        "time": "August 7, 2025"
+      }
+    ],
+    "2025-08-06": [
+      {
+        "message": "Made Final Header",
+        "repository": "Meri-Website",
+        "time": "August 6, 2025"
+      },
+      {
+        "message": "Added header",
+        "repository": "Meri-Website",
+        "time": "August 6, 2025"
+      },
+      {
+        "message": "ku",
+        "repository": "Meri-Website",
+        "time": "August 6, 2025"
+      },
+      {
+        "message": "ok",
+        "repository": "Meri-Website",
+        "time": "August 6, 2025"
+      }
+    ],
+    "2025-08-04": [
+      {
+        "message": "Added Header and made it Responsive",
+        "repository": "My-astro-tutorial",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "Added Footer and links for social contact",
+        "repository": "My-astro-tutorial",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "Added content in About and changed layout of all three pages.",
+        "repository": "My-astro-tutorial",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "Changing color and sizes of text in About",
+        "repository": "My-astro-tutorial",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "Added some content in about, blog and posted some blogs.",
+        "repository": "My-astro-tutorial",
+        "time": "August 4, 2025"
+      }
+    ],
+    "2025-08-03": [
+      {
+        "message": "Added two new pages-about and blog",
+        "repository": "My-astro-tutorial",
+        "time": "August 3, 2025"
+      }
+    ],
+    "2025-08-01": [
+      {
+        "message": "initial commit",
+        "repository": "My-astro-tutorial",
+        "time": "August 1, 2025"
+      }
+    ],
+    "2025-07-31": [
+      {
+        "message": "intiial",
+        "repository": "first-repo",
+        "time": "July 31, 2025"
+      }
+    ]
+  },
+  "generatedAt": "2025-08-12T17:47:46.343Z",
   "repositories": [
     {
       "name": "web2025-dev-notes",
@@ -244,6 +403,18 @@
         "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/11#issuecomment-3151853131",
         "createdAt": "2025-08-04T18:06:11Z",
         "imageName": "iamharshitrajoria.netlify.app.webp"
+      }
+    ],
+    "web2025": [
+      {
+        "url": "https://portfolio-harshit-rajoria.netlify.app/",
+        "author": "HarshitRajoria",
+        "authorType": "issue_author",
+        "issueNumber": 8,
+        "issueTitle": "Harshit Rajoria",
+        "issueUrl": "https://github.com/open-making/web2025/issues/8",
+        "createdAt": "2025-08-12T10:24:44Z",
+        "imageName": "portfolio-harshit-rajoria.netlify.app.webp"
       }
     ]
   }

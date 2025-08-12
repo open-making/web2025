@@ -405,59 +405,63 @@ async function buildStudentDatabase(options = {}) {
     console.log('\n💻 Fetching GitHub commits for all students...');
     const studentUsernames = Object.keys(studentDatabase.students).filter(username => username !== 'thedivtagguy');
 
-    for (let i = 0; i < studentUsernames.length; i++) {
-    const username = studentUsernames[i];
-    console.log(`\n👤 Processing commits for ${username} (${i + 1}/${studentUsernames.length})...`);
+    const commitPromises = studentUsernames.map(async (username, i) => {
+      console.log(`\n👤 Processing commits for ${username} (${i + 1}/${studentUsernames.length})...`);
 
-    try {
-      const commits = await fetchUserCommits(username, { weeks: commitWeeks });
-      studentDatabase.students[username].statistics.totalCommits = commits.length;
+      try {
+        const commits = await fetchUserCommits(username, { weeks: commitWeeks });
+        studentDatabase.students[username].statistics.totalCommits = commits.length;
 
-      // Update activity dates based on commits
-      if (commits.length > 0) {
-        const commitDates = commits.map(c => new Date(c.date.iso));
-        const earliestCommit = new Date(Math.min(...commitDates));
-        const latestCommit = new Date(Math.max(...commitDates));
+        // Update activity dates based on commits
+        if (commits.length > 0) {
+          const commitDates = commits.map(c => new Date(c.date.iso));
+          const earliestCommit = new Date(Math.min(...commitDates));
+          const latestCommit = new Date(Math.max(...commitDates));
 
-        const currentFirst = new Date(studentDatabase.students[username].statistics.firstActivity);
-        const currentLast = new Date(studentDatabase.students[username].statistics.lastActivity);
+          const currentFirst = new Date(studentDatabase.students[username].statistics.firstActivity);
+          const currentLast = new Date(studentDatabase.students[username].statistics.lastActivity);
 
-        if (earliestCommit < currentFirst) {
-          studentDatabase.students[username].statistics.firstActivity = earliestCommit.toISOString();
-        }
-        if (latestCommit > currentLast) {
-          studentDatabase.students[username].statistics.lastActivity = latestCommit.toISOString();
-        }
-
-        // Add commit dates to allDates for global statistics
-        allDates.push(...commitDates);
-
-        // Organize commits by date
-        studentDatabase.students[username].commitsByDate = commits.reduce((acc, commit) => {
-          const date = commit.date.date;
-          if (!acc[date]) {
-            acc[date] = [];
+          if (earliestCommit < currentFirst) {
+            studentDatabase.students[username].statistics.firstActivity = earliestCommit.toISOString();
           }
-          acc[date].push({
-            message: commit.message,
-            repository: commit.repository,
-            time: commit.date.formatted
-          });
-          return acc;
-        }, {});
-      }
+          if (latestCommit > currentLast) {
+            studentDatabase.students[username].statistics.lastActivity = latestCommit.toISOString();
+          }
 
-      // Add a small delay between students to respect rate limits
-      if (i < studentUsernames.length - 1) {
-        await new Promise(resolve => setTimeout(resolve, 500));
-      }
+          // Organize commits by date
+          studentDatabase.students[username].commitsByDate = commits.reduce((acc, commit) => {
+            const date = commit.date.date;
+            if (!acc[date]) {
+              acc[date] = [];
+            }
+            acc[date].push({
+              message: commit.message,
+              repository: commit.repository,
+              time: commit.date.formatted
+            });
+            return acc;
+          }, {});
 
-    } catch (error) {
-      console.error(`   ❌ Error fetching commits for ${username}: ${error.message}`);
-      studentDatabase.students[username].statistics.totalCommits = 0;
-      studentDatabase.students[username].commitsByDate = {};
-    }
-  }
+          return { username, commitDates };
+        }
+
+        return { username, commitDates: [] };
+      } catch (error) {
+        console.error(`   ❌ Error fetching commits for ${username}: ${error.message}`);
+        studentDatabase.students[username].statistics.totalCommits = 0;
+        studentDatabase.students[username].commitsByDate = {};
+        return { username, commitDates: [] };
+      }
+    });
+
+    const results = await Promise.all(commitPromises);
+    
+    // Collect all commit dates for global statistics
+    results.forEach(result => {
+      if (result.commitDates.length > 0) {
+        allDates.push(...result.commitDates);
+      }
+    });
   } else {
     console.log('\n⏭️  Skipping GitHub commits (--no-commits flag)');
   }

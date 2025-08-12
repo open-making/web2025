@@ -83,7 +83,7 @@
 										>
 											{commit.repository}
 										</span>
-										<span>{formatDate(commit.date || commit.time)}</span>
+										
 									</div>
 								</div>
 							</td>

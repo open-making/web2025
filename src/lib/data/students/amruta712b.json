@@ -252,15 +252,403 @@
   "statistics": {
     "totalNotes": 11,
     "totalSubmissions": 1,
-    "totalCommits": 0,
+    "totalCommits": 73,
     "firstActivity": "2025-07-21T09:54:36.000Z",
-    "lastActivity": "2025-08-06T08:13:32.000Z",
-    "mostActiveDay": "2025-07-21",
+    "lastActivity": "2025-08-12T13:45:16.000Z",
+    "mostActiveDay": "2025-08-04",
     "totalEntries": 12,
     "averageWordCount": 171
   },
-  "commitsByDate": {},
-  "generatedAt": "2025-08-12T17:38:15.681Z",
+  "commitsByDate": {
+    "2025-08-12": [
+      {
+        "message": "window changes",
+        "repository": "amruta-portfolio-website",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "homepage window change",
+        "repository": "amruta-portfolio-website",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "sidebar changes",
+        "repository": "amruta-portfolio-website",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "contact mailbox animation",
+        "repository": "amruta-portfolio-website",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "scroll down in about",
+        "repository": "amruta-portfolio-website",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "contact webp",
+        "repository": "amruta-portfolio-website",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "notes webp",
+        "repository": "amruta-portfolio-website",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "webp works images",
+        "repository": "amruta-portfolio-website",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "icons webp",
+        "repository": "amruta-portfolio-website",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "optimized images",
+        "repository": "amruta-portfolio-website",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "Merge remote-tracking branch 'origin/aman/illo-pages'",
+        "repository": "amruta-portfolio-website",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "WIP save",
+        "repository": "amruta-portfolio-website",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "changed footer",
+        "repository": "amruta-portfolio-website",
+        "time": "August 12, 2025"
+      }
+    ],
+    "2025-08-11": [
+      {
+        "message": "contact me page",
+        "repository": "amruta-portfolio-website",
+        "time": "August 11, 2025"
+      },
+      {
+        "message": "footer changes in contact",
+        "repository": "amruta-portfolio-website",
+        "time": "August 11, 2025"
+      },
+      {
+        "message": "footer changes in contact page",
+        "repository": "amruta-portfolio-website",
+        "time": "August 11, 2025"
+      },
+      {
+        "message": "homepage window change",
+        "repository": "amruta-portfolio-website",
+        "time": "August 11, 2025"
+      },
+      {
+        "message": "scroll down fixed",
+        "repository": "amruta-portfolio-website",
+        "time": "August 11, 2025"
+      },
+      {
+        "message": "logo position fix",
+        "repository": "amruta-portfolio-website",
+        "time": "August 11, 2025"
+      }
+    ],
+    "2025-08-10": [
+      {
+        "message": "favicon change",
+        "repository": "amruta-portfolio-website",
+        "time": "August 10, 2025"
+      },
+      {
+        "message": "edition in works page",
+        "repository": "amruta-portfolio-website",
+        "time": "August 10, 2025"
+      },
+      {
+        "message": "added text in works",
+        "repository": "amruta-portfolio-website",
+        "time": "August 10, 2025"
+      },
+      {
+        "message": "button side bar logo change",
+        "repository": "amruta-portfolio-website",
+        "time": "August 10, 2025"
+      },
+      {
+        "message": "made changes in sideba",
+        "repository": "amruta-portfolio-website",
+        "time": "August 10, 2025"
+      },
+      {
+        "message": "created illustration page",
+        "repository": "amruta-portfolio-website",
+        "time": "August 10, 2025"
+      },
+      {
+        "message": "new illustration page",
+        "repository": "amruta-portfolio-website",
+        "time": "August 10, 2025"
+      }
+    ],
+    "2025-08-09": [
+      {
+        "message": "changes in grid",
+        "repository": "amruta-portfolio-website",
+        "time": "August 10, 2025"
+      }
+    ],
+    "2025-08-07": [
+      {
+        "message": "added grids in works page",
+        "repository": "amruta-portfolio-website",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "animation",
+        "repository": "amruta-portfolio-website",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "scroll down",
+        "repository": "amruta-portfolio-website",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "added images",
+        "repository": "amruta-portfolio-website",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "illustrations page",
+        "repository": "amruta-portfolio-website",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "changes is padding about page",
+        "repository": "amruta-portfolio-website",
+        "time": "August 7, 2025"
+      }
+    ],
+    "2025-08-06": [
+      {
+        "message": "works page",
+        "repository": "amruta-portfolio-website",
+        "time": "August 6, 2025"
+      }
+    ],
+    "2025-08-05": [
+      {
+        "message": "added grid",
+        "repository": "amruta-portfolio-website",
+        "time": "August 5, 2025"
+      },
+      {
+        "message": "added notes images",
+        "repository": "amruta-portfolio-website",
+        "time": "August 5, 2025"
+      },
+      {
+        "message": "added notes",
+        "repository": "amruta-portfolio-website",
+        "time": "August 5, 2025"
+      },
+      {
+        "message": "added footer",
+        "repository": "amruta-portfolio-website",
+        "time": "August 5, 2025"
+      },
+      {
+        "message": "added notes",
+        "repository": "amruta-portfolio-website",
+        "time": "August 5, 2025"
+      },
+      {
+        "message": "made more image path chnages",
+        "repository": "amruta-portfolio-website",
+        "time": "August 5, 2025"
+      },
+      {
+        "message": "image path change",
+        "repository": "amruta-portfolio-website",
+        "time": "August 5, 2025"
+      }
+    ],
+    "2025-08-04": [
+      {
+        "message": "change",
+        "repository": "amruta-portfolio-website",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "added button link",
+        "repository": "amruta-portfolio-website",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "made changes in about page",
+        "repository": "amruta-portfolio-website",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "made changes in buttom",
+        "repository": "amruta-portfolio-website",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "more changes in about",
+        "repository": "amruta-portfolio-website",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "changes in window",
+        "repository": "amruta-portfolio-website",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "added hover",
+        "repository": "amruta-portfolio-website",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "window changes",
+        "repository": "amruta-portfolio-website",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "adding windows",
+        "repository": "amruta-portfolio-website",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "added logo",
+        "repository": "amruta-portfolio-website",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "changed menu width",
+        "repository": "amruta-portfolio-website",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "changed menu",
+        "repository": "amruta-portfolio-website",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "aded menu",
+        "repository": "amruta-portfolio-website",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "added bg color",
+        "repository": "amruta-portfolio-website",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "made changes",
+        "repository": "amruta-portfolio-website",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "made more changes",
+        "repository": "practice-project-tutorial",
+        "time": "August 4, 2025"
+      }
+    ],
+    "2025-08-03": [
+      {
+        "message": "added hamburger",
+        "repository": "practice-project-tutorial",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "new changes",
+        "repository": "practice-project-tutorial",
+        "time": "August 3, 2025"
+      },
+      {
+        "message": "footer header",
+        "repository": "practice-project-tutorial",
+        "time": "August 3, 2025"
+      },
+      {
+        "message": "added footer",
+        "repository": "practice-project-tutorial",
+        "time": "August 3, 2025"
+      },
+      {
+        "message": "added variables",
+        "repository": "practice-project-tutorial",
+        "time": "August 3, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "practice-project-tutorial",
+        "time": "August 3, 2025"
+      },
+      {
+        "message": "changed name",
+        "repository": "practice-project-tutorial",
+        "time": "August 3, 2025"
+      },
+      {
+        "message": "addded blogs",
+        "repository": "practice-project-tutorial",
+        "time": "August 3, 2025"
+      },
+      {
+        "message": "moved blkog",
+        "repository": "practice-project-tutorial",
+        "time": "August 3, 2025"
+      },
+      {
+        "message": "made blogs",
+        "repository": "practice-project-tutorial",
+        "time": "August 3, 2025"
+      },
+      {
+        "message": "changed index",
+        "repository": "practice-project-tutorial",
+        "time": "August 3, 2025"
+      },
+      {
+        "message": "added links",
+        "repository": "practice-project-tutorial",
+        "time": "August 3, 2025"
+      },
+      {
+        "message": "moved astro",
+        "repository": "practice-project-tutorial",
+        "time": "August 3, 2025"
+      },
+      {
+        "message": "about page",
+        "repository": "practice-project-tutorial",
+        "time": "August 3, 2025"
+      }
+    ],
+    "2025-08-01": [
+      {
+        "message": "initial commit",
+        "repository": "practice-project-tutorial",
+        "time": "August 1, 2025"
+      }
+    ],
+    "2025-07-28": [
+      {
+        "message": "adds index.html",
+        "repository": "amruta-grid",
+        "time": "July 28, 2025"
+      }
+    ]
+  },
+  "generatedAt": "2025-08-12T17:47:46.343Z",
   "repositories": [
     {
       "name": "web2025-dev-notes",
@@ -309,6 +697,18 @@
         "issueUrl": "https://github.com/open-making/web2025-dev-notes/issues/12",
         "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/12#issuecomment-3158077888",
         "createdAt": "2025-08-06T08:13:32Z",
+        "imageName": "amruta-portfolio-website.netlify.app.webp"
+      }
+    ],
+    "web2025": [
+      {
+        "url": "https://amruta-portfolio-website.netlify.app/",
+        "author": "amruta712b",
+        "authorType": "issue_author",
+        "issueNumber": 5,
+        "issueTitle": "AMRUTA BHATT",
+        "issueUrl": "https://github.com/open-making/web2025/issues/5",
+        "createdAt": "2025-08-12T10:20:47Z",
         "imageName": "amruta-portfolio-website.netlify.app.webp"
       }
     ]

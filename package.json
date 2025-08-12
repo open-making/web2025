@@ -16,7 +16,8 @@
 		"fetch-metadata": "node scripts/fetch-metadata.js",
 		"download-images": "node scripts/download-images.js",
 		"screenshot:hey-jude": "pnpm fetch-metadata https://github.com/open-making/web2025-hey-jude/issues/1 hey-jude --filter netlify && pnpm screenshot --metadata src/lib/data/hey-jude-metadata.json --output-dir src/lib/assets/images/hey-jude $(cat hey-jude.txt | tr '\\n' ' ')",
-		"screenshot:short-stories": "pnpm fetch-metadata https://github.com/open-making/web2025-short-stories/issues short-stories --filter netlify && pnpm screenshot --metadata src/lib/data/short-stories-metadata.json --output-dir src/lib/assets/images/short-stories $(cat short-stories.txt | tr '\\n' ' ')"
+		"screenshot:short-stories": "pnpm fetch-metadata https://github.com/open-making/web2025-short-stories/issues short-stories --filter netlify && pnpm screenshot --metadata src/lib/data/short-stories-metadata.json --output-dir src/lib/assets/images/short-stories $(cat short-stories.txt | tr '\\n' ' ')",
+		"screenshot:web2025": "pnpm fetch-metadata https://github.com/open-making/web2025/issues web2025 --filter netlify && pnpm screenshot --metadata src/lib/data/web2025-metadata.json --output-dir src/lib/assets/images/web2025 $(cat web2025.txt | tr '\\n' ' ')"
 	},
 	"devDependencies": {
 		"@eslint/compat": "^1.2.5",

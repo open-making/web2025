@@ -9,6 +9,32 @@
 
 	const { student, studentData } = data;
 
+	// Import images dynamically like the main page does
+	const web2025Images = import.meta.glob('$lib/assets/images/web2025/processed/*.webp', {
+		eager: true,
+		import: 'default'
+	});
+
+	const shortStoriesImages = import.meta.glob('$lib/assets/images/short-stories/processed/*.webp', {
+		eager: true,
+		import: 'default'
+	});
+
+	const heyJudeImages = import.meta.glob('$lib/assets/images/hey-jude/processed/*.webp', {
+		eager: true,
+		import: 'default'
+	});
+
+	// Helper function to get image src
+	function getImageSrc(imageName: string, type: string) {
+		const imageMap = {
+			web2025: web2025Images,
+			'short-stories': shortStoriesImages,
+			'hey-jude': heyJudeImages
+		};
+		return imageMap[type]?.[`/src/lib/assets/images/${type}/processed/${imageName}`] || '';
+	}
+
 	// Get initials from name or username
 	function getInitials(name: string | null, username: string): string {
 		if (name) {
@@ -56,7 +82,7 @@
 
 		const allCommits: any[] = [];
 		Object.entries(commitsByDate).forEach(([date, commits]: [string, any[]]) => {
-			commits.forEach(commit => {
+			commits.forEach((commit) => {
 				allCommits.push({
 					...commit,
 					date: date // Use the date key as the commit date
@@ -79,9 +105,9 @@
 </svelte:head>
 
 <main class="mx-auto min-h-screen max-w-7xl p-8">
-	<div class="grid grid-cols-1 relative gap-12 md:grid-cols-3">
+	<div class="relative grid grid-cols-1 gap-12 md:grid-cols-3">
 		<!-- Left Column: Student Header + Work -->
-		<div class="space-y-8 md:sticky md:top-8 h-fit">
+		<div class="h-fit space-y-8 md:sticky md:top-8">
 			<!-- Student Header -->
 			<div class="space-y-6">
 				<div class="flex items-center gap-6">
@@ -106,46 +132,102 @@
 					</div>
 				</div>
 
-				<SocialLinks 
+				<SocialLinks
 					username={student.username}
-					website={student.website} 
-					socialLinks={student.socialLinks || []} 
+					website={student.website}
+					socialLinks={student.socialLinks || []}
 				/>
 			</div>
 
 			<!-- Work Cards -->
 			<div class="space-y-6">
-				<h2
-					class="text-4xl leading-tight font-bold text-gray-800"
-					style="font-family: 'LibreCaslonCondensed', serif; letter-spacing: -0.02em;"
-				>
-					Work
-				</h2>
 				<div class="grid grid-cols-2 gap-4">
-					{#each Array(3) as _, i}
-						<div
-							class="overflow-hidden rounded-xl border-2 border-black bg-white transition-all duration-200 hover:-translate-y-1 hover:shadow-xl"
-						>
-							<div
-								class="flex aspect-[4/3] items-center justify-center border-b border-gray-200 bg-gray-50"
+					<!-- Web2025 Portfolio (spans 2 columns on desktop) -->
+					{#if studentData?.projectSubmissions?.web2025?.[0]}
+						{@const project = studentData.projectSubmissions.web2025[0]}
+						<div class="col-span-2">
+							<a
+								href={project.url}
+								target="_blank"
+								rel="noopener noreferrer"
+								class="block overflow-hidden rounded-sm border-2 border-black bg-white transition-all duration-200 hover:-translate-y-1 hover:shadow-xl"
 							>
-								<div class="text-center text-gray-400">
-									<h3
-										class="mb-2 text-xl text-gray-500"
-										style="font-family: 'LibreCaslonCondensed', serif;"
-									>
-										Project {i + 1}
-									</h3>
+								<div class="aspect-[8/5]">
+									<img
+										src={getImageSrc(project.imageName, 'web2025')}
+										alt="Portfolio Website"
+										class="h-full w-full object-cover object-top"
+									/>
+								</div>
+								<div class="px-4 py-2">
 									<p
-										class="text-sm text-gray-400"
+										class="text-sm text-gray-600"
 										style="font-family: 'Atkinson Hyperlegible', sans-serif;"
 									>
-										Coming soon...
+										Final project website
 									</p>
 								</div>
-							</div>
+							</a>
 						</div>
-					{/each}
+					{/if}
+
+					<!-- Short Stories -->
+					{#if studentData?.projectSubmissions?.['short-stories']?.[0]}
+						{@const project = studentData.projectSubmissions['short-stories'][0]}
+						<div>
+							<a
+								href={project.url}
+								target="_blank"
+								rel="noopener noreferrer"
+								class="block overflow-hidden rounded-sm border-2 border-black bg-white transition-all duration-200 hover:-translate-y-1 hover:shadow-xl"
+							>
+								<div class="aspect-[4/3]">
+									<img
+										src={getImageSrc(project.imageName, 'short-stories')}
+										alt="Short Story"
+										class="h-full w-full object-cover object-top"
+									/>
+								</div>
+								<div class="px-4 py-2">
+									<p
+										class="text-sm text-gray-600"
+										style="font-family: 'Atkinson Hyperlegible', sans-serif;"
+									>
+										Short Story
+									</p>
+								</div>
+							</a>
+						</div>
+					{/if}
+
+					<!-- Hey Jude -->
+					{#if studentData?.projectSubmissions?.['hey-jude']?.[0]}
+						{@const project = studentData.projectSubmissions['hey-jude'][0]}
+						<div>
+							<a
+								href={project.url}
+								target="_blank"
+								rel="noopener noreferrer"
+								class="block overflow-hidden rounded-sm border-2 border-black bg-white transition-all duration-200 hover:-translate-y-1 hover:shadow-xl"
+							>
+								<div class="aspect-[4/3]">
+									<img
+										src={getImageSrc(project.imageName, 'hey-jude')}
+										alt="Hey Jude Project"
+										class="h-full w-full object-cover object-top"
+									/>
+								</div>
+								<div class="px-4 py-2">
+									<p
+										class="text-sm text-gray-600"
+										style="font-family: 'Atkinson Hyperlegible', sans-serif;"
+									>
+										Hey Jude
+									</p>
+								</div>
+							</a>
+						</div>
+					{/if}
 				</div>
 			</div>
 		</div>

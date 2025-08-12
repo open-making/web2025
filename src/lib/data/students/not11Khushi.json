@@ -132,15 +132,23 @@
   "statistics": {
     "totalNotes": 6,
     "totalSubmissions": 0,
-    "totalCommits": 0,
+    "totalCommits": 1,
     "firstActivity": "2025-07-21T10:09:34.000Z",
     "lastActivity": "2025-07-31T21:16:09.000Z",
     "mostActiveDay": "2025-07-21",
     "totalEntries": 6,
     "averageWordCount": 141
   },
-  "commitsByDate": {},
-  "generatedAt": "2025-08-12T17:38:15.681Z",
+  "commitsByDate": {
+    "2025-07-31": [
+      {
+        "message": "intial",
+        "repository": "hello",
+        "time": "July 31, 2025"
+      }
+    ]
+  },
+  "generatedAt": "2025-08-12T17:47:46.343Z",
   "repositories": [
     {
       "name": "web2025-dev-notes",

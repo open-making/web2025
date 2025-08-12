@@ -243,15 +243,131 @@
   "statistics": {
     "totalNotes": 11,
     "totalSubmissions": 1,
-    "totalCommits": 0,
+    "totalCommits": 19,
     "firstActivity": "2025-07-21T09:52:37.000Z",
-    "lastActivity": "2025-08-05T20:00:00.000Z",
-    "mostActiveDay": "2025-07-21",
+    "lastActivity": "2025-08-12T16:03:18.000Z",
+    "mostActiveDay": "2025-08-12",
     "totalEntries": 12,
     "averageWordCount": 103
   },
-  "commitsByDate": {},
-  "generatedAt": "2025-08-12T17:38:15.681Z",
+  "commitsByDate": {
+    "2025-08-12": [
+      {
+        "message": "Made Project Page Layout",
+        "repository": "Jaypee",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "Made the homepage responsive to some extent",
+        "repository": "Jaypee",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "Mobile Try 1",
+        "repository": "Jaypee",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "max with 600px for mobile",
+        "repository": "Jaypee",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "tried to make the homepage for mobile",
+        "repository": "Jaypee",
+        "time": "August 12, 2025"
+      }
+    ],
+    "2025-08-10": [
+      {
+        "message": "Added Some more projects",
+        "repository": "Jaypee",
+        "time": "August 10, 2025"
+      },
+      {
+        "message": "Added custom cursor and added project pages and some cool stuff",
+        "repository": "Jaypee",
+        "time": "August 10, 2025"
+      }
+    ],
+    "2025-08-09": [
+      {
+        "message": "Added Some Overlay Effect on Homepage",
+        "repository": "Jaypee",
+        "time": "August 9, 2025"
+      }
+    ],
+    "2025-08-08": [
+      {
+        "message": "almost completed my story page",
+        "repository": "Jaypee",
+        "time": "August 8, 2025"
+      }
+    ],
+    "2025-08-06": [
+      {
+        "message": "worked on My Story Page",
+        "repository": "Jaypee",
+        "time": "August 7, 2025"
+      }
+    ],
+    "2025-08-05": [
+      {
+        "message": "Homepage 80%",
+        "repository": "Jaypee",
+        "time": "August 6, 2025"
+      }
+    ],
+    "2025-08-04": [
+      {
+        "message": "Header and footer",
+        "repository": "Jaypee",
+        "time": "August 4, 2025"
+      }
+    ],
+    "2025-08-03": [
+      {
+        "message": "DId some javascripting",
+        "repository": "Jaypee",
+        "time": "August 3, 2025"
+      },
+      {
+        "message": "Learning updates",
+        "repository": "Jaypee",
+        "time": "August 3, 2025"
+      }
+    ],
+    "2025-08-01": [
+      {
+        "message": "new changes test",
+        "repository": "Jaypee",
+        "time": "August 1, 2025"
+      },
+      {
+        "message": "First Change",
+        "repository": "Jaypee",
+        "time": "August 1, 2025"
+      },
+      {
+        "message": "Birth",
+        "repository": "Jaypee",
+        "time": "August 1, 2025"
+      }
+    ],
+    "2025-07-28": [
+      {
+        "message": "New m",
+        "repository": "jaipal-grid",
+        "time": "July 28, 2025"
+      },
+      {
+        "message": "adds index.html",
+        "repository": "jaipal-grid",
+        "time": "July 28, 2025"
+      }
+    ]
+  },
+  "generatedAt": "2025-08-12T17:47:46.343Z",
   "repositories": [
     {
       "name": "web2025-dev-notes",
@@ -300,6 +416,18 @@
         "issueUrl": "https://github.com/open-making/web2025-dev-notes/issues/12",
         "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/12#issuecomment-3156460780",
         "createdAt": "2025-08-05T20:00:00Z",
+        "imageName": "jaypeeweb.netlify.app.webp"
+      }
+    ],
+    "web2025": [
+      {
+        "url": "https://jaypeeweb.netlify.app/",
+        "author": "jaipalsingh11",
+        "authorType": "issue_author",
+        "issueNumber": 7,
+        "issueTitle": "Jaipal Sonigara",
+        "issueUrl": "https://github.com/open-making/web2025/issues/7",
+        "createdAt": "2025-08-12T10:22:47Z",
         "imageName": "jaypeeweb.netlify.app.webp"
       }
     ]

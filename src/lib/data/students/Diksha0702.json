@@ -202,15 +202,64 @@
   "statistics": {
     "totalNotes": 9,
     "totalSubmissions": 1,
-    "totalCommits": 0,
+    "totalCommits": 8,
     "firstActivity": "2025-07-21T09:53:08.000Z",
-    "lastActivity": "2025-08-05T18:03:48.000Z",
-    "mostActiveDay": "2025-07-22",
+    "lastActivity": "2025-08-12T09:00:56.000Z",
+    "mostActiveDay": "2025-08-05",
     "totalEntries": 10,
     "averageWordCount": 98
   },
-  "commitsByDate": {},
-  "generatedAt": "2025-08-12T17:38:15.681Z",
+  "commitsByDate": {
+    "2025-08-12": [
+      {
+        "message": "added memories page and photocard",
+        "repository": "diksha-portfolio",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "made changes in thought and note",
+        "repository": "diksha-portfolio",
+        "time": "August 12, 2025"
+      }
+    ],
+    "2025-08-11": [
+      {
+        "message": "add styling thought pages",
+        "repository": "diksha-portfolio",
+        "time": "August 11, 2025"
+      },
+      {
+        "message": "added about page and thougts page",
+        "repository": "diksha-portfolio",
+        "time": "August 11, 2025"
+      }
+    ],
+    "2025-08-05": [
+      {
+        "message": "created homepage",
+        "repository": "diksha-portfolio",
+        "time": "August 5, 2025"
+      },
+      {
+        "message": "updated astro project",
+        "repository": "diksha-portfolio",
+        "time": "August 5, 2025"
+      },
+      {
+        "message": "Update README.md",
+        "repository": "diksha-portfolio",
+        "time": "August 5, 2025"
+      }
+    ],
+    "2025-07-31": [
+      {
+        "message": "Initial commit",
+        "repository": "diksha-portfolio",
+        "time": "July 31, 2025"
+      }
+    ]
+  },
+  "generatedAt": "2025-08-12T17:47:46.343Z",
   "repositories": [
     {
       "name": "web2025-dev-notes",
@@ -247,6 +296,18 @@
         "issueUrl": "https://github.com/open-making/web2025-short-stories/issues/17",
         "createdAt": "2025-07-25T10:32:53Z",
         "imageName": "thetinderboxbydiksha.netlify.app.webp"
+      }
+    ],
+    "web2025": [
+      {
+        "url": "https://dikshajain-portfolio.netlify.app/",
+        "author": "Diksha0702",
+        "authorType": "issue_author",
+        "issueNumber": 14,
+        "issueTitle": "Diksha Jain",
+        "issueUrl": "https://github.com/open-making/web2025/issues/14",
+        "createdAt": "2025-08-12T12:09:26Z",
+        "imageName": "dikshajain-portfolio.netlify.app.webp"
       }
     ]
   }

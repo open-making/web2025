@@ -8,7 +8,7 @@
 	// Function to detect social media platform from URL and return appropriate icon
 	function getSocialInfo(url: string) {
 		const domain = new URL(url).hostname.toLowerCase();
-		
+
 		if (domain.includes('github.com')) {
 			return { icon: 'mdi:github', name: 'GitHub', color: 'var(--color-neutral)' };
 		} else if (domain.includes('twitter.com') || domain.includes('x.com')) {
@@ -60,7 +60,7 @@
 			href={githubUrl}
 			target="_blank"
 			rel="noopener noreferrer"
-			class="inline-flex items-center gap-2 rounded-xl border-2 border-black bg-white px-4 py-2 text-sm font-medium text-gray-800 transition-all duration-200 hover:-translate-y-1 hover:shadow-lg"
+			class="inline-flex items-center gap-2 rounded-sm border-2 border-black bg-white px-4 py-2 text-sm font-medium text-gray-800 transition-all duration-200 hover:-translate-y-1 hover:shadow-lg"
 			style="font-family: 'Atkinson Hyperlegible', sans-serif;"
 			title="GitHub"
 		>
@@ -75,21 +75,21 @@
 			href={website}
 			target="_blank"
 			rel="noopener noreferrer"
-			class="inline-flex items-center gap-2 rounded-xl border-2 border-black bg-white px-4 py-2 text-sm font-medium text-gray-800 transition-all duration-200 hover:-translate-y-1 hover:shadow-lg"
+			class="inline-flex items-center gap-2 rounded-sm border-2 border-black bg-white px-4 py-2 text-sm font-medium text-gray-800 transition-all duration-200 hover:-translate-y-1 hover:shadow-lg"
 			style="font-family: 'Atkinson Hyperlegible', sans-serif;"
 		>
 			<Icon icon={info.icon} width="16" height="16" style="color: {info.color};" />
 			<span>{info.name}</span>
 		</a>
 	{/if}
-	
+
 	{#each socialLinks as link}
 		{@const info = getSocialInfo(link)}
 		<a
 			href={link}
 			target="_blank"
 			rel="noopener noreferrer"
-			class="inline-flex items-center gap-2 rounded-xl border-2 border-black bg-white px-4 py-2 text-sm font-medium text-gray-800 transition-all duration-200 hover:-translate-y-1 hover:shadow-lg"
+			class="inline-flex items-center gap-2 rounded-sm border-2 border-black bg-white px-4 py-2 text-sm font-medium text-gray-800 transition-all duration-200 hover:-translate-y-1 hover:shadow-lg"
 			style="font-family: 'Atkinson Hyperlegible', sans-serif;"
 			title={info.name}
 		>

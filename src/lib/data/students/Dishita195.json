@@ -145,15 +145,165 @@
   "statistics": {
     "totalNotes": 6,
     "totalSubmissions": 1,
-    "totalCommits": 0,
+    "totalCommits": 27,
     "firstActivity": "2025-07-21T09:54:20.000Z",
-    "lastActivity": "2025-08-05T18:29:00.000Z",
-    "mostActiveDay": "2025-07-21",
+    "lastActivity": "2025-08-12T15:23:24.000Z",
+    "mostActiveDay": "2025-08-04",
     "totalEntries": 7,
     "averageWordCount": 144
   },
-  "commitsByDate": {},
-  "generatedAt": "2025-08-12T17:38:15.681Z",
+  "commitsByDate": {
+    "2025-08-12": [
+      {
+        "message": "added landing page js",
+        "repository": "Nirvikalpa",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "added insect button images",
+        "repository": "Nirvikalpa",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "created card component button",
+        "repository": "Nirvikalpa",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "added bug images",
+        "repository": "Nirvikalpa",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "added sticky header js",
+        "repository": "Nirvikalpa",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "added images to insect grid",
+        "repository": "Nirvikalpa",
+        "time": "August 12, 2025"
+      }
+    ],
+    "2025-08-11": [
+      {
+        "message": "home page menu",
+        "repository": "Nirvikalpa",
+        "time": "August 11, 2025"
+      },
+      {
+        "message": "fixed img path",
+        "repository": "Nirvikalpa",
+        "time": "August 11, 2025"
+      },
+      {
+        "message": "added header colorBoxes",
+        "repository": "Nirvikalpa",
+        "time": "August 11, 2025"
+      },
+      {
+        "message": "css for Jainism page",
+        "repository": "Nirvikalpa",
+        "time": "August 11, 2025"
+      },
+      {
+        "message": "home page css",
+        "repository": "Nirvikalpa",
+        "time": "August 11, 2025"
+      }
+    ],
+    "2025-08-10": [
+      {
+        "message": "imported header",
+        "repository": "Nirvikalpa",
+        "time": "August 11, 2025"
+      },
+      {
+        "message": "refined code, added header",
+        "repository": "Nirvikalpa",
+        "time": "August 10, 2025"
+      }
+    ],
+    "2025-08-05": [
+      {
+        "message": "added home page text",
+        "repository": "Nirvikalpa",
+        "time": "August 5, 2025"
+      },
+      {
+        "message": "added home and jainism page; global.css file",
+        "repository": "Nirvikalpa",
+        "time": "August 5, 2025"
+      },
+      {
+        "message": "created landing page",
+        "repository": "Nirvikalpa",
+        "time": "August 5, 2025"
+      }
+    ],
+    "2025-08-04": [
+      {
+        "message": "added some css",
+        "repository": "astro-trial",
+        "time": "August 5, 2025"
+      },
+      {
+        "message": "Added header and footer with socials",
+        "repository": "astro-trial",
+        "time": "August 5, 2025"
+      },
+      {
+        "message": "added navigation component",
+        "repository": "astro-trial",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "added 3 posts; imported global.css",
+        "repository": "astro-trial",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "Added two new pages - about and blog",
+        "repository": "astro-trial",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "commit 3",
+        "repository": "astro-trial",
+        "time": "August 4, 2025"
+      }
+    ],
+    "2025-08-03": [
+      {
+        "message": "added h2",
+        "repository": "astro-trial",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "initial commit",
+        "repository": "astro-trial",
+        "time": "August 4, 2025"
+      }
+    ],
+    "2025-07-28": [
+      {
+        "message": "added grids and styling",
+        "repository": "dishita-grid",
+        "time": "July 28, 2025"
+      },
+      {
+        "message": "trial don't read",
+        "repository": "dishita-grid",
+        "time": "July 28, 2025"
+      },
+      {
+        "message": "adds index.html",
+        "repository": "dishita-grid",
+        "time": "July 28, 2025"
+      }
+    ]
+  },
+  "generatedAt": "2025-08-12T17:47:46.343Z",
   "repositories": [
     {
       "name": "web2025-dev-notes",
@@ -202,6 +352,18 @@
         "issueUrl": "https://github.com/open-making/web2025-dev-notes/issues/12",
         "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/12#issuecomment-3156175564",
         "createdAt": "2025-08-05T18:29:00Z",
+        "imageName": "nirvikalpa-dishitajain.netlify.app.webp"
+      }
+    ],
+    "web2025": [
+      {
+        "url": "https://nirvikalpa-dishitajain.netlify.app/",
+        "author": "Dishita195",
+        "authorType": "issue_author",
+        "issueNumber": 15,
+        "issueTitle": "Dishita Jain",
+        "issueUrl": "https://github.com/open-making/web2025/issues/15",
+        "createdAt": "2025-08-12T13:28:04Z",
         "imageName": "nirvikalpa-dishitajain.netlify.app.webp"
       }
     ]

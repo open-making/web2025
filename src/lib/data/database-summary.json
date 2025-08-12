@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2025-08-12T17:38:15.681Z",
+  "generatedAt": "2025-08-12T17:47:46.343Z",
   "statistics": {
     "totalIssues": 26,
     "totalComments": 156,
     "totalStudents": 18,
     "dateRange": {
       "earliest": "2025-07-21T09:02:54.000Z",
-      "latest": "2025-08-12T14:38:33.000Z"
+      "latest": "2025-08-12T17:12:57.000Z"
     },
-    "totalCommits": 0
+    "totalCommits": 412
   },
   "repositories": [
     {
@@ -44,74 +44,74 @@
   ],
   "topContributors": [
     {
-      "username": "Monika7singh",
-      "totalEntries": 12,
-      "totalCommits": 0,
-      "totalWords": 1836,
-      "totalActivity": 12
-    },
-    {
-      "username": "Tanyamehra14",
-      "totalEntries": 12,
-      "totalCommits": 0,
-      "totalWords": 1477,
-      "totalActivity": 12
-    },
-    {
-      "username": "Manasi1114",
-      "totalEntries": 12,
-      "totalCommits": 0,
-      "totalWords": 1687,
-      "totalActivity": 12
-    },
-    {
       "username": "aimansayeed02",
       "totalEntries": 12,
-      "totalCommits": 0,
+      "totalCommits": 100,
       "totalWords": 1929,
-      "totalActivity": 12
-    },
-    {
-      "username": "jaipalsingh11",
-      "totalEntries": 12,
-      "totalCommits": 0,
-      "totalWords": 1234,
-      "totalActivity": 12
+      "totalActivity": 112
     },
     {
       "username": "amruta712b",
       "totalEntries": 12,
-      "totalCommits": 0,
+      "totalCommits": 73,
       "totalWords": 2050,
-      "totalActivity": 12
+      "totalActivity": 85
     },
     {
-      "username": "Meetbaxi17",
+      "username": "Monika7singh",
       "totalEntries": 12,
-      "totalCommits": 0,
-      "totalWords": 1676,
-      "totalActivity": 12
+      "totalCommits": 61,
+      "totalWords": 1836,
+      "totalActivity": 73
     },
     {
       "username": "Nishtha-afk",
       "totalEntries": 11,
-      "totalCommits": 0,
+      "totalCommits": 42,
       "totalWords": 1062,
-      "totalActivity": 11
+      "totalActivity": 53
     },
     {
-      "username": "Diksha0702",
-      "totalEntries": 10,
-      "totalCommits": 0,
-      "totalWords": 977,
-      "totalActivity": 10
+      "username": "HarshitRajoria",
+      "totalEntries": 9,
+      "totalCommits": 28,
+      "totalWords": 726,
+      "totalActivity": 37
     },
     {
-      "username": "vanshi021",
-      "totalEntries": 10,
-      "totalCommits": 0,
-      "totalWords": 1409,
-      "totalActivity": 10
+      "username": "Dishita195",
+      "totalEntries": 7,
+      "totalCommits": 27,
+      "totalWords": 1007,
+      "totalActivity": 34
+    },
+    {
+      "username": "jaipalsingh11",
+      "totalEntries": 12,
+      "totalCommits": 19,
+      "totalWords": 1234,
+      "totalActivity": 31
+    },
+    {
+      "username": "Meetbaxi17",
+      "totalEntries": 12,
+      "totalCommits": 15,
+      "totalWords": 1676,
+      "totalActivity": 27
+    },
+    {
+      "username": "Tanyamehra14",
+      "totalEntries": 12,
+      "totalCommits": 11,
+      "totalWords": 1477,
+      "totalActivity": 23
+    },
+    {
+      "username": "aahana823",
+      "totalEntries": 9,
+      "totalCommits": 13,
+      "totalWords": 499,
+      "totalActivity": 22
     }
   ]
 }

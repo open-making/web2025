@@ -250,15 +250,28 @@
   "statistics": {
     "totalNotes": 11,
     "totalSubmissions": 1,
-    "totalCommits": 0,
+    "totalCommits": 2,
     "firstActivity": "2025-07-21T09:54:18.000Z",
     "lastActivity": "2025-08-05T18:00:28.000Z",
-    "mostActiveDay": "2025-07-23",
+    "mostActiveDay": "2025-07-31",
     "totalEntries": 12,
     "averageWordCount": 141
   },
-  "commitsByDate": {},
-  "generatedAt": "2025-08-12T17:38:15.681Z",
+  "commitsByDate": {
+    "2025-07-31": [
+      {
+        "message": "Initial commit",
+        "repository": "web2025-manasi-site",
+        "time": "July 31, 2025"
+      },
+      {
+        "message": "initial commit",
+        "repository": "fairy-tales",
+        "time": "July 31, 2025"
+      }
+    ]
+  },
+  "generatedAt": "2025-08-12T17:47:46.343Z",
   "repositories": [
     {
       "name": "web2025-dev-notes",
@@ -308,6 +321,18 @@
         "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/12#issuecomment-3156090017",
         "createdAt": "2025-08-05T18:00:28Z",
         "imageName": "daintyduck.netlify.app.webp"
+      }
+    ],
+    "web2025": [
+      {
+        "url": "https://manasiarchive.netlify.app/",
+        "author": "Manasi1114",
+        "authorType": "issue_author",
+        "issueNumber": 13,
+        "issueTitle": "Manasi Shrivastava",
+        "issueUrl": "https://github.com/open-making/web2025/issues/13",
+        "createdAt": "2025-08-12T11:02:29Z",
+        "imageName": "manasiarchive.netlify.app.webp"
       }
     ]
   }

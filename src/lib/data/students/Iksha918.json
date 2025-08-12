@@ -155,15 +155,23 @@
   "statistics": {
     "totalNotes": 7,
     "totalSubmissions": 1,
-    "totalCommits": 0,
+    "totalCommits": 1,
     "firstActivity": "2025-07-21T09:55:05.000Z",
-    "lastActivity": "2025-08-07T14:06:55.000Z",
+    "lastActivity": "2025-08-12T10:24:29.000Z",
     "mostActiveDay": "2025-07-21",
     "totalEntries": 8,
     "averageWordCount": 91
   },
-  "commitsByDate": {},
-  "generatedAt": "2025-08-12T17:38:15.681Z",
+  "commitsByDate": {
+    "2025-08-12": [
+      {
+        "message": "new site",
+        "repository": "website",
+        "time": "August 12, 2025"
+      }
+    ]
+  },
+  "generatedAt": "2025-08-12T17:47:46.343Z",
   "repositories": [
     {
       "name": "web2025-dev-notes",
@@ -188,6 +196,18 @@
         "commentUrl": "https://github.com/open-making/web2025-hey-jude/issues/1#issuecomment-3102221630",
         "createdAt": "2025-07-22T10:56:01Z",
         "imageName": "web2025-hey-dude-ikshu.netlify.app.webp"
+      }
+    ],
+    "web2025": [
+      {
+        "url": "https://iksha-site.netlify.app/",
+        "author": "Iksha918",
+        "authorType": "issue_author",
+        "issueNumber": 12,
+        "issueTitle": "Iksha Shah_Website",
+        "issueUrl": "https://github.com/open-making/web2025/issues/12",
+        "createdAt": "2025-08-12T10:34:15Z",
+        "imageName": "iksha-site.netlify.app.webp"
       }
     ]
   }
