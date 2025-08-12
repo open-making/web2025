@@ -1,321 +1,211 @@
 {
-  "issue": {
-    "title": "Day 1: The Small Web",
-    "url": "https://github.com/open-making/web2025-dev-notes/issues/1",
-    "author": "thedivtagguy",
-    "createdAt": "2025-07-21T09:02:54Z"
+  "repository": {
+    "name": "open-making/web2025-dev-notes",
+    "url": "https://github.com/open-making/web2025-dev-notes",
+    "issueCount": 11
   },
   "entries": [
     {
-      "url": "https://teaching.aman.bh/web2025/day-1-the-small-web",
+      "url": "https://monika-singh-space.netlify.app/",
+      "author": "Monika7singh",
+      "authorType": "commenter",
+      "issueNumber": 12,
+      "issueTitle": "Day 12: [Project Day 2] Don't stop me now",
+      "issueUrl": "https://github.com/open-making/web2025-dev-notes/issues/12",
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/12#issuecomment-3155774446",
+      "createdAt": "2025-08-05T16:13:58Z",
+      "imageName": "monika-singh-space.netlify.app.webp"
+    },
+    {
+      "url": "https://tanyamehra-website2025.netlify.app/",
+      "author": "Tanyamehra14",
+      "authorType": "commenter",
+      "issueNumber": 12,
+      "issueTitle": "Day 12: [Project Day 2] Don't stop me now",
+      "issueUrl": "https://github.com/open-making/web2025-dev-notes/issues/12",
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/12#issuecomment-3155901712",
+      "createdAt": "2025-08-05T16:55:11Z",
+      "imageName": "tanyamehra-website2025.netlify.app.webp"
+    },
+    {
+      "url": "https://daintyduck.netlify.app/",
+      "author": "Manasi1114",
+      "authorType": "commenter",
+      "issueNumber": 12,
+      "issueTitle": "Day 12: [Project Day 2] Don't stop me now",
+      "issueUrl": "https://github.com/open-making/web2025-dev-notes/issues/12",
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/12#issuecomment-3156090017",
+      "createdAt": "2025-08-05T18:00:28Z",
+      "imageName": "daintyduck.netlify.app.webp"
+    },
+    {
+      "url": "https://nirvikalpa-dishitajain.netlify.app/",
+      "author": "Dishita195",
+      "authorType": "commenter",
+      "issueNumber": 12,
+      "issueTitle": "Day 12: [Project Day 2] Don't stop me now",
+      "issueUrl": "https://github.com/open-making/web2025-dev-notes/issues/12",
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/12#issuecomment-3156175564",
+      "createdAt": "2025-08-05T18:29:00Z",
+      "imageName": "nirvikalpa-dishitajain.netlify.app.webp"
+    },
+    {
+      "url": "https://webportfolio-aimansayeed.netlify.app",
+      "author": "aimansayeed02",
+      "authorType": "commenter",
+      "issueNumber": 12,
+      "issueTitle": "Day 12: [Project Day 2] Don't stop me now",
+      "issueUrl": "https://github.com/open-making/web2025-dev-notes/issues/12",
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/12#issuecomment-3156230053",
+      "createdAt": "2025-08-05T18:49:50Z",
+      "imageName": "webportfolio-aimansayeed.netlify.app.webp"
+    },
+    {
+      "url": "https://jaypeeweb.netlify.app/",
+      "author": "jaipalsingh11",
+      "authorType": "commenter",
+      "issueNumber": 12,
+      "issueTitle": "Day 12: [Project Day 2] Don't stop me now",
+      "issueUrl": "https://github.com/open-making/web2025-dev-notes/issues/12",
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/12#issuecomment-3156460780",
+      "createdAt": "2025-08-05T20:00:00Z",
+      "imageName": "jaypeeweb.netlify.app.webp"
+    },
+    {
+      "url": "https://amruta-portfolio-website.netlify.app/",
+      "author": "amruta712b",
+      "authorType": "commenter",
+      "issueNumber": 12,
+      "issueTitle": "Day 12: [Project Day 2] Don't stop me now",
+      "issueUrl": "https://github.com/open-making/web2025-dev-notes/issues/12",
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/12#issuecomment-3158077888",
+      "createdAt": "2025-08-06T08:13:32Z",
+      "imageName": "amruta-portfolio-website.netlify.app.webp"
+    },
+    {
+      "url": "https://meetbaxi17.netlify.app/",
+      "author": "Meetbaxi17",
+      "authorType": "commenter",
+      "issueNumber": 12,
+      "issueTitle": "Day 12: [Project Day 2] Don't stop me now",
+      "issueUrl": "https://github.com/open-making/web2025-dev-notes/issues/12",
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/12#issuecomment-3158121378",
+      "createdAt": "2025-08-06T08:19:01Z",
+      "imageName": "meetbaxi17.netlify.app.webp"
+    },
+    {
+      "url": "https://vanshika-site.netlify.app/",
+      "author": "vanshi021",
+      "authorType": "commenter",
+      "issueNumber": 12,
+      "issueTitle": "Day 12: [Project Day 2] Don't stop me now",
+      "issueUrl": "https://github.com/open-making/web2025-dev-notes/issues/12",
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/12#issuecomment-3160264053",
+      "createdAt": "2025-08-06T13:50:11Z",
+      "imageName": "vanshika-site.netlify.app.webp"
+    },
+    {
+      "url": "https://aahanapatel.netlify.app/",
+      "author": "aahana823",
+      "authorType": "commenter",
+      "issueNumber": 12,
+      "issueTitle": "Day 12: [Project Day 2] Don't stop me now",
+      "issueUrl": "https://github.com/open-making/web2025-dev-notes/issues/12",
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/12#issuecomment-3160545866",
+      "createdAt": "2025-08-06T15:02:53Z",
+      "imageName": "aahanapatel.netlify.app.webp"
+    },
+    {
+      "url": "https://rajakrport.netlify.app/",
+      "author": "rajakr1256",
+      "authorType": "commenter",
+      "issueNumber": 12,
+      "issueTitle": "Day 12: [Project Day 2] Don't stop me now",
+      "issueUrl": "https://github.com/open-making/web2025-dev-notes/issues/12",
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/12#issuecomment-3165059628",
+      "createdAt": "2025-08-07T17:06:56Z",
+      "imageName": "rajakrport.netlify.app.webp"
+    },
+    {
+      "url": "https://portfolio-harshit-rajoria.netlify.app/",
+      "author": "HarshitRajoria",
+      "authorType": "commenter",
+      "issueNumber": 12,
+      "issueTitle": "Day 12: [Project Day 2] Don't stop me now",
+      "issueUrl": "https://github.com/open-making/web2025-dev-notes/issues/12",
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/12#issuecomment-3165123967",
+      "createdAt": "2025-08-07T17:28:17Z",
+      "imageName": "portfolio-harshit-rajoria.netlify.app.webp"
+    },
+    {
+      "url": "https://project-raja.netlify.app/",
+      "author": "rajakr1256",
+      "authorType": "commenter",
+      "issueNumber": 11,
+      "issueTitle": "Day 11: [Project Day 1] Here comes the sun",
+      "issueUrl": "https://github.com/open-making/web2025-dev-notes/issues/11",
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/11#issuecomment-3151761994",
+      "createdAt": "2025-08-04T17:31:39Z",
+      "imageName": "project-raja.netlify.app.webp"
+    },
+    {
+      "url": "https://iamharshitrajoria.netlify.app/",
+      "author": "HarshitRajoria",
+      "authorType": "commenter",
+      "issueNumber": 11,
+      "issueTitle": "Day 11: [Project Day 1] Here comes the sun",
+      "issueUrl": "https://github.com/open-making/web2025-dev-notes/issues/11",
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/11#issuecomment-3151853131",
+      "createdAt": "2025-08-04T18:06:11Z",
+      "imageName": "iamharshitrajoria.netlify.app.webp"
+    },
+    {
+      "url": "https://vanshikasite.netlify.app/",
+      "author": "vanshi021",
+      "authorType": "commenter",
+      "issueNumber": 11,
+      "issueTitle": "Day 11: [Project Day 1] Here comes the sun",
+      "issueUrl": "https://github.com/open-making/web2025-dev-notes/issues/11",
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/11#issuecomment-3153295967",
+      "createdAt": "2025-08-05T04:59:20Z",
+      "imageName": "vanshikasite.netlify.app.webp"
+    },
+    {
+      "url": "https://grid-examples-d7d25b.netlify.app/",
+      "author": "not11Khushi",
+      "authorType": "commenter",
+      "issueNumber": 6,
+      "issueTitle": "Day 6: Making Grids",
+      "issueUrl": "https://github.com/open-making/web2025-dev-notes/issues/6",
+      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/6#issuecomment-3130533308",
+      "createdAt": "2025-07-29T03:39:50Z",
+      "imageName": "grid-examples-d7d25b.netlify.app.webp"
+    },
+    {
+      "url": "https://dazzling-dango-85bf7f.netlify.app/",
       "author": "thedivtagguy",
       "authorType": "issue_author",
-      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/1",
-      "createdAt": "2025-07-21T09:02:54Z",
-      "title": "Day 1: The Small Web",
-      "imageName": "teaching.aman.bh_web2025_day-1-the-small-web.webp"
+      "issueNumber": 5,
+      "issueTitle": "Day 4: Typesetting a page",
+      "issueUrl": "https://github.com/open-making/web2025-dev-notes/issues/5",
+      "createdAt": "2025-07-24T09:25:29Z",
+      "imageName": "dazzling-dango-85bf7f.netlify.app.webp"
     },
     {
       "url": "https://web2025-the-small-web.netlify.app/#/",
       "author": "thedivtagguy",
       "authorType": "issue_author",
-      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/1",
+      "issueNumber": 1,
+      "issueTitle": "Day 1: The Small Web",
+      "issueUrl": "https://github.com/open-making/web2025-dev-notes/issues/1",
       "createdAt": "2025-07-21T09:02:54Z",
-      "title": "Day 1: The Small Web",
       "imageName": "web2025-the-small-web.netlify.app.webp"
-    },
-    {
-      "url": "https://www.canva.com/design/DAGtxsOQEGw/w8FAR4SAf2r7RVNdlqB-Ig/edit?utm_content=DAGtxsOQEGw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
-      "author": "amruta712b",
-      "authorType": "commenter",
-      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/1#issuecomment-3097819970",
-      "createdAt": "2025-07-21T17:50:31Z",
-      "title": "Day 1: The Small Web",
-      "imageName": "www.canva.com_design_dagtxsoqegw_w8far4saf2r7rvndl.webp"
-    },
-    {
-      "url": "https://github.com/user-attachments/assets/8277c2e6-43aa-4398-a494-e88f86807114",
-      "author": "amruta712b",
-      "authorType": "commenter",
-      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/1#issuecomment-3097819970",
-      "createdAt": "2025-07-21T17:50:31Z",
-      "title": "Day 1: The Small Web",
-      "imageName": "github.com_user-attachments_assets_8277c2e6-43aa-4.webp"
-    },
-    {
-      "url": "https://www.figma.com/design/AF0zy68vGe0OQ2SPxbcdJs/Untitled?node-id=0-1&t=fA6bXBacBkAg6hLW-1",
-      "author": "Tanyamehra14",
-      "authorType": "commenter",
-      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/1#issuecomment-3097938246",
-      "createdAt": "2025-07-21T18:29:10Z",
-      "title": "Day 1: The Small Web",
-      "imageName": "www.figma.com_design_af0zy68vge0oq2spxbcdjs_untitl.webp"
-    },
-    {
-      "url": "https://docs.google.com/document/d/1im5wDUkX5PmeQH8zxMX15VA6LiVAuRPaA8VzcPzAhgo/edit?usp=sharing",
-      "author": "Tanyamehra14",
-      "authorType": "commenter",
-      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/1#issuecomment-3097938246",
-      "createdAt": "2025-07-21T18:29:10Z",
-      "title": "Day 1: The Small Web",
-      "imageName": "docs.google.com_document_d_1im5wdukx5pmeqh8zxmx15v.webp"
-    },
-    {
-      "url": "https://github.com/user-attachments/assets/e49bb04f-6172-4b98-acef-c3c0fb019c25",
-      "author": "Tanyamehra14",
-      "authorType": "commenter",
-      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/1#issuecomment-3097938246",
-      "createdAt": "2025-07-21T18:29:10Z",
-      "title": "Day 1: The Small Web",
-      "imageName": "github.com_user-attachments_assets_e49bb04f-6172-4.webp"
-    },
-    {
-      "url": "https://www.figma.com/design/AuA4d8gcFeyKxwFK90mZrb/Web-Assignment-01?node-id=1-8&t=TVNyKHNyxdF3T74m-1",
-      "author": "Meetbaxi17",
-      "authorType": "commenter",
-      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/1#issuecomment-3098047757",
-      "createdAt": "2025-07-21T19:12:01Z",
-      "title": "Day 1: The Small Web",
-      "imageName": "www.figma.com_design_aua4d8gcfeykxwfk90mzrb_web-as.webp"
-    },
-    {
-      "url": "https://github.com/user-attachments/files/21352727/WWW-MeetBaxi.pdf",
-      "author": "Meetbaxi17",
-      "authorType": "commenter",
-      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/1#issuecomment-3098047757",
-      "createdAt": "2025-07-21T19:12:01Z",
-      "title": "Day 1: The Small Web",
-      "imageName": "github.com_user-attachments_files_21352727_www-mee.webp"
-    },
-    {
-      "url": "https://github.com/user-attachments/assets/896d9d58-bd8c-44e2-b4ad-ed40298ade9b",
-      "author": "Meetbaxi17",
-      "authorType": "commenter",
-      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/1#issuecomment-3098047757",
-      "createdAt": "2025-07-21T19:12:01Z",
-      "title": "Day 1: The Small Web",
-      "imageName": "github.com_user-attachments_assets_896d9d58-bd8c-4.webp"
-    },
-    {
-      "url": "https://www.canva.com/design/DAGt0UF84D0/THzs-obMyxcxJHJ32_hYxg/view?utm_content=DAGt0UF84D0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h021f6dcaca",
-      "author": "not11Khushi",
-      "authorType": "commenter",
-      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/1#issuecomment-3098089494",
-      "createdAt": "2025-07-21T19:24:58Z",
-      "title": "Day 1: The Small Web",
-      "imageName": "www.canva.com_design_dagt0uf84d0_thzs-obmyxcxjhj32.webp"
-    },
-    {
-      "url": "https://github.com/user-attachments/assets/e919bdb9-9af6-4a46-a4a2-64d7c0f9b212",
-      "author": "not11Khushi",
-      "authorType": "commenter",
-      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/1#issuecomment-3098089494",
-      "createdAt": "2025-07-21T19:24:58Z",
-      "title": "Day 1: The Small Web",
-      "imageName": "github.com_user-attachments_assets_e919bdb9-9af6-4.webp"
-    },
-    {
-      "url": "https://www.icloud.com/freeform/062ncDY_od-4xIHENWZS6UWTQ#web_archeology",
-      "author": "Anoushka-d",
-      "authorType": "commenter",
-      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/1#issuecomment-3098315469",
-      "createdAt": "2025-07-21T19:52:10Z",
-      "title": "Day 1: The Small Web",
-      "imageName": "www.icloud.com_freeform_062ncdy_od-4xihenwzs6uwtq_.webp"
-    },
-    {
-      "url": "https://github.com/user-attachments/assets/43b4888a-c43c-4a4b-87a6-225a092d8140",
-      "author": "Anoushka-d",
-      "authorType": "commenter",
-      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/1#issuecomment-3098315469",
-      "createdAt": "2025-07-21T19:52:10Z",
-      "title": "Day 1: The Small Web",
-      "imageName": "github.com_user-attachments_assets_43b4888a-c43c-4.webp"
-    },
-    {
-      "url": "https://github.com/user-attachments/assets/b0b84427-a5b7-46b9-88d3-fd5a76cd01f6",
-      "author": "aimansayeed02",
-      "authorType": "commenter",
-      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/1#issuecomment-3098622617",
-      "createdAt": "2025-07-21T20:28:12Z",
-      "title": "Day 1: The Small Web",
-      "imageName": "github.com_user-attachments_assets_b0b84427-a5b7-4.webp"
-    },
-    {
-      "url": "https://www.figma.com/design/WvwotFtNhGxLtIhtGikcf9/work_0102?node-id=155-53&t=jozKFmMG5jgqhphp-1",
-      "author": "aimansayeed02",
-      "authorType": "commenter",
-      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/1#issuecomment-3098622617",
-      "createdAt": "2025-07-21T20:28:12Z",
-      "title": "Day 1: The Small Web",
-      "imageName": "www.figma.com_design_wvwotftnhgxltihtgikcf9_work_0.webp"
-    },
-    {
-      "url": "https://www.figma.com/design/k74GzsPcZeXiNb9ZcoFeaV/internet-moodboard?node-id=0-1&t=3u6DvRCcof3ZLfXM-1",
-      "author": "Monika7singh",
-      "authorType": "commenter",
-      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/1#issuecomment-3098734717",
-      "createdAt": "2025-07-21T20:41:57Z",
-      "title": "Day 1: The Small Web",
-      "imageName": "www.figma.com_design_k74gzspczexinb9zcofeav_intern.webp"
-    },
-    {
-      "url": "https://github.com/user-attachments/assets/5c1b03eb-c110-4244-bb2e-fc94322e73a5",
-      "author": "Monika7singh",
-      "authorType": "commenter",
-      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/1#issuecomment-3098734717",
-      "createdAt": "2025-07-21T20:41:57Z",
-      "title": "Day 1: The Small Web",
-      "imageName": "github.com_user-attachments_assets_5c1b03eb-c110-4.webp"
-    },
-    {
-      "url": "https://www.canva.com/design/DAGt1GGEMBg/8FuKujyfCbniNWvF4EVINA/edit?utm_content=DAGt1GGEMBg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
-      "author": "Iksha918",
-      "authorType": "commenter",
-      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/1#issuecomment-3098956888",
-      "createdAt": "2025-07-21T21:07:50Z",
-      "title": "Day 1: The Small Web",
-      "imageName": "www.canva.com_design_dagt1ggembg_8fukujyfcbninwvf4.webp"
-    },
-    {
-      "url": "https://github.com/user-attachments/assets/26709bcd-6f3f-4d80-a673-bd207dc78948",
-      "author": "Iksha918",
-      "authorType": "commenter",
-      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/1#issuecomment-3098956888",
-      "createdAt": "2025-07-21T21:07:50Z",
-      "title": "Day 1: The Small Web",
-      "imageName": "github.com_user-attachments_assets_26709bcd-6f3f-4.webp"
-    },
-    {
-      "url": "https://www.figma.com/design/k1o1fyoyAyg34pRNz9xt2k/Untitled?node-id=0-1&t=MYHLaNW6VNkvUMlK-1",
-      "author": "jaipalsingh11",
-      "authorType": "commenter",
-      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/1#issuecomment-3099626633",
-      "createdAt": "2025-07-21T22:27:49Z",
-      "title": "Day 1: The Small Web",
-      "imageName": "www.figma.com_design_k1o1fyoyayg34prnz9xt2k_untitl.webp"
-    },
-    {
-      "url": "https://github.com/user-attachments/assets/335c4a5f-8668-4125-87c8-9be80d495a05",
-      "author": "jaipalsingh11",
-      "authorType": "commenter",
-      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/1#issuecomment-3099626633",
-      "createdAt": "2025-07-21T22:27:49Z",
-      "title": "Day 1: The Small Web",
-      "imageName": "github.com_user-attachments_assets_335c4a5f-8668-4.webp"
-    },
-    {
-      "url": "https://www.figma.com/design/v3pQTpg9EiEMUKgUcPC3nq/Untitled?node-id=0-1&t=XCfvsISaHwyPfyd4-1",
-      "author": "aahana823",
-      "authorType": "commenter",
-      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/1#issuecomment-3100853994",
-      "createdAt": "2025-07-22T04:22:04Z",
-      "title": "Day 1: The Small Web",
-      "imageName": "www.figma.com_design_v3pqtpg9eiemukgucpc3nq_untitl.webp"
-    },
-    {
-      "url": "https://github.com/user-attachments/assets/c508b0a5-c992-4b2e-8cff-f4ef24d06fdb",
-      "author": "aahana823",
-      "authorType": "commenter",
-      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/1#issuecomment-3100853994",
-      "createdAt": "2025-07-22T04:22:04Z",
-      "title": "Day 1: The Small Web",
-      "imageName": "github.com_user-attachments_assets_c508b0a5-c992-4.webp"
-    },
-    {
-      "url": "https://www.figma.com/design/RCBucDezq7RWYFEDgqfqC2/Web-Design-Assignment-1?node-id=0-1&t=vwiiLfidPNGGuclm-1",
-      "author": "Dishita195",
-      "authorType": "commenter",
-      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/1#issuecomment-3101236264",
-      "createdAt": "2025-07-22T06:19:59Z",
-      "title": "Day 1: The Small Web",
-      "imageName": "www.figma.com_design_rcbucdezq7rwyfedgqfqc2_web-de.webp"
-    },
-    {
-      "url": "https://github.com/user-attachments/assets/a2c786c1-1f96-4a11-9c94-d5ee35fc00e1",
-      "author": "Dishita195",
-      "authorType": "commenter",
-      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/1#issuecomment-3101236264",
-      "createdAt": "2025-07-22T06:19:59Z",
-      "title": "Day 1: The Small Web",
-      "imageName": "github.com_user-attachments_assets_a2c786c1-1f96-4.webp"
-    },
-    {
-      "url": "https://www.figma.com/design/9dr5sQwyzTxhs44a8yxIE6/Internet-archive?node-id=0-1&p=f&t=Bq2B4SUj4yn5d0uQ-0",
-      "author": "Diksha0702",
-      "authorType": "commenter",
-      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/1#issuecomment-3101274690",
-      "createdAt": "2025-07-22T06:35:22Z",
-      "title": "Day 1: The Small Web",
-      "imageName": "www.figma.com_design_9dr5sqwyztxhs44a8yxie6_intern.webp"
-    },
-    {
-      "url": "https://github.com/user-attachments/assets/e300e27b-e04b-432d-b752-0368cc2a2757",
-      "author": "Diksha0702",
-      "authorType": "commenter",
-      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/1#issuecomment-3101274690",
-      "createdAt": "2025-07-22T06:35:22Z",
-      "title": "Day 1: The Small Web",
-      "imageName": "github.com_user-attachments_assets_e300e27b-e04b-4.webp"
-    },
-    {
-      "url": "https://www.figma.com/design/eM5A5FYHvlvVHwcfec7BJj/Web-surfing-moodboard?node-id=27-125&t=0gyh29WBJwvROzAJ-1",
-      "author": "Manasi1114",
-      "authorType": "commenter",
-      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/1#issuecomment-3101293301",
-      "createdAt": "2025-07-22T06:42:25Z",
-      "title": "Day 1: The Small Web",
-      "imageName": "www.figma.com_design_em5a5fyhvlvvhwcfec7bjj_web-su.webp"
-    },
-    {
-      "url": "https://github.com/user-attachments/assets/4ae96782-2fe6-439c-b0be-d4a698ed2500",
-      "author": "Manasi1114",
-      "authorType": "commenter",
-      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/1#issuecomment-3101293301",
-      "createdAt": "2025-07-22T06:42:25Z",
-      "title": "Day 1: The Small Web",
-      "imageName": "github.com_user-attachments_assets_4ae96782-2fe6-4.webp"
-    },
-    {
-      "url": "https://github.com/user-attachments/assets/8d0d724d-3f3c-463b-be2c-391c2b4152fc",
-      "author": "vanshi021",
-      "authorType": "commenter",
-      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/1#issuecomment-3101859157",
-      "createdAt": "2025-07-22T09:28:22Z",
-      "title": "Day 1: The Small Web",
-      "imageName": "github.com_user-attachments_assets_8d0d724d-3f3c-4.webp"
-    },
-    {
-      "url": "https://drive.google.com/drive/folders/1V67coSYMVKB6DoQaSTKxQ8TpYYrbqU-Y",
-      "author": "vanshi021",
-      "authorType": "commenter",
-      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/1#issuecomment-3101859157",
-      "createdAt": "2025-07-22T09:28:22Z",
-      "title": "Day 1: The Small Web",
-      "imageName": "drive.google.com_drive_folders_1v67cosymvkb6doqast.webp"
-    },
-    {
-      "url": "https://www.figma.com/board/nzMo0jThEleJh32nQXMb3D/Web-Design-Archive?node-id=0-1&t=M16YWcAb1ptcJ6xn-1",
-      "author": "Nishtha-afk",
-      "authorType": "commenter",
-      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/1#issuecomment-3101981535",
-      "createdAt": "2025-07-22T10:01:10Z",
-      "title": "Day 1: The Small Web",
-      "imageName": "www.figma.com_board_nzmo0jthelejh32nqxmb3d_web-des.webp"
-    },
-    {
-      "url": "https://github.com/user-attachments/assets/9571a0b8-8f97-4042-9197-5ebd2dde9024",
-      "author": "Nishtha-afk",
-      "authorType": "commenter",
-      "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/1#issuecomment-3101981535",
-      "createdAt": "2025-07-22T10:01:10Z",
-      "title": "Day 1: The Small Web",
-      "imageName": "github.com_user-attachments_assets_9571a0b8-8f97-4.webp"
     }
   ],
   "stats": {
-    "totalUrls": 34,
-    "uniqueUrls": 34,
-    "filteredUrls": 34
+    "totalUrls": 351,
+    "uniqueUrls": 18,
+    "filteredUrls": 23,
+    "issuesProcessed": 11
   }
 }

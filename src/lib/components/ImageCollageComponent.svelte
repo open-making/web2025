@@ -3,10 +3,9 @@
 	import { quintOut } from 'svelte/easing';
 	import Scroller from '$lib/components/Scroller.svelte';
 	import HeaderSticker from '$lib/assets/header.webp';
-	// Load the downloaded images data
 	import devNotesData from '$lib/assets/images/web2025-dev-notes-issue-1/metadata.json';
+	import studentDatabase from '$lib/data/student-database.json';
 
-	// Import the actual image files using Vite's glob import
 	const devNotesImages = import.meta.glob(
 		'$lib/assets/images/web2025-dev-notes-issue-1/optimized/*.webp',
 		{
@@ -24,6 +23,19 @@
 		return shuffled;
 	}
 
+	// Extract and sort student names
+	const studentNames = Object.values(studentDatabase.students)
+		.map((student) => {
+			if (student.name) {
+				// Extract first name and capitalize
+				const firstName = student.name.split(' ')[0];
+				return firstName.charAt(0).toUpperCase() + firstName.slice(1).toLowerCase();
+			}
+			return student.username;
+		})
+		.filter((name) => name !== 'thedivtagguy') // Filter out instructor
+		.sort();
+
 	// Process the images data to get image sources
 	const allImageSources = shuffleArray(
 		devNotesData.images
@@ -40,19 +52,19 @@
 	// Define the scrollytelling steps
 	const steps = [
 		{
-			text: 'We explored some stuff and some other stuff',
+			text: 'To do this effectively, we needed to draw ourselves out of Behance, Dribbble, Pinterest and all of these places and look back at the early eras of the web.',
 			images: allImageSources.slice(0, 4)
 		},
 		{
-			text: 'and geocities and other stuff',
+			text: 'We set out to be digital archaeologists...',
 			images: allImageSources.slice(0, 8)
 		},
 		{
-			text: 'breaknig out of the conventional web design was important.',
+			text: '...roaming the ruins of Geocities and exploring the Internet Archive...',
 			images: allImageSources.slice(0, 12)
 		},
 		{
-			text: 'indiana jones and the raiders of the lost web',
+			text: '...collecting interesting things we found along the way that we could learn from.',
 			images: allImageSources
 		}
 	];
@@ -86,17 +98,22 @@
 </script>
 
 <section class="scrolly-container bg-none">
-	<header class="relative z-2 mx-auto mt-[15%] max-w-4xl px-8 py-16 text-center">
+	<header class="relative z-2 mx-auto mt-[20%] max-w-4xl px-8 py-16 text-center">
 		<img
 			src={HeaderSticker}
 			alt="hacker scenes"
 			class="absolute -top-1/2 right-1/2 -mt-20 max-h-56 translate-x-1/2 translate-y-1/2 rotate-16 drop-shadow-sm"
 		/>
 		<h1 class="mb-6 font-heading text-5xl font-bold text-foreground md:text-9xl">WEB2025</h1>
-		<p class="font-body text-xl leading-relaxed text-muted-foreground">
-			Projects and explorations from the web2025 course at DAIICT
+		<p class="font-body text-xl leading-relaxed text-balance text-foreground">
+			The M.DES (2026) students at DAIICT just wrapped up an intense crash course in web design and
+			development. With little to no prior experience in HTML, CSS, Git, or Astro, we threw
+			ourselves into the <a href="https://teaching.aman.bh/web2025">web2025</a> module and made it through
+			pretty nicely! Here is a gallery of (almost) all our work made during this ambitious undertaking.
 		</p>
-		<p></p>
+		<p class="mx-auto mt-6 max-w-sm border-t border-black/50 pt-6 font-body text-sm text-black/50">
+			ft. {studentNames.join(', ')}
+		</p>
 	</header>
 	<!-- Fixed sticky background -->
 	<div class="sticky-background bg-none">
@@ -228,10 +245,10 @@
 	.text-block {
 		background: rgba(255, 255, 255, 0.95);
 		backdrop-filter: blur(10px);
-		padding: 3rem 2.5rem;
-		border-radius: 12px;
-		border: 1px solid rgba(255, 255, 255, 0.2);
-		box-shadow: rgba(0, 0, 0, 0.1) 0px 8px 32px;
+		padding: 1rem;
+		border-radius: 6px;
+		border: 1px solid var(--color-accent-foreground);
+		box-shadow: rgba(0, 0, 0, 0.5) 0px 8px 32px;
 		max-width: 400px;
 		margin-right: 10%;
 	}

@@ -21,16 +21,20 @@
 	"devDependencies": {
 		"@eslint/compat": "^1.2.5",
 		"@eslint/js": "^9.18.0",
-		"@lucide/svelte": "^0.536.0",
+		"@internationalized/date": "^3.8.1",
+		"@lucide/svelte": "^0.515.0",
 		"@sveltejs/adapter-netlify": "^5.0.0",
 		"@sveltejs/kit": "^2.22.0",
 		"@sveltejs/vite-plugin-svelte": "^6.0.0",
 		"@tailwindcss/vite": "^4.0.0",
+		"bits-ui": "^2.8.6",
 		"clsx": "^2.1.1",
 		"eslint": "^9.18.0",
 		"eslint-config-prettier": "^10.0.1",
 		"eslint-plugin-svelte": "^3.0.0",
 		"globals": "^16.0.0",
+		"lucide-svelte": "^0.539.0",
+		"marked": "^16.1.2",
 		"mdsvex": "^0.12.3",
 		"playwright": "^1.54.2",
 		"prettier": "^3.4.2",
@@ -53,6 +57,10 @@
 		]
 	},
 	"dependencies": {
-		"@fontsource/atkinson-hyperlegible": "^5.2.6"
+		"@fontsource/atkinson-hyperlegible": "^5.2.6",
+		"d3": "^7.9.0",
+		"dotenv": "^17.2.1",
+		"octokit": "^5.0.3",
+		"svelteplot": "^0.3.8"
 	}
 }
