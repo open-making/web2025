@@ -64,5 +64,9 @@
 		"dotenv": "^17.2.1",
 		"octokit": "^5.0.3",
 		"svelteplot": "^0.3.8"
+	},
+	"meta": {
+		"baseURL": "https://web2025-gallery.netlify.app",
+		"analyticsID": "PLAUSIBLE-ANALYTICS-ID"
 	}
 }
