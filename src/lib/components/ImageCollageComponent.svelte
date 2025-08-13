@@ -6,6 +6,16 @@
 	import devNotesData from '$lib/assets/images/web2025-dev-notes-issue-1/metadata.json';
 	import studentDatabase from '$lib/data/student-database.json';
 
+	// Import metaphor images
+	import Garden1 from '$lib/assets/images-webp/garden-2.webp';
+	import Garden2 from '$lib/assets/images-webp/garden-3.webp';
+	import Shelf1 from '$lib/assets/images-webp/shelf-1.webp';
+	import Shelf2 from '$lib/assets/images-webp/shelf-2.webp';
+	import City1 from '$lib/assets/images-webp/city-1.webp';
+	import City2 from '$lib/assets/images-webp/city-2.webp';
+	import Same from '$lib/assets/images-webp/same.webp';
+	import Artisanal from '$lib/assets/images-webp/artisinal.webp';
+
 	const devNotesImages = import.meta.glob(
 		'$lib/assets/images/web2025-dev-notes-issue-1/optimized/*.webp',
 		{
@@ -49,6 +59,14 @@
 			.filter(Boolean)
 	);
 
+	// Preload first few images for instant visibility
+	if (typeof window !== 'undefined') {
+		allImageSources.slice(0, 8).forEach((src) => {
+			const img = new Image();
+			img.src = src;
+		});
+	}
+
 	// Define the scrollytelling steps
 	const steps = [
 		{
@@ -69,6 +87,44 @@
 		}
 	];
 
+	// Metaphor scrolly section data
+	const metaphorSteps = [
+		{
+			text: 'This module began with a metaphor that would guide all activities that were to follow (and, as we will describe later, only one condition). This was the metaphor of the web as a physical space.The internet today has become boring and more or less the same.',
+			image: Same,
+			className: 'contain'
+		},
+		{
+			text: 'If it were to be thought of as a patch of land to grow things...',
+			image: Garden1
+		},
+		{
+			text: "...we'd much rather have it be the more organic, interesting, and messy garden",
+			image: Garden2
+		},
+		{
+			text: 'If it were a bookshelf...',
+			image: Shelf1
+		},
+		{
+			text: "...we'd prefer one that wasn't the same old stuff we see everywhere",
+			image: Shelf2
+		},
+		{
+			text: 'If it were a city...',
+			image: City1
+		},
+		{
+			text: "...we'd want it to be welcoming and vibrant, not a boring suburb of content.",
+			image: City2
+		},
+		{
+			text: 'The agenda was this. Not for optimizing user "conversions" and sales, or thinking in terms of sterile "user-centricity" but a space that reflected and accommodated us and our tastes.',
+			image: Artisanal
+		}
+	];
+
+	let metaphorScrollIndex = -1;
 	let scrollIndex = -1;
 	let visibleImages: any[] = [];
 
@@ -113,6 +169,47 @@
 			ft. {studentNames.join(', ')}
 		</p>
 	</header>
+</section>
+
+<!-- Metaphor Scrolly Section -->
+<section class="metaphor-scrolly-container">
+	<!-- Sticky background for metaphor images -->
+	<div class="metaphor-sticky-background">
+		<div class="metaphor-image-container">
+			{#each metaphorSteps as step, index}
+				{#if step.image}
+					{@const isActive = Math.floor(metaphorScrollIndex) === index}
+					{@const nextIsActive = Math.floor(metaphorScrollIndex) === index - 1}
+					{@const opacity = isActive ? 1 : nextIsActive ? metaphorScrollIndex % 1 : 0}
+					<img
+						src={step.image}
+						alt="Web metaphor"
+						class="metaphor-image"
+						class:contain={step.className === 'contain'}
+						style="opacity: {opacity};"
+					/>
+				{/if}
+			{/each}
+		</div>
+	</div>
+
+	<!-- Scrollable content for metaphor -->
+	<div class="metaphor-scroll-content">
+		<Scroller bind:value={metaphorScrollIndex} top={200} bottom={200}>
+			{#each metaphorSteps as step}
+				<div class="narrative-step">
+					<div class="text-block">
+						<p>{step.text}</p>
+					</div>
+				</div>
+			{/each}
+		</Scroller>
+		<div class="spacer-bottom"></div>
+	</div>
+</section>
+
+<!-- Original Collage Section -->
+<section class="scrolly-container bg-none">
 	<!-- Fixed sticky background -->
 	<div class="sticky-background bg-none">
 		<div class="image-canvas">
@@ -179,6 +276,64 @@
 </section>
 
 <style>
+	/* Metaphor scrolly styles */
+	.metaphor-scrolly-container {
+		position: relative;
+		width: 100vw;
+		overflow-x: clip;
+		margin-bottom: 5rem;
+	}
+
+	.metaphor-sticky-background {
+		position: sticky;
+		top: 0;
+		width: 100%;
+		height: 100vh;
+		z-index: 1;
+		pointer-events: none;
+	}
+
+	.metaphor-image-container {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.metaphor-image {
+		position: absolute;
+		width: 70vw;
+		max-width: 800px;
+		height: 60vh;
+		max-height: 600px;
+		object-fit: cover;
+		border-radius: 20px;
+		box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 40px;
+		transition: opacity 0.6s ease-in-out;
+		background-color: white;
+	}
+
+	.metaphor-image.contain {
+		object-fit: contain;
+	}
+
+	.metaphor-scroll-content {
+		position: relative;
+		z-index: 2;
+	}
+
+	.metaphor-narrative-step {
+		min-height: 100vh;
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		padding: 2rem;
+	}
+
 	.scrolly-container {
 		position: relative;
 		width: 100vw;
@@ -322,6 +477,26 @@
 	}
 
 	@media (max-width: 768px) {
+		.metaphor-image {
+			width: 85vw;
+			height: 50vh;
+		}
+
+		.metaphor-narrative-step {
+			justify-content: center;
+			padding: 1rem;
+		}
+
+		.metaphor-text-block {
+			padding: 1.5rem;
+			margin-left: 0;
+			max-width: 400px;
+		}
+
+		.metaphor-text-block p {
+			font-size: 1.1rem;
+		}
+
 		.collage-image {
 			width: clamp(180px, 25vw, 300px);
 			height: clamp(135px, 18.75vw, 225px);
@@ -344,9 +519,24 @@
 	}
 
 	@media (max-width: 480px) {
+		.metaphor-image {
+			width: 90vw;
+			height: 45vh;
+		}
+
+		.metaphor-text-block {
+			padding: 1.25rem;
+			max-width: 320px;
+		}
+
+		.metaphor-text-block p {
+			font-size: 1rem;
+		}
+
 		.collage-image {
 			width: clamp(150px, 30vw, 200px);
 			height: clamp(113px, 22.5vw, 150px);
+			padding: 5px;
 		}
 
 		.text-block {
