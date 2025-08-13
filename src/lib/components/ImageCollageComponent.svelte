@@ -194,7 +194,7 @@
 				{#if step.image}
 					{@const isActive = Math.floor(scrollIndex) === index}
 					{@const nextIsActive = Math.floor(scrollIndex) === index - 1}
-					{@const opacity = isActive ? 1 : nextIsActive ? scrollIndex % 1 : 0}
+					{@const opacity = (index === 0 && scrollIndex <= 0) ? 1 : isActive ? 1 : nextIsActive ? scrollIndex % 1 : 0}
 					<img
 						src={step.image}
 						alt="Web metaphor"
@@ -236,7 +236,7 @@
 							--y: {gridY}%;
 							--scale: {scaleVal};
 						"
-						in:fly={{
+						in:fly={index === 0 ? { duration: 0, delay: 0 } : {
 							x: transitionOffsetX,
 							y: transitionOffsetY,
 							duration: 800,
