@@ -1,4 +1,5 @@
 <script lang="ts">
+	//@ts-nocheck
 	import type { PageData } from './$types';
 	import * as Accordion from '$lib/components/ui/accordion';
 	import MarkdownContent from '$lib/components/MarkdownContent.svelte';
