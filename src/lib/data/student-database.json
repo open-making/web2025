@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-08-13T05:40:18.241Z",
+  "generatedAt": "2025-08-13T06:48:10.576Z",
   "repositories": [
     {
       "name": "web2025-dev-notes",
@@ -1691,15 +1691,25 @@
       "statistics": {
         "totalNotes": 11,
         "totalSubmissions": 1,
-        "totalCommits": 66,
+        "totalCommits": 68,
         "firstActivity": "2025-07-21T09:54:18.000Z",
-        "lastActivity": "2025-08-13T05:18:41.000Z",
+        "lastActivity": "2025-08-13T06:43:39.000Z",
         "mostActiveDay": "2025-08-12",
         "totalEntries": 12,
         "averageWordCount": 141
       },
       "commitsByDate": {
         "2025-08-13": [
+          {
+            "message": "about final",
+            "repository": "dainty-words-manasi",
+            "time": "August 13, 2025"
+          },
+          {
+            "message": "final",
+            "repository": "dainty-words-manasi",
+            "time": "August 13, 2025"
+          },
           {
             "message": "about content",
             "repository": "dainty-words-manasi",
@@ -2257,15 +2267,30 @@
       "statistics": {
         "totalNotes": 9,
         "totalSubmissions": 1,
-        "totalCommits": 13,
+        "totalCommits": 16,
         "firstActivity": "2025-07-21T09:53:08.000Z",
-        "lastActivity": "2025-08-13T00:10:06.000Z",
+        "lastActivity": "2025-08-13T06:47:53.000Z",
         "mostActiveDay": "2025-08-12",
         "totalEntries": 10,
         "averageWordCount": 98
       },
       "commitsByDate": {
         "2025-08-13": [
+          {
+            "message": "made changes in images path",
+            "repository": "diksha-portfolio",
+            "time": "August 13, 2025"
+          },
+          {
+            "message": "optimized images",
+            "repository": "diksha-portfolio",
+            "time": "August 13, 2025"
+          },
+          {
+            "message": "added notes md files",
+            "repository": "diksha-portfolio",
+            "time": "August 13, 2025"
+          },
           {
             "message": "change in home page",
             "repository": "diksha-portfolio",
@@ -4796,14 +4821,21 @@
       "statistics": {
         "totalNotes": 11,
         "totalSubmissions": 1,
-        "totalCommits": 19,
+        "totalCommits": 20,
         "firstActivity": "2025-07-21T09:53:14.000Z",
-        "lastActivity": "2025-08-12T09:41:24.000Z",
+        "lastActivity": "2025-08-13T05:47:49.000Z",
         "mostActiveDay": "2025-08-12",
         "totalEntries": 12,
         "averageWordCount": 140
       },
       "commitsByDate": {
+        "2025-08-13": [
+          {
+            "message": "making it responsive",
+            "repository": "https---github.com-Meetbaxi17-tryerror",
+            "time": "August 13, 2025"
+          }
+        ],
         "2025-08-12": [
           {
             "message": "added resume",
@@ -4919,9 +4951,11 @@
     },
     "digianna": {
       "username": "digianna",
-      "name": null,
-      "website": null,
-      "socialLinks": [],
+      "name": "Ananya M",
+      "website": "https://thispooshallpass.netlify.app/",
+      "socialLinks": [
+        "https://www.instagram.com/4nanyart"
+      ],
       "devNotes": [
         {
           "id": "dev-notes-2-comment-3095980188",
@@ -5019,16 +5053,35 @@
           "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/12#issuecomment-3158267008"
         }
       ],
-      "submissions": [],
+      "submissions": [
+        {
+          "id": "submissions-18-issue",
+          "type": "issue-body",
+          "repository": "web2025",
+          "issueNumber": 18,
+          "issueTitle": "DigiRestroom",
+          "content": "### Student Name\n\nAnanya M\n\n### Website URL\n\nhttps://thispooshallpass.netlify.app/\n\n### Social Link 1 (Optional)\n\nhttps://www.instagram.com/4nanyart\n\n### Social Link 2 (Optional)\n\n_No response_\n\n### Social Link 3 (Optional)\n\n_No response_",
+          "urls": [
+            "https://thispooshallpass.netlify.app/"
+          ],
+          "wordCount": 29,
+          "date": {
+            "iso": "2025-08-13T06:01:36.000Z",
+            "date": "2025-08-13",
+            "formatted": "August 13, 2025"
+          },
+          "issueUrl": "https://github.com/open-making/web2025/issues/18"
+        }
+      ],
       "statistics": {
         "totalNotes": 5,
-        "totalSubmissions": 0,
+        "totalSubmissions": 1,
         "totalCommits": 0,
         "firstActivity": "2025-07-21T09:55:51.000Z",
         "lastActivity": "2025-08-06T08:38:09.000Z",
         "mostActiveDay": "2025-07-21",
-        "totalEntries": 5,
-        "averageWordCount": 191
+        "totalEntries": 6,
+        "averageWordCount": 164
       },
       "commitsByDate": {}
     },
@@ -5532,15 +5585,30 @@
       "statistics": {
         "totalNotes": 10,
         "totalSubmissions": 1,
-        "totalCommits": 53,
+        "totalCommits": 56,
         "firstActivity": "2025-07-21T09:54:07.000Z",
-        "lastActivity": "2025-08-13T05:35:38.000Z",
+        "lastActivity": "2025-08-13T06:06:26.000Z",
         "mostActiveDay": "2025-08-07",
         "totalEntries": 11,
         "averageWordCount": 97
       },
       "commitsByDate": {
         "2025-08-13": [
+          {
+            "message": "fixed two images more",
+            "repository": "final-project",
+            "time": "August 13, 2025"
+          },
+          {
+            "message": "fixed one image",
+            "repository": "final-project",
+            "time": "August 13, 2025"
+          },
+          {
+            "message": "ok so now just images left",
+            "repository": "final-project",
+            "time": "August 13, 2025"
+          },
           {
             "message": "something moreee",
             "repository": "final-project",
@@ -6271,14 +6339,26 @@
       "statistics": {
         "totalNotes": 7,
         "totalSubmissions": 1,
-        "totalCommits": 1,
+        "totalCommits": 3,
         "firstActivity": "2025-07-21T09:55:05.000Z",
-        "lastActivity": "2025-08-12T10:24:29.000Z",
+        "lastActivity": "2025-08-13T05:47:56.000Z",
         "mostActiveDay": "2025-07-21",
         "totalEntries": 8,
         "averageWordCount": 91
       },
       "commitsByDate": {
+        "2025-08-13": [
+          {
+            "message": "timeline",
+            "repository": "website",
+            "time": "August 13, 2025"
+          },
+          {
+            "message": "about me",
+            "repository": "website",
+            "time": "August 13, 2025"
+          }
+        ],
         "2025-08-12": [
           {
             "message": "new site",
@@ -7010,15 +7090,20 @@
       "statistics": {
         "totalNotes": 6,
         "totalSubmissions": 0,
-        "totalCommits": 14,
+        "totalCommits": 15,
         "firstActivity": "2025-07-21T10:09:34.000Z",
-        "lastActivity": "2025-08-13T05:23:30.000Z",
+        "lastActivity": "2025-08-13T06:02:06.000Z",
         "mostActiveDay": "2025-08-01",
         "totalEntries": 6,
         "averageWordCount": 141
       },
       "commitsByDate": {
         "2025-08-13": [
+          {
+            "message": "css change",
+            "repository": "final_website",
+            "time": "August 13, 2025"
+          },
           {
             "message": "edit photos",
             "repository": "final_website",
@@ -7264,13 +7349,13 @@
     }
   },
   "statistics": {
-    "totalIssues": 27,
+    "totalIssues": 28,
     "totalComments": 156,
     "totalStudents": 18,
     "dateRange": {
       "earliest": "2025-07-21T09:02:54.000Z",
-      "latest": "2025-08-13T05:35:38.000Z"
+      "latest": "2025-08-13T06:47:53.000Z"
     },
-    "totalCommits": 646
+    "totalCommits": 658
   }
 }

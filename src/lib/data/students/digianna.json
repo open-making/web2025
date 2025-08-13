@@ -1,8 +1,10 @@
 {
   "username": "digianna",
-  "name": null,
-  "website": null,
-  "socialLinks": [],
+  "name": "Ananya M",
+  "website": "https://thispooshallpass.netlify.app/",
+  "socialLinks": [
+    "https://www.instagram.com/4nanyart"
+  ],
   "devNotes": [
     {
       "id": "dev-notes-2-comment-3095980188",
@@ -100,19 +102,38 @@
       "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/12#issuecomment-3158267008"
     }
   ],
-  "submissions": [],
+  "submissions": [
+    {
+      "id": "submissions-18-issue",
+      "type": "issue-body",
+      "repository": "web2025",
+      "issueNumber": 18,
+      "issueTitle": "DigiRestroom",
+      "content": "### Student Name\n\nAnanya M\n\n### Website URL\n\nhttps://thispooshallpass.netlify.app/\n\n### Social Link 1 (Optional)\n\nhttps://www.instagram.com/4nanyart\n\n### Social Link 2 (Optional)\n\n_No response_\n\n### Social Link 3 (Optional)\n\n_No response_",
+      "urls": [
+        "https://thispooshallpass.netlify.app/"
+      ],
+      "wordCount": 29,
+      "date": {
+        "iso": "2025-08-13T06:01:36.000Z",
+        "date": "2025-08-13",
+        "formatted": "August 13, 2025"
+      },
+      "issueUrl": "https://github.com/open-making/web2025/issues/18"
+    }
+  ],
   "statistics": {
     "totalNotes": 5,
-    "totalSubmissions": 0,
+    "totalSubmissions": 1,
     "totalCommits": 0,
     "firstActivity": "2025-07-21T09:55:51.000Z",
     "lastActivity": "2025-08-06T08:38:09.000Z",
     "mostActiveDay": "2025-07-21",
-    "totalEntries": 5,
-    "averageWordCount": 191
+    "totalEntries": 6,
+    "averageWordCount": 164
   },
   "commitsByDate": {},
-  "generatedAt": "2025-08-13T05:40:18.241Z",
+  "generatedAt": "2025-08-13T06:48:10.576Z",
   "repositories": [
     {
       "name": "web2025-dev-notes",
