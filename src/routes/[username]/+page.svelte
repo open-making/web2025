@@ -99,15 +99,20 @@
 	$: avatarUrl = `https://api.dicebear.com/7.x/initials/svg?seed=${encodeURIComponent(initials)}&backgroundColor=f3f4f6&textColor=374151`;
 	$: devNotesByDay = studentData?.devNotes ? groupDevNotesByDay(studentData.devNotes) : [];
 	$: allCommits = studentData?.commitsByDate ? processCommits(studentData.commitsByDate) : [];
-	
+
 	// Generate OG image data with absolute URLs
 	$: projectImages = [
-		studentData?.projectSubmissions?.web2025?.[0] ? `https://web2025-gallery.netlify.app${getImageSrc(studentData.projectSubmissions.web2025[0].imageName, 'web2025')}` : '',
-		studentData?.projectSubmissions?.['short-stories']?.[0] ? `https://web2025-gallery.netlify.app${getImageSrc(studentData.projectSubmissions['short-stories'][0].imageName, 'short-stories')}` : '',
-		studentData?.projectSubmissions?.['hey-jude']?.[0] ? `https://web2025-gallery.netlify.app${getImageSrc(studentData.projectSubmissions['hey-jude'][0].imageName, 'hey-jude')}` : ''
+		studentData?.projectSubmissions?.web2025?.[0]
+			? `https://web2025-gallery.netlify.app${getImageSrc(studentData.projectSubmissions.web2025[0].imageName, 'web2025')}`
+			: '',
+		studentData?.projectSubmissions?.['short-stories']?.[0]
+			? `https://web2025-gallery.netlify.app${getImageSrc(studentData.projectSubmissions['short-stories'][0].imageName, 'short-stories')}`
+			: '',
+		studentData?.projectSubmissions?.['hey-jude']?.[0]
+			? `https://web2025-gallery.netlify.app${getImageSrc(studentData.projectSubmissions['hey-jude'][0].imageName, 'hey-jude')}`
+			: ''
 	].filter(Boolean);
-	
-	$: commits = studentData?.devNotes?.length || 0;
+
 	$: notes = studentData?.devNotes?.length || 0;
 </script>
 
@@ -117,9 +122,9 @@
 	contentType="student"
 	courseId={student.username}
 	author={student.name || student.username}
-	projectImages={projectImages}
-	commits={commits}
-	notes={notes}
+	{projectImages}
+	commits={allCommits.length}
+	{notes}
 />
 
 <main class="mx-auto min-h-screen max-w-7xl p-8">
