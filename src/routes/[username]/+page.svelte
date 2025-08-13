@@ -114,6 +114,9 @@
 	].filter(Boolean);
 
 	$: notes = studentData?.devNotes?.length || 0;
+	$: processedCommits = allCommits.sort(
+		(a, b) => new Date(b.date || b.time).getTime() - new Date(a.date || a.time).getTime()
+	);
 </script>
 
 <SEO
@@ -123,7 +126,7 @@
 	courseId={student.username}
 	author={student.name || student.username}
 	{projectImages}
-	commits={allCommits.length}
+	commits={processCommits.length}
 	{notes}
 />
 
