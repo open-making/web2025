@@ -2,9 +2,29 @@
   "repository": {
     "name": "open-making/web2025",
     "url": "https://github.com/open-making/web2025",
-    "issueCount": 15
+    "issueCount": 17
   },
   "entries": [
+    {
+      "url": "https://thispooshallpass.netlify.app/",
+      "author": "digianna",
+      "authorType": "issue_author",
+      "issueNumber": 18,
+      "issueTitle": "DigiRestroom",
+      "issueUrl": "https://github.com/open-making/web2025/issues/18",
+      "createdAt": "2025-08-13T06:01:36Z",
+      "imageName": "thispooshallpass.netlify.app.webp"
+    },
+    {
+      "url": "https://anoushka-personal-webpage.netlify.app",
+      "author": "Anoushka-d",
+      "authorType": "issue_author",
+      "issueNumber": 17,
+      "issueTitle": "[STUDENT] Anoushka Dcosta",
+      "issueUrl": "https://github.com/open-making/web2025/issues/17",
+      "createdAt": "2025-08-12T18:35:09Z",
+      "imageName": "anoushka-personal-webpage.netlify.app.webp"
+    },
     {
       "url": "https://vanshika-site.netlify.app/",
       "author": "vanshi021",
@@ -157,9 +177,9 @@
     }
   ],
   "stats": {
-    "totalUrls": 40,
-    "uniqueUrls": 15,
-    "filteredUrls": 15,
-    "issuesProcessed": 15
+    "totalUrls": 44,
+    "uniqueUrls": 17,
+    "filteredUrls": 17,
+    "issuesProcessed": 17
   }
 }

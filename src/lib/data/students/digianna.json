@@ -146,5 +146,18 @@
       "description": "Project submissions and student work"
     }
   ],
-  "projectSubmissions": {}
+  "projectSubmissions": {
+    "web2025": [
+      {
+        "url": "https://thispooshallpass.netlify.app/",
+        "author": "digianna",
+        "authorType": "issue_author",
+        "issueNumber": 18,
+        "issueTitle": "DigiRestroom",
+        "issueUrl": "https://github.com/open-making/web2025/issues/18",
+        "createdAt": "2025-08-13T06:01:36Z",
+        "imageName": "thispooshallpass.netlify.app.webp"
+      }
+    ]
+  }
 }
