@@ -131,6 +131,27 @@
 	<div class="relative grid grid-cols-1 gap-12 md:grid-cols-3">
 		<!-- Left Column: Student Header + Work -->
 		<div class="h-fit space-y-8 md:sticky md:top-8">
+			<!-- Back Button -->
+			<div class="mb-4">
+				<a
+					href="/#meet-the-devs"
+					class="inline-flex items-center gap-2 rounded-sm border-2 border-black bg-white px-4 py-2 text-sm font-medium text-gray-800 transition-all duration-200 hover:-translate-y-1 hover:shadow-lg"
+					style="font-family: 'Atkinson Hyperlegible', sans-serif;"
+				>
+					<svg
+						width="16"
+						height="16"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="2"
+					>
+						<path d="m15 18-6-6 6-6" />
+					</svg>
+					Back
+				</a>
+			</div>
+
 			<!-- Student Header -->
 			<div class="space-y-6">
 				<div class="flex items-center gap-6">

@@ -176,7 +176,7 @@
 		</div>
 	</section>
 
-	<section class="section">
+	<section class="section" id="meet-the-devs">
 		<div class="section-intro">
 			<h2 class="section-title">Meet the devs</h2>
 		</div>
