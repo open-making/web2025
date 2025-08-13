@@ -241,7 +241,7 @@
 <style>
 	.section {
 		padding: 4rem 2rem;
-		max-width: 1300px;
+		max-width: 1100px;
 		margin: 0 auto;
 	}
 

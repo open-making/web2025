@@ -130,7 +130,7 @@
 	{notes}
 />
 
-<main class="mx-auto min-h-screen max-w-7xl p-8">
+<main class="mx-auto min-h-screen max-w-5xl p-8">
 	<div class="relative grid grid-cols-1 gap-12 md:grid-cols-3">
 		<!-- Left Column: Student Header + Work -->
 		<div class="h-fit space-y-8 md:sticky md:top-8">
