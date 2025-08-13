@@ -120,7 +120,8 @@
 		},
 		{
 			text: 'The agenda was this. Not for optimizing user "conversions" and sales, or thinking in terms of sterile "user-centricity" but a space that reflected and accommodated us and our tastes.',
-			image: Artisanal
+			image: Artisanal,
+			className: 'contain'
 		}
 	];
 

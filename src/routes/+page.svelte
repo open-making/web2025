@@ -9,6 +9,7 @@
 	import shortStories from '$lib/assets/images/short-stories.png';
 	import { getDisplayName } from '$lib/components/utils';
 	import websitesData from '$lib/assets/images/web2025/metadata.json';
+	import SEO from '$lib/components/SEO.svelte';
 	const heyJudeImages = import.meta.glob('$lib/assets/images/hey-jude/processed/*.webp', {
 		eager: true,
 		import: 'default'
@@ -68,9 +69,13 @@
 		});
 </script>
 
-<svelte:head>
-	<title>Gallery - Open Making</title>
-</svelte:head>
+<SEO
+	title="WEB2025 Gallery"
+	description="A showcase of student work from the WEB2025 module at DAIICT, featuring web design and development projects from M.DES students."
+	contentType="website"
+	author="DAIICT WEB2025 Students"
+	image="https://web2025-gallery.netlify.app/sharecard.jpg"
+/>
 
 <main class="relative min-h-screen">
 	<ImageCollageComponent />
@@ -148,20 +153,20 @@
 		<div class="section-intro">
 			<h2 class="section-title">Digital Gardens</h2>
 
-				<p class="section-text">
-					After proving to ourselves that we could wrestle code into submission and make something
-					that looked intentional, it was time to think bigger. This meant moving beyond the
-					technical stuff and getting philosophical about it. Why make a personal website at all?
-					What's the point of having your own space when social media exists? We spent time reading
-					manifestos from people who'd carved out weird, wonderful places on the web, thinking about
-					digital gardens versus blogs, and doing what we called "personal archaeology"; digging
-					through our own interests and obsessions to figure out what we thought would occupy this
-					corner we'd be making. The goal wasn't to build the perfect website right away (we had,
-					like, 10 days), but to plant seeds for something that could grow over time, something that
-					felt ours rather than another template-driven platform presence online.
-				</p>
-			</div>
-		
+			<p class="section-text">
+				After proving to ourselves that we could wrestle code into submission and make something
+				that looked intentional, it was time to think bigger. This meant moving beyond the technical
+				stuff and getting philosophical about it. Why make a personal website at all? What's the
+				point of having your own space when social media exists? We spent time reading manifestos
+				from people who'd carved out weird, wonderful places on the web, thinking about digital
+				gardens versus blogs, and doing what we called "personal archaeology"; digging through our
+				own interests and obsessions to figure out what we thought would occupy this corner we'd be
+				making. The goal wasn't to build the perfect website right away (we had, like, 10 days), but
+				to plant seeds for something that could grow over time, something that felt ours rather than
+				another template-driven platform presence online.
+			</p>
+		</div>
+
 		<div class="gallery-grid short-stories-grid">
 			{#each websiteProjects as project}
 				<div class="gallery-item">
@@ -233,8 +238,8 @@
 		font-family: 'LibreCaslonCondensed', serif;
 		font-size: 3rem;
 		font-weight: bold;
-		line-height: 0.85;
-		margin-bottom: 1.5rem;
+		line-height: 1.1;
+		margin-bottom: 2rem;
 		color: var(--color-neutral);
 		letter-spacing: -0.02em;
 	}
@@ -254,14 +259,15 @@
 	.section-text {
 		font-family: 'Atkinson Hyperlegible', sans-serif;
 		font-size: 1.125rem;
-		line-height: 1.7;
+		line-height: 1.8;
 		color: var(--color-neutral);
 		text-align: justify;
 		columns: 2;
 		column-gap: 2rem;
+		margin-bottom: 1.5rem;
 	}
 
-	.section-text::first-letter {
+	/* .section-text::first-letter {
 		font-family: 'LibreCaslonCondensed', serif;
 		font-size: 4rem;
 		font-weight: bold;
@@ -269,7 +275,7 @@
 		float: left;
 		margin: 1rem;
 		color: var(--color-purple);
-	}
+	} */
 
 	.gallery-grid {
 		display: grid;
@@ -287,12 +293,13 @@
 
 	@media (max-width: 768px) {
 		.section {
-			padding: 2rem 1rem;
+			padding: 3rem 1.5rem;
 		}
 
 		.section-title {
-			font-size: 2.5rem;
-			margin-bottom: 1rem;
+			font-size: 2.25rem;
+			line-height: 1.2;
+			margin-bottom: 1.5rem;
 		}
 
 		.section-content {
@@ -312,13 +319,11 @@
 
 		.section-text {
 			columns: 1;
-			font-size: 1rem;
+			font-size: 1.125rem;
+			line-height: 1.8;
 			column-rule: none;
-		}
-
-		.section-text::first-letter {
-			font-size: 3rem;
-			margin: 0.1rem 0.15rem 0 0;
+			margin-bottom: 2rem;
+			text-align: left;
 		}
 
 		.gallery-grid {
@@ -410,15 +415,19 @@
 
 	@media (max-width: 768px) {
 		.cta-section {
-			padding: 3rem 1rem;
+			padding: 4rem 1.5rem;
 		}
 
 		.cta-title {
 			font-size: 2rem;
+			line-height: 1.2;
+			margin-bottom: 1.5rem;
 		}
 
 		.cta-text {
-			font-size: 1rem;
+			font-size: 1.125rem;
+			line-height: 1.7;
+			margin-bottom: 2.5rem;
 		}
 
 		.cta-buttons {
@@ -429,6 +438,66 @@
 		.cta-button {
 			width: 100%;
 			max-width: 300px;
+		}
+	}
+
+	@media (max-width: 480px) {
+		.section {
+			padding: 2.5rem 1rem;
+		}
+
+		.section-title {
+			font-size: 1.875rem;
+			line-height: 1.2;
+			margin-bottom: 1.25rem;
+		}
+
+		.section-content {
+			gap: 1rem;
+		}
+
+		.section-text {
+			font-size: 1rem;
+			line-height: 1.7;
+			margin-bottom: 1.5rem;
+		}
+
+		/* .section-text::first-letter {
+			font-size: 2rem;
+			margin: 0.2rem 0.4rem 0.2rem 0;
+		} */
+
+		.gallery-grid {
+			gap: 1rem;
+		}
+
+		.students-grid {
+			grid-template-columns: 1fr;
+			gap: 1rem;
+		}
+
+		.cta-section {
+			padding: 3rem 1rem;
+		}
+
+		.cta-title {
+			font-size: 1.75rem;
+			margin-bottom: 1.25rem;
+		}
+
+		.cta-text {
+			font-size: 1rem;
+			line-height: 1.6;
+			margin-bottom: 2rem;
+		}
+
+		.cta-buttons {
+			gap: 0.5rem;
+		}
+
+		.cta-button {
+			padding: 0.75rem 1.25rem;
+			font-size: 0.95rem;
 		}
 	}
 </style>
