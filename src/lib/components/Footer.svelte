@@ -12,6 +12,13 @@
 				>Aman Bhargava</a
 			>
 		</p>
+
+		<small class="text-xs"
+			>Header illustration by <a
+				class="text-black"
+				href="https://webportfolio-aimansayeed.netlify.app/">Aiman Sayeed</a
+			></small
+		>
 	</div>
 </footer>
 
