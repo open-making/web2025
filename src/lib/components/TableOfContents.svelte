@@ -1,11 +1,11 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
 	import { goto } from '$app/navigation';
 	import { Menu } from 'lucide-svelte';
 	import { Button } from '$lib/components/ui/button';
 	import * as Drawer from '$lib/components/ui/drawer';
+	import { MediaQuery } from 'svelte/reactivity';
 
-	let isMobile = false;
+	const isDesktop = new MediaQuery('min-width: 800px');
 	let drawerOpen = false;
 
 	// TOC sections with their corresponding IDs
@@ -16,22 +16,13 @@
 		{ id: 'meet-the-devs', title: 'Meet the Devs', subtitle: 'Student profiles' }
 	];
 
-	onMount(() => {
-		const checkMobile = () => {
-			isMobile = window.innerWidth < 768;
-		};
-		checkMobile();
-		window.addEventListener('resize', checkMobile);
-		return () => window.removeEventListener('resize', checkMobile);
-	});
-
 	function scrollToSection(sectionId: string) {
-		goto(`#${sectionId}`, { replaceState: false});
+		goto(`#${sectionId}`, { replaceState: false });
 		drawerOpen = false; // Close drawer on mobile after clicking
 	}
 </script>
 
-{#if isMobile}
+{#if !isDesktop.current}
 	<!-- Mobile drawer -->
 	<Drawer.Root bind:open={drawerOpen}>
 		<Drawer.Trigger>
