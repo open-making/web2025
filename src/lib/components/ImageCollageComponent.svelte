@@ -98,20 +98,18 @@
 </script>
 
 <section class="scrolly-container bg-none">
-	<header class="relative z-2 mx-auto mt-[20%] max-w-4xl px-8 py-16 text-center">
-		<img
-			src={HeaderSticker}
-			alt="hacker scenes"
-			class="absolute -top-1/2 right-1/2 -mt-20 max-h-56 translate-x-1/2 translate-y-1/2 rotate-16 drop-shadow-sm"
-		/>
-		<h1 class="mb-6 font-heading text-5xl font-bold text-foreground md:text-9xl">WEB2025</h1>
-		<p class="font-body text-xl leading-relaxed text-balance text-foreground">
+	<header
+		class="relative z-2 flex min-h-screen flex-col items-center justify-center px-8 text-center"
+	>
+		<img src={HeaderSticker} alt="hacker scenes" class="max-h-56 rotate-16 drop-shadow-sm" />
+		<h1 class="mb-6 font-heading text-7xl font-bold text-foreground md:text-9xl">WEB2025</h1>
+		<p class="max-w-4xl font-body leading-relaxed text-balance text-foreground md:text-xl">
 			The M.DES (2026) students at DAIICT just wrapped up an intense crash course in web design and
 			development. With little to no prior experience in HTML, CSS, Git, or Astro, we threw
 			ourselves into the <a href="https://teaching.aman.bh/web2025">web2025</a> module and made it through
 			pretty nicely! Here is a gallery of (almost) all our work made during this ambitious undertaking.
 		</p>
-		<p class="mx-auto mt-6 max-w-sm border-t border-black/50 pt-6 font-body text-sm text-black/50">
+		<p class="mt-6 max-w-sm border-t border-black/50 pt-6 font-body text-sm text-black/50">
 			ft. {studentNames.join(', ')}
 		</p>
 	</header>
