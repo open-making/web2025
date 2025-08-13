@@ -12,6 +12,7 @@
 	import SEO from '$lib/components/SEO.svelte';
 	import OpenSourceCollage from '$lib/components/OpenSourceCollage.svelte';
 	import GitHubHeatmap from '$lib/components/GitHubHeatmap.svelte';
+	import TableOfContents from '$lib/components/TableOfContents.svelte';
 	const heyJudeImages = import.meta.glob('$lib/assets/images/hey-jude/processed/*.webp', {
 		eager: true,
 		import: 'default'
@@ -80,9 +81,10 @@
 />
 
 <main class="relative min-h-screen">
+	<TableOfContents />
 	<ImageCollageComponent />
 
-	<section class="section">
+	<section class="section" id="hey-jude">
 		<div class="section-intro">
 			<h2 class="section-title">Take a Sad Site, and Make it Sadder</h2>
 			<div class="section-content">
@@ -115,7 +117,7 @@
 		</div>
 	</section>
 
-	<section class="section">
+	<section class="section" id="short-stories">
 		<div class="section-intro">
 			<h2 class="section-title">Short Stories</h2>
 			<div class="section-content">
@@ -153,7 +155,7 @@
 
 	<GitHubHeatmap />
 
-	<section class="section">
+	<section class="section" id="digital-gardens">
 		<div class="section-intro">
 			<h2 class="section-title">Digital Gardens</h2>
 
