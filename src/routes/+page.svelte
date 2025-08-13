@@ -10,6 +10,7 @@
 	import { getDisplayName } from '$lib/components/utils';
 	import websitesData from '$lib/assets/images/web2025/metadata.json';
 	import SEO from '$lib/components/SEO.svelte';
+	import OpenSourceCollage from '$lib/components/OpenSourceCollage.svelte';
 	const heyJudeImages = import.meta.glob('$lib/assets/images/hey-jude/processed/*.webp', {
 		eager: true,
 		import: 'default'
@@ -194,30 +195,38 @@
 		</div>
 	</section>
 
-	<section class="cta-section">
+	<section class="cta-section my-24">
 		<div class="cta-container">
-			<h2 class="cta-title">This course is open source</h2>
-			<p class="cta-text">
-				Explore the full curriculum, teaching materials, and student work. Everything is freely
-				available for anyone to go through.
-			</p>
-			<div class="cta-buttons">
-				<a
-					href="https://teaching.aman.bh/web2025"
-					target="_blank"
-					rel="noopener noreferrer"
-					class="cta-button primary"
-				>
-					View Course Site
-				</a>
-				<a
-					href="https://github.com/open-making/web2025-dev-notes"
-					target="_blank"
-					rel="noopener noreferrer"
-					class="cta-button secondary"
-				>
-					Dev Notes
-				</a>
+			<div class="cta-content">
+				<div class="cta-text-content">
+					<h2 class="cta-title">This course is open source</h2>
+					<p class="cta-text">
+						Explore the full curriculum, teaching materials, and student work. Everything is freely
+						available for anyone to go through.
+					</p>
+					<div class="cta-buttons">
+						<a
+							href="https://teaching.aman.bh/web2025"
+							target="_blank"
+							rel="noopener noreferrer"
+							class="cta-button primary"
+						>
+							View Course Site
+						</a>
+						<a
+							href="https://github.com/open-making/web2025-dev-notes"
+							target="_blank"
+							rel="noopener noreferrer"
+							class="cta-button secondary"
+						>
+							Dev Notes
+						</a>
+					</div>
+				</div>
+
+				<div class="cta-collage">
+					<OpenSourceCollage layout="desktop" imageIndices={[0, 1, 2, 3]} />
+				</div>
 			</div>
 		</div>
 	</section>
@@ -349,9 +358,24 @@
 	}
 
 	.cta-container {
-		max-width: 800px;
+		max-width: 1200px;
 		margin: 0 auto;
-		text-align: center;
+	}
+
+	.cta-content {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 4rem;
+		align-items: center;
+	}
+
+	.cta-text-content {
+		text-align: left;
+	}
+
+	.cta-collage {
+		position: relative;
+		min-height: 500px;
 	}
 
 	.cta-title {
@@ -375,7 +399,7 @@
 	.cta-buttons {
 		display: flex;
 		gap: 1rem;
-		justify-content: center;
+		justify-content: start;
 		align-items: center;
 	}
 
@@ -416,6 +440,15 @@
 	@media (max-width: 768px) {
 		.cta-section {
 			padding: 4rem 1.5rem;
+		}
+
+		.cta-content {
+			grid-template-columns: 1fr;
+			gap: 2rem;
+		}
+
+		.cta-text-content {
+			text-align: center;
 		}
 
 		.cta-title {
