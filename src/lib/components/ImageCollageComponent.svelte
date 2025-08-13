@@ -316,6 +316,7 @@
 		box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 40px;
 		transition: opacity 0.6s ease-in-out;
 		background-color: white;
+		padding: 10px;
 	}
 
 	.metaphor-image.contain {
@@ -478,9 +479,31 @@
 	}
 
 	@media (max-width: 768px) {
+		.metaphor-sticky-background {
+			position: sticky;
+			top: 0;
+			height: 100vh;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.metaphor-image-container {
+			position: relative;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 100%;
+			height: 100%;
+		}
+
 		.metaphor-image {
 			width: 85vw;
 			height: 50vh;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
 		}
 
 		.metaphor-narrative-step {
@@ -523,6 +546,10 @@
 		.metaphor-image {
 			width: 90vw;
 			height: 45vh;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
 		}
 
 		.metaphor-text-block {

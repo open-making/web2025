@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-08-12T17:47:46.343Z",
+  "generatedAt": "2025-08-13T05:08:55.062Z",
   "repositories": [
     {
       "name": "web2025-dev-notes",
@@ -256,15 +256,25 @@
       "statistics": {
         "totalNotes": 11,
         "totalSubmissions": 1,
-        "totalCommits": 61,
+        "totalCommits": 63,
         "firstActivity": "2025-07-21T09:52:53.000Z",
-        "lastActivity": "2025-08-12T17:12:57.000Z",
+        "lastActivity": "2025-08-12T18:27:16.000Z",
         "mostActiveDay": "2025-08-12",
         "totalEntries": 12,
         "averageWordCount": 153
       },
       "commitsByDate": {
         "2025-08-12": [
+          {
+            "message": "optimized images",
+            "repository": "web2025-monika-site",
+            "time": "August 12, 2025"
+          },
+          {
+            "message": "optimized the images",
+            "repository": "web2025-monika-site",
+            "time": "August 12, 2025"
+          },
           {
             "message": "done",
             "repository": "Monika-grid-Assignments",
@@ -1401,15 +1411,42 @@
       "statistics": {
         "totalNotes": 9,
         "totalSubmissions": 1,
-        "totalCommits": 8,
+        "totalCommits": 13,
         "firstActivity": "2025-07-21T09:53:08.000Z",
-        "lastActivity": "2025-08-12T09:00:56.000Z",
-        "mostActiveDay": "2025-08-05",
+        "lastActivity": "2025-08-13T00:10:06.000Z",
+        "mostActiveDay": "2025-08-12",
         "totalEntries": 10,
         "averageWordCount": 98
       },
       "commitsByDate": {
+        "2025-08-13": [
+          {
+            "message": "change in home page",
+            "repository": "diksha-portfolio",
+            "time": "August 13, 2025"
+          },
+          {
+            "message": "added image optemizer",
+            "repository": "diksha-portfolio",
+            "time": "August 13, 2025"
+          }
+        ],
         "2025-08-12": [
+          {
+            "message": "added artwork,photography,painting pages",
+            "repository": "diksha-portfolio",
+            "time": "August 13, 2025"
+          },
+          {
+            "message": "added image",
+            "repository": "diksha-portfolio",
+            "time": "August 12, 2025"
+          },
+          {
+            "message": "made changes memories and added artwork page",
+            "repository": "diksha-portfolio",
+            "time": "August 12, 2025"
+          },
           {
             "message": "added memories page and photocard",
             "repository": "diksha-portfolio",
@@ -1606,15 +1643,25 @@
       "statistics": {
         "totalNotes": 6,
         "totalSubmissions": 1,
-        "totalCommits": 27,
+        "totalCommits": 29,
         "firstActivity": "2025-07-21T09:54:20.000Z",
-        "lastActivity": "2025-08-12T15:23:24.000Z",
-        "mostActiveDay": "2025-08-04",
+        "lastActivity": "2025-08-12T22:08:48.000Z",
+        "mostActiveDay": "2025-08-12",
         "totalEntries": 7,
         "averageWordCount": 144
       },
       "commitsByDate": {
         "2025-08-12": [
+          {
+            "message": "dfvnwjl",
+            "repository": "Nirvikalpa",
+            "time": "August 13, 2025"
+          },
+          {
+            "message": "optimized images",
+            "repository": "Nirvikalpa",
+            "time": "August 13, 2025"
+          },
           {
             "message": "added landing page js",
             "repository": "Nirvikalpa",
@@ -4545,15 +4592,47 @@
       "statistics": {
         "totalNotes": 10,
         "totalSubmissions": 1,
-        "totalCommits": 42,
+        "totalCommits": 48,
         "firstActivity": "2025-07-21T09:54:07.000Z",
-        "lastActivity": "2025-08-12T10:03:25.000Z",
+        "lastActivity": "2025-08-13T04:58:37.000Z",
         "mostActiveDay": "2025-08-07",
         "totalEntries": 11,
         "averageWordCount": 97
       },
       "commitsByDate": {
+        "2025-08-13": [
+          {
+            "message": "added gridlines",
+            "repository": "final-project",
+            "time": "August 13, 2025"
+          },
+          {
+            "message": "added one more page",
+            "repository": "final-project",
+            "time": "August 13, 2025"
+          },
+          {
+            "message": "added an arrow",
+            "repository": "final-project",
+            "time": "August 13, 2025"
+          },
+          {
+            "message": "did the csss",
+            "repository": "final-project",
+            "time": "August 13, 2025"
+          },
+          {
+            "message": "added a page",
+            "repository": "final-project",
+            "time": "August 13, 2025"
+          }
+        ],
         "2025-08-12": [
+          {
+            "message": "final change",
+            "repository": "Buckwheat-poem",
+            "time": "August 13, 2025"
+          },
           {
             "message": "hmmmm",
             "repository": "final-project",
@@ -5612,15 +5691,32 @@
       "statistics": {
         "totalNotes": 8,
         "totalSubmissions": 1,
-        "totalCommits": 28,
+        "totalCommits": 31,
         "firstActivity": "2025-07-21T09:52:13.000Z",
-        "lastActivity": "2025-08-12T10:17:17.000Z",
-        "mostActiveDay": "2025-08-04",
+        "lastActivity": "2025-08-13T05:08:44.000Z",
+        "mostActiveDay": "2025-08-12",
         "totalEntries": 9,
         "averageWordCount": 81
       },
       "commitsByDate": {
+        "2025-08-13": [
+          {
+            "message": "Added webp Bg image",
+            "repository": "first-repo",
+            "time": "August 13, 2025"
+          }
+        ],
         "2025-08-12": [
+          {
+            "message": "Updated",
+            "repository": "Meri-Website",
+            "time": "August 13, 2025"
+          },
+          {
+            "message": "Did some change",
+            "repository": "Meri-Website",
+            "time": "August 12, 2025"
+          },
           {
             "message": "Started Interests section",
             "repository": "Meri-Website",
@@ -5914,14 +6010,21 @@
       "statistics": {
         "totalNotes": 6,
         "totalSubmissions": 0,
-        "totalCommits": 1,
+        "totalCommits": 2,
         "firstActivity": "2025-07-21T10:09:34.000Z",
-        "lastActivity": "2025-07-31T21:16:09.000Z",
+        "lastActivity": "2025-08-13T04:42:37.000Z",
         "mostActiveDay": "2025-07-21",
         "totalEntries": 6,
         "averageWordCount": 141
       },
       "commitsByDate": {
+        "2025-08-13": [
+          {
+            "message": "initial commit",
+            "repository": "final_website",
+            "time": "August 13, 2025"
+          }
+        ],
         "2025-07-31": [
           {
             "message": "intial",
@@ -5934,8 +6037,10 @@
     "Anoushka-d": {
       "username": "Anoushka-d",
       "name": null,
-      "website": null,
-      "socialLinks": [],
+      "website": "https://anoushka-personal-webpage.netlify.app",
+      "socialLinks": [
+        "https://www.instagram.com/anoushka_915/"
+      ],
       "devNotes": [
         {
           "id": "dev-notes-1-comment-3098315469",
@@ -5994,18 +6099,88 @@
           "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/7#issuecomment-3133568619"
         }
       ],
-      "submissions": [],
+      "submissions": [
+        {
+          "id": "submissions-17-issue",
+          "type": "issue-body",
+          "repository": "web2025",
+          "issueNumber": 17,
+          "issueTitle": "[STUDENT] Anoushka Dcosta",
+          "content": "Anoushka Dcosta\n\n### Website URL\n\nhttps://anoushka-personal-webpage.netlify.app\n\n### Social Link 1 (Optional)\n\nhttps://www.instagram.com/anoushka_915/\n\n### Social Link 2 (Optional)\n\nwww.linkedin.com/in/anoushka-dcosta-39b694314\n\n### Social Link 3 (Optional)\n\n_No response_",
+          "urls": [
+            "https://anoushka-personal-webpage.netlify.app"
+          ],
+          "wordCount": 25,
+          "date": {
+            "iso": "2025-08-12T18:35:09.000Z",
+            "date": "2025-08-12",
+            "formatted": "August 13, 2025"
+          },
+          "issueUrl": "https://github.com/open-making/web2025/issues/17"
+        }
+      ],
       "statistics": {
         "totalNotes": 3,
-        "totalSubmissions": 0,
-        "totalCommits": 1,
+        "totalSubmissions": 1,
+        "totalCommits": 10,
         "firstActivity": "2025-07-21T19:52:10.000Z",
-        "lastActivity": "2025-08-01T04:20:49.000Z",
-        "mostActiveDay": "2025-07-21",
-        "totalEntries": 3,
-        "averageWordCount": 159
+        "lastActivity": "2025-08-12T17:32:23.000Z",
+        "mostActiveDay": "2025-08-07",
+        "totalEntries": 4,
+        "averageWordCount": 126
       },
       "commitsByDate": {
+        "2025-08-12": [
+          {
+            "message": "text changes",
+            "repository": "Personal-website-Anoushka",
+            "time": "August 12, 2025"
+          }
+        ],
+        "2025-08-11": [
+          {
+            "message": "done with sub page 2 of crochet page",
+            "repository": "Personal-website-Anoushka",
+            "time": "August 11, 2025"
+          },
+          {
+            "message": "made 1 sub page for crochet main",
+            "repository": "Personal-website-Anoushka",
+            "time": "August 11, 2025"
+          }
+        ],
+        "2025-08-07": [
+          {
+            "message": "finished crochet main page",
+            "repository": "Personal-website-Anoushka",
+            "time": "August 7, 2025"
+          },
+          {
+            "message": "finished current page",
+            "repository": "Personal-website-Anoushka",
+            "time": "August 7, 2025"
+          },
+          {
+            "message": "current page without img",
+            "repository": "Personal-website-Anoushka",
+            "time": "August 7, 2025"
+          },
+          {
+            "message": "added scrolling text and updated current page",
+            "repository": "Personal-website-Anoushka",
+            "time": "August 7, 2025"
+          },
+          {
+            "message": "image mapping with highights but img is short",
+            "repository": "Personal-website-Anoushka",
+            "time": "August 7, 2025"
+          },
+          {
+            "message": "first look with img mapping",
+            "repository": "Personal-website-Anoushka",
+            "time": "August 7, 2025"
+          }
+        ],
         "2025-08-01": [
           {
             "message": "initial message",
@@ -6017,13 +6192,13 @@
     }
   },
   "statistics": {
-    "totalIssues": 26,
+    "totalIssues": 27,
     "totalComments": 156,
     "totalStudents": 18,
     "dateRange": {
       "earliest": "2025-07-21T09:02:54.000Z",
-      "latest": "2025-08-12T17:12:57.000Z"
+      "latest": "2025-08-13T05:08:44.000Z"
     },
-    "totalCommits": 412
+    "totalCommits": 440
   }
 }

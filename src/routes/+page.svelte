@@ -11,6 +11,7 @@
 	import websitesData from '$lib/assets/images/web2025/metadata.json';
 	import SEO from '$lib/components/SEO.svelte';
 	import OpenSourceCollage from '$lib/components/OpenSourceCollage.svelte';
+	import GitHubHeatmap from '$lib/components/GitHubHeatmap.svelte';
 	const heyJudeImages = import.meta.glob('$lib/assets/images/hey-jude/processed/*.webp', {
 		eager: true,
 		import: 'default'
@@ -150,6 +151,8 @@
 		</div>
 	</section>
 
+	<GitHubHeatmap />
+
 	<section class="section">
 		<div class="section-intro">
 			<h2 class="section-title">Digital Gardens</h2>
@@ -195,7 +198,8 @@
 		</div>
 	</section>
 
-	<section class="cta-section my-24">
+
+	<section class="cta-section my-24 overflow-x-clip">
 		<div class="cta-container">
 			<div class="cta-content">
 				<div class="cta-text-content">

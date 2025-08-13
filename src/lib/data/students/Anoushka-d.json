@@ -1,8 +1,10 @@
 {
   "username": "Anoushka-d",
   "name": null,
-  "website": null,
-  "socialLinks": [],
+  "website": "https://anoushka-personal-webpage.netlify.app",
+  "socialLinks": [
+    "https://www.instagram.com/anoushka_915/"
+  ],
   "devNotes": [
     {
       "id": "dev-notes-1-comment-3098315469",
@@ -61,18 +63,88 @@
       "commentUrl": "https://github.com/open-making/web2025-dev-notes/issues/7#issuecomment-3133568619"
     }
   ],
-  "submissions": [],
+  "submissions": [
+    {
+      "id": "submissions-17-issue",
+      "type": "issue-body",
+      "repository": "web2025",
+      "issueNumber": 17,
+      "issueTitle": "[STUDENT] Anoushka Dcosta",
+      "content": "Anoushka Dcosta\n\n### Website URL\n\nhttps://anoushka-personal-webpage.netlify.app\n\n### Social Link 1 (Optional)\n\nhttps://www.instagram.com/anoushka_915/\n\n### Social Link 2 (Optional)\n\nwww.linkedin.com/in/anoushka-dcosta-39b694314\n\n### Social Link 3 (Optional)\n\n_No response_",
+      "urls": [
+        "https://anoushka-personal-webpage.netlify.app"
+      ],
+      "wordCount": 25,
+      "date": {
+        "iso": "2025-08-12T18:35:09.000Z",
+        "date": "2025-08-12",
+        "formatted": "August 13, 2025"
+      },
+      "issueUrl": "https://github.com/open-making/web2025/issues/17"
+    }
+  ],
   "statistics": {
     "totalNotes": 3,
-    "totalSubmissions": 0,
-    "totalCommits": 1,
+    "totalSubmissions": 1,
+    "totalCommits": 10,
     "firstActivity": "2025-07-21T19:52:10.000Z",
-    "lastActivity": "2025-08-01T04:20:49.000Z",
-    "mostActiveDay": "2025-07-21",
-    "totalEntries": 3,
-    "averageWordCount": 159
+    "lastActivity": "2025-08-12T17:32:23.000Z",
+    "mostActiveDay": "2025-08-07",
+    "totalEntries": 4,
+    "averageWordCount": 126
   },
   "commitsByDate": {
+    "2025-08-12": [
+      {
+        "message": "text changes",
+        "repository": "Personal-website-Anoushka",
+        "time": "August 12, 2025"
+      }
+    ],
+    "2025-08-11": [
+      {
+        "message": "done with sub page 2 of crochet page",
+        "repository": "Personal-website-Anoushka",
+        "time": "August 11, 2025"
+      },
+      {
+        "message": "made 1 sub page for crochet main",
+        "repository": "Personal-website-Anoushka",
+        "time": "August 11, 2025"
+      }
+    ],
+    "2025-08-07": [
+      {
+        "message": "finished crochet main page",
+        "repository": "Personal-website-Anoushka",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "finished current page",
+        "repository": "Personal-website-Anoushka",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "current page without img",
+        "repository": "Personal-website-Anoushka",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "added scrolling text and updated current page",
+        "repository": "Personal-website-Anoushka",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "image mapping with highights but img is short",
+        "repository": "Personal-website-Anoushka",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "first look with img mapping",
+        "repository": "Personal-website-Anoushka",
+        "time": "August 7, 2025"
+      }
+    ],
     "2025-08-01": [
       {
         "message": "initial message",
@@ -81,7 +153,7 @@
       }
     ]
   },
-  "generatedAt": "2025-08-12T17:47:46.343Z",
+  "generatedAt": "2025-08-13T05:08:55.062Z",
   "repositories": [
     {
       "name": "web2025-dev-notes",
