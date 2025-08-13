@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import { goto } from '$app/navigation';
 	import { Menu } from 'lucide-svelte';
 	import { Button } from '$lib/components/ui/button';
 	import * as Drawer from '$lib/components/ui/drawer';
@@ -25,11 +26,8 @@
 	});
 
 	function scrollToSection(sectionId: string) {
-		const element = document.getElementById(sectionId);
-		if (element) {
-			element.scrollIntoView({ behavior: 'smooth' });
-			drawerOpen = false; // Close drawer on mobile after clicking
-		}
+		goto(`#${sectionId}`, { replaceState: false});
+		drawerOpen = false; // Close drawer on mobile after clicking
 	}
 </script>
 
