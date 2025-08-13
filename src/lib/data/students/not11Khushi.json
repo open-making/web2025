@@ -132,19 +132,81 @@
   "statistics": {
     "totalNotes": 6,
     "totalSubmissions": 0,
-    "totalCommits": 2,
+    "totalCommits": 14,
     "firstActivity": "2025-07-21T10:09:34.000Z",
-    "lastActivity": "2025-08-13T04:42:37.000Z",
-    "mostActiveDay": "2025-07-21",
+    "lastActivity": "2025-08-13T05:23:30.000Z",
+    "mostActiveDay": "2025-08-01",
     "totalEntries": 6,
     "averageWordCount": 141
   },
   "commitsByDate": {
     "2025-08-13": [
       {
+        "message": "edit photos",
+        "repository": "final_website",
+        "time": "August 13, 2025"
+      },
+      {
+        "message": "change in css",
+        "repository": "final_website",
+        "time": "August 13, 2025"
+      },
+      {
+        "message": "change in layout",
+        "repository": "final_website",
+        "time": "August 13, 2025"
+      },
+      {
         "message": "initial commit",
         "repository": "final_website",
         "time": "August 13, 2025"
+      }
+    ],
+    "2025-08-01": [
+      {
+        "message": "changes foe images links 1 and 2",
+        "repository": "my-site",
+        "time": "August 1, 2025"
+      },
+      {
+        "message": "change height of second img",
+        "repository": "my-site",
+        "time": "August 1, 2025"
+      },
+      {
+        "message": "change the name of link",
+        "repository": "my-site",
+        "time": "August 1, 2025"
+      },
+      {
+        "message": "change second image css",
+        "repository": "my-site",
+        "time": "August 1, 2025"
+      },
+      {
+        "message": "add image in about page",
+        "repository": "my-site",
+        "time": "August 1, 2025"
+      },
+      {
+        "message": "add one more image",
+        "repository": "my-site",
+        "time": "August 1, 2025"
+      },
+      {
+        "message": "done some small changes",
+        "repository": "my-site",
+        "time": "August 1, 2025"
+      },
+      {
+        "message": "made one small changes",
+        "repository": "my-site",
+        "time": "August 1, 2025"
+      },
+      {
+        "message": "addeed image  card component",
+        "repository": "my-site",
+        "time": "August 1, 2025"
       }
     ],
     "2025-07-31": [
@@ -155,7 +217,7 @@
       }
     ]
   },
-  "generatedAt": "2025-08-13T05:08:55.062Z",
+  "generatedAt": "2025-08-13T05:40:18.241Z",
   "repositories": [
     {
       "name": "web2025-dev-notes",

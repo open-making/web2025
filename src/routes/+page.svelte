@@ -90,7 +90,7 @@
 					<img
 						src={heyJude}
 						alt="plain markup of hey jude"
-						class=" rotate-2 rounded-sm border-2 border-black"
+						class=" -rotate-2 rounded-sm p-4 bg-white border border-black object-cover"
 					/>
 					<figcaption>This is all everyone started with!</figcaption>
 				</figure>
@@ -123,7 +123,7 @@
 					<img
 						src={shortStories}
 						alt="plain markup of a hans christian andersen story"
-						class=" h-96 -rotate-2 rounded-sm border-2 border-black object-cover"
+						class=" h-96 -rotate-2 rounded-sm p-4 bg-white border border-black object-cover"
 					/>
 					<figcaption>Starting with plain text and building a site around it</figcaption>
 				</figure>

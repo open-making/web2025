@@ -259,15 +259,466 @@
   "statistics": {
     "totalNotes": 11,
     "totalSubmissions": 1,
-    "totalCommits": 11,
+    "totalCommits": 104,
     "firstActivity": "2025-07-21T09:53:42.000Z",
-    "lastActivity": "2025-08-05T16:55:11.000Z",
-    "mostActiveDay": "2025-08-03",
+    "lastActivity": "2025-08-12T16:32:06.000Z",
+    "mostActiveDay": "2025-08-12",
     "totalEntries": 12,
     "averageWordCount": 123
   },
   "commitsByDate": {
+    "2025-08-12": [
+      {
+        "message": "change",
+        "repository": "Tanya-Site",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "yo",
+        "repository": "Tanya-Site",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "responsive 1",
+        "repository": "Tanya-Site",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "commit",
+        "repository": "Tanya-Site",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "v",
+        "repository": "Tanya-Site",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "yo",
+        "repository": "Tanya-Site",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "yo",
+        "repository": "Tanya-Site",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "change",
+        "repository": "Tanya-Site",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "change",
+        "repository": "Tanya-Site",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "change",
+        "repository": "Tanya-Site",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 12, 2025"
+      }
+    ],
+    "2025-08-11": [
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "CHANGES",
+        "repository": "Tanya-Site",
+        "time": "August 12, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 11, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 11, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 11, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 11, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 11, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 11, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 11, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 11, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 11, 2025"
+      }
+    ],
+    "2025-08-10": [
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 10, 2025"
+      },
+      {
+        "message": "change",
+        "repository": "Tanya-Site",
+        "time": "August 10, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 10, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 10, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 10, 2025"
+      }
+    ],
+    "2025-08-09": [
+      {
+        "message": "change",
+        "repository": "Tanya-Site",
+        "time": "August 9, 2025"
+      },
+      {
+        "message": "change",
+        "repository": "Tanya-Site",
+        "time": "August 9, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 9, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 9, 2025"
+      },
+      {
+        "message": "chages",
+        "repository": "Tanya-Site",
+        "time": "August 9, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 9, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 9, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 9, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 9, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 9, 2025"
+      },
+      {
+        "message": "change",
+        "repository": "Tanya-Site",
+        "time": "August 9, 2025"
+      },
+      {
+        "message": "change",
+        "repository": "Tanya-Site",
+        "time": "August 9, 2025"
+      }
+    ],
+    "2025-08-08": [
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 8, 2025"
+      },
+      {
+        "message": "changes1",
+        "repository": "Tanya-Site",
+        "time": "August 8, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 8, 2025"
+      },
+      {
+        "message": "CHANGES1",
+        "repository": "Tanya-Site",
+        "time": "August 8, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 8, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 8, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 8, 2025"
+      },
+      {
+        "message": "cahnges",
+        "repository": "Tanya-Site",
+        "time": "August 8, 2025"
+      }
+    ],
+    "2025-08-07": [
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "changes 1",
+        "repository": "Tanya-Site",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "change",
+        "repository": "Tanya-Site",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "changes 1",
+        "repository": "Tanya-Site",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 7, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 7, 2025"
+      }
+    ],
+    "2025-08-06": [
+      {
+        "message": "Changes",
+        "repository": "Tanya-Site",
+        "time": "August 6, 2025"
+      },
+      {
+        "message": "changes 1",
+        "repository": "Tanya-Site",
+        "time": "August 6, 2025"
+      },
+      {
+        "message": "change 1",
+        "repository": "Tanya-Site",
+        "time": "August 6, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 6, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 6, 2025"
+      },
+      {
+        "message": "Changes",
+        "repository": "Tanya-Site",
+        "time": "August 6, 2025"
+      }
+    ],
+    "2025-08-05": [
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 5, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 5, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 5, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 5, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 5, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 5, 2025"
+      }
+    ],
     "2025-08-04": [
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "cahnges",
+        "repository": "Tanya-Site",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "changes 2",
+        "repository": "Tanya-Site",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "changes 1",
+        "repository": "Tanya-Site",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "changes 2",
+        "repository": "Tanya-Site",
+        "time": "August 4, 2025"
+      },
+      {
+        "message": "changes 1",
+        "repository": "Tanya-Site",
+        "time": "August 4, 2025"
+      },
       {
         "message": "changes",
         "repository": "practicetanya",
@@ -326,10 +777,40 @@
         "message": "save changes",
         "repository": "practicetanya",
         "time": "August 1, 2025"
+      },
+      {
+        "message": "changes",
+        "repository": "Tanya-Site",
+        "time": "August 1, 2025"
+      },
+      {
+        "message": "changed the layout",
+        "repository": "Tanya-Site",
+        "time": "August 1, 2025"
+      },
+      {
+        "message": "made one small change",
+        "repository": "Tanya-Site",
+        "time": "August 1, 2025"
+      },
+      {
+        "message": "adds aboout page",
+        "repository": "Tanya-Site",
+        "time": "August 1, 2025"
+      },
+      {
+        "message": "added image card component",
+        "repository": "Tanya-Site",
+        "time": "August 1, 2025"
+      },
+      {
+        "message": "added image card component",
+        "repository": "Tanya-Site",
+        "time": "August 1, 2025"
       }
     ]
   },
-  "generatedAt": "2025-08-13T05:08:55.062Z",
+  "generatedAt": "2025-08-13T05:40:18.241Z",
   "repositories": [
     {
       "name": "web2025-dev-notes",

@@ -86,6 +86,16 @@
       "imageName": "the-tin-soldier.netlify.app.webp"
     },
     {
+      "url": "https://harshit-rajoria-story.netlify.app/",
+      "author": "HarshitRajoria",
+      "authorType": "issue_author",
+      "issueNumber": 11,
+      "issueTitle": "[Story Submission]",
+      "issueUrl": "https://github.com/open-making/web2025-short-stories/issues/11",
+      "createdAt": "2025-07-25T10:03:13Z",
+      "imageName": "harshit-rajoria-story.netlify.app.webp"
+    },
+    {
       "url": "https://tanyaprojecthtml.netlify.app/",
       "author": "Tanyamehra14",
       "authorType": "issue_author",
@@ -157,9 +167,9 @@
     }
   ],
   "stats": {
-    "totalUrls": 15,
-    "uniqueUrls": 15,
-    "filteredUrls": 15,
+    "totalUrls": 16,
+    "uniqueUrls": 16,
+    "filteredUrls": 16,
     "issuesProcessed": 16
   }
 }

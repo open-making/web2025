@@ -187,10 +187,10 @@
   "statistics": {
     "totalNotes": 8,
     "totalSubmissions": 1,
-    "totalCommits": 31,
+    "totalCommits": 34,
     "firstActivity": "2025-07-21T09:52:13.000Z",
     "lastActivity": "2025-08-13T05:08:44.000Z",
-    "mostActiveDay": "2025-08-12",
+    "mostActiveDay": "2025-08-04",
     "totalEntries": 9,
     "averageWordCount": 81
   },
@@ -344,6 +344,11 @@
         "time": "August 4, 2025"
       },
       {
+        "message": "changed bg colour and sec photo",
+        "repository": "Harshit-Rajoria-site",
+        "time": "August 4, 2025"
+      },
+      {
         "message": "Added some content in about, blog and posted some blogs.",
         "repository": "My-astro-tutorial",
         "time": "August 4, 2025"
@@ -361,6 +366,16 @@
         "message": "initial commit",
         "repository": "My-astro-tutorial",
         "time": "August 1, 2025"
+      },
+      {
+        "message": "made some changes",
+        "repository": "Harshit-Rajoria-site",
+        "time": "August 1, 2025"
+      },
+      {
+        "message": "added image card component",
+        "repository": "Harshit-Rajoria-site",
+        "time": "August 1, 2025"
       }
     ],
     "2025-07-31": [
@@ -371,7 +386,7 @@
       }
     ]
   },
-  "generatedAt": "2025-08-13T05:08:55.062Z",
+  "generatedAt": "2025-08-13T05:40:18.241Z",
   "repositories": [
     {
       "name": "web2025-dev-notes",
@@ -396,6 +411,18 @@
         "commentUrl": "https://github.com/open-making/web2025-hey-jude/issues/1#issuecomment-3102272084",
         "createdAt": "2025-07-22T11:12:48Z",
         "imageName": "web2025-hey-jude.netlify.app.webp"
+      }
+    ],
+    "short-stories": [
+      {
+        "url": "https://harshit-rajoria-story.netlify.app/",
+        "author": "HarshitRajoria",
+        "authorType": "issue_author",
+        "issueNumber": 11,
+        "issueTitle": "[Story Submission]",
+        "issueUrl": "https://github.com/open-making/web2025-short-stories/issues/11",
+        "createdAt": "2025-07-25T10:03:13Z",
+        "imageName": "harshit-rajoria-story.netlify.app.webp"
       }
     ],
     "test-issue": [

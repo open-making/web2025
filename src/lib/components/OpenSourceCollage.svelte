@@ -119,7 +119,7 @@
 		width: 100%;
 		transform: translateY(-30%);
 		/* overflow: hidden; */
-		border-radius: 12px;
+		border-radius: 6px;
 	}
 
 	.collage-container.desktop {
@@ -137,9 +137,9 @@
 		padding: 12px;
 		border-radius: 16px;
 		box-shadow:
-			0 0 0 3px #000,
+			/* 0 0 0 3px #000, */
 			0 0 0 6px #fff,
-			0 0 0 9px #000,
+			0 0 0 8px #000,
 			rgba(0, 0, 0, 0.4) 0px 12px 32px;
 		left: var(--x);
 		top: var(--y);

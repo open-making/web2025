@@ -52,7 +52,7 @@
 		background: white;
 		gap: 1rem;
 		border: 2px solid black;
-		border-radius: 12px;
+		border-radius: 6px;
 		text-decoration: none;
 		color: inherit;
 		transition: all 0.2s ease;

@@ -84,8 +84,8 @@ async function fetchUserRepositories(username, options = {}) {
       per_page: 100,
     });
 
-    // Exclude forked repos
-    return repos.filter(repo => !repo.fork);
+    // Include all repos (including forks) since commits to forks count as user activity
+    return repos;
   } catch (error) {
     if (error.status === 404) {
       console.log(`   ℹ️  User ${username} not found or has no public repos`);

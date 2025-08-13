@@ -92,7 +92,7 @@
 				{#each commitData as week, weekIndex}
 					{#each week as commits, dayIndex}
 						<div
-							class="relative h-3 w-3 transition-all duration-300 sm:h-3 sm:w-3 md:h-4 md:w-4 md:rounded-sm"
+							class="relative h-3 w-3 transition-all duration-300 sm:h-3 sm:w-3 md:h-4 md:w-4 md:rounded-xs"
 							class:bg-gray-100={getCommitLevel(commits) === 0}
 							class:border={getCommitLevel(commits) === 0}
 							class:border-gray-300={getCommitLevel(commits) === 0}

@@ -126,7 +126,7 @@
 	courseId={student.username}
 	author={student.name || student.username}
 	{projectImages}
-	commits={processedCommits.length}
+	commits={processCommits.length}
 	{notes}
 />
 

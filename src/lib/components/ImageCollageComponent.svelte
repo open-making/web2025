@@ -67,83 +67,95 @@
 		});
 	}
 
-	// Define the scrollytelling steps
+	// Define the unified scrollytelling steps (metaphor + collage)
 	const steps = [
 		{
-			text: 'To do this effectively, we needed to draw ourselves out of Behance, Dribbble, Pinterest and all of these places and look back at the early eras of the web.',
-			images: allImageSources.slice(0, 4)
-		},
-		{
-			text: 'We set out to be digital archaeologists...',
-			images: allImageSources.slice(0, 8)
-		},
-		{
-			text: '...roaming the ruins of Geocities and exploring the Internet Archive...',
-			images: allImageSources.slice(0, 12)
-		},
-		{
-			text: '...collecting interesting things we found along the way that we could learn from.',
-			images: allImageSources
-		}
-	];
-
-	// Metaphor scrolly section data
-	const metaphorSteps = [
-		{
 			text: 'This module began with a metaphor that would guide all activities that were to follow (and, as we will describe later, only one condition). This was the metaphor of the web as a physical space.The internet today has become boring and more or less the same.',
+			type: 'metaphor',
 			image: Same,
 			className: 'contain'
 		},
 		{
 			text: 'If it were to be thought of as a patch of land to grow things...',
+			type: 'metaphor',
 			image: Garden1
 		},
 		{
 			text: "...we'd much rather have it be the more organic, interesting, and messy garden",
+			type: 'metaphor',
 			image: Garden2
 		},
 		{
 			text: 'If it were a bookshelf...',
+			type: 'metaphor',
 			image: Shelf1
 		},
 		{
 			text: "...we'd prefer one that wasn't the same old stuff we see everywhere",
+			type: 'metaphor',
 			image: Shelf2
 		},
 		{
 			text: 'If it were a city...',
+			type: 'metaphor',
 			image: City1
 		},
 		{
 			text: "...we'd want it to be welcoming and vibrant, not a boring suburb of content.",
+			type: 'metaphor',
 			image: City2
 		},
 		{
 			text: 'The agenda was this. Not for optimizing user "conversions" and sales, or thinking in terms of sterile "user-centricity" but a space that reflected and accommodated us and our tastes.',
+			type: 'metaphor',
 			image: Artisanal,
 			className: 'contain'
+		},
+		{
+			text: 'To do this effectively, we needed to draw ourselves out of Behance, Dribbble, Pinterest and all of these places and look back at the early eras of the web.',
+			type: 'collage',
+			images: allImageSources.slice(0, 4)
+		},
+		{
+			text: 'We set out to be digital archaeologists...',
+			type: 'collage',
+			images: allImageSources.slice(0, 8)
+		},
+		{
+			text: '...roaming the ruins of Geocities and exploring the Internet Archive...',
+			type: 'collage',
+			images: allImageSources.slice(0, 12)
+		},
+		{
+			text: '...collecting interesting things we found along the way that we could learn from.',
+			type: 'collage',
+			images: allImageSources
 		}
 	];
 
-	let metaphorScrollIndex = -1;
 	let scrollIndex = -1;
 	let visibleImages: any[] = [];
 
+	// Find where collage steps start
+	const collageStartIndex = steps.findIndex(step => step.type === 'collage');
+
 	// Calculate how many images to show based on scroll progress
 	$: {
-		if (scrollIndex < 0) {
-			// Before scrolly starts
+		if (scrollIndex < collageStartIndex) {
+			// During metaphor section - no collage images
 			visibleImages = [];
 		} else if (scrollIndex >= steps.length - 1) {
 			// At final step - show all images
 			visibleImages = allImageSources;
 		} else {
-			// During scrolly - interpolate between steps
-			const currentStep = Math.floor(scrollIndex);
-			const stepProgress = scrollIndex - currentStep;
-			const currentStepImages = steps[currentStep]?.images.length || 0;
-			const nextStepImages =
-				steps[Math.min(currentStep + 1, steps.length - 1)]?.images.length || currentStepImages;
+			// During collage section - interpolate between steps
+			const collageScrollIndex = scrollIndex - collageStartIndex;
+			const currentStep = Math.floor(collageScrollIndex);
+			const stepProgress = collageScrollIndex - currentStep;
+			
+			const collageSteps = steps.filter(step => step.type === 'collage');
+			const currentStepImages = collageSteps[currentStep]?.images?.length || 0;
+			const nextStepImages = collageSteps[Math.min(currentStep + 1, collageSteps.length - 1)]?.images?.length || currentStepImages;
 
 			// Smoothly interpolate between current and next step image count
 			const imageCount = Math.floor(
@@ -172,16 +184,17 @@
 	</header>
 </section>
 
-<!-- Metaphor Scrolly Section -->
-<section class="metaphor-scrolly-container">
-	<!-- Sticky background for metaphor images -->
-	<div class="metaphor-sticky-background">
+<!-- Unified Scrolly Section -->
+<section class="scrolly-container bg-none">
+	<!-- Fixed sticky background -->
+	<div class="sticky-background bg-none">
+		<!-- Metaphor images -->
 		<div class="metaphor-image-container">
-			{#each metaphorSteps as step, index}
+			{#each steps.filter(step => step.type === 'metaphor') as step, index}
 				{#if step.image}
-					{@const isActive = Math.floor(metaphorScrollIndex) === index}
-					{@const nextIsActive = Math.floor(metaphorScrollIndex) === index - 1}
-					{@const opacity = isActive ? 1 : nextIsActive ? metaphorScrollIndex % 1 : 0}
+					{@const isActive = Math.floor(scrollIndex) === index}
+					{@const nextIsActive = Math.floor(scrollIndex) === index - 1}
+					{@const opacity = isActive ? 1 : nextIsActive ? scrollIndex % 1 : 0}
 					<img
 						src={step.image}
 						alt="Web metaphor"
@@ -192,27 +205,8 @@
 				{/if}
 			{/each}
 		</div>
-	</div>
-
-	<!-- Scrollable content for metaphor -->
-	<div class="metaphor-scroll-content">
-		<Scroller bind:value={metaphorScrollIndex} top={200} bottom={200}>
-			{#each metaphorSteps as step}
-				<div class="narrative-step">
-					<div class="text-block">
-						<p>{step.text}</p>
-					</div>
-				</div>
-			{/each}
-		</Scroller>
-		<div class="spacer-bottom"></div>
-	</div>
-</section>
-
-<!-- Original Collage Section -->
-<section class="scrolly-container bg-none">
-	<!-- Fixed sticky background -->
-	<div class="sticky-background bg-none">
+		
+		<!-- Collage images -->
 		<div class="image-canvas">
 			{#each allImageSources as imageSrc, index}
 				{@const totalMaxImages = allImageSources.length}
@@ -277,23 +271,7 @@
 </section>
 
 <style>
-	/* Metaphor scrolly styles */
-	.metaphor-scrolly-container {
-		position: relative;
-		width: 100vw;
-		overflow-x: clip;
-		margin-bottom: 5rem;
-	}
-
-	.metaphor-sticky-background {
-		position: sticky;
-		top: 0;
-		width: 100%;
-		height: 100vh;
-		z-index: 1;
-		pointer-events: none;
-	}
-
+	/* Metaphor image styles */
 	.metaphor-image-container {
 		position: absolute;
 		top: 0;
@@ -321,19 +299,6 @@
 
 	.metaphor-image.contain {
 		object-fit: contain;
-	}
-
-	.metaphor-scroll-content {
-		position: relative;
-		z-index: 2;
-	}
-
-	.metaphor-narrative-step {
-		min-height: 100vh;
-		display: flex;
-		align-items: center;
-		justify-content: flex-start;
-		padding: 2rem;
 	}
 
 	.scrolly-container {
@@ -416,78 +381,8 @@
 		margin: 0;
 	}
 
-	.post-scrolly {
-		position: relative;
-		min-height: 100vh;
-		background: var(--color-base-100);
-	}
-
-	.post-scrolly-background {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		z-index: 1;
-	}
-
-	.post-scrolly-image {
-		position: absolute;
-		width: clamp(250px, 30vw, 500px);
-		height: clamp(188px, 22.5vw, 375px);
-		object-fit: cover;
-		border-radius: 8px;
-		box-shadow: rgba(0, 0, 0, 0.25) 0px 6px 20px;
-		left: var(--x);
-		top: var(--y);
-		transform: rotate(var(--rotation)) scale(var(--scale));
-		opacity: 1;
-	}
-
-	.post-scrolly-content {
-		position: relative;
-		z-index: 2;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		min-height: 100vh;
-		padding: 2rem;
-		text-align: center;
-	}
-
-	.post-scrolly-content h2 {
-		font-family: 'Atkinson Hyperlegible', sans-serif;
-		font-size: 2.5rem;
-		color: var(--color-neutral);
-		margin-bottom: 1rem;
-		background: rgba(255, 255, 255, 0.95);
-		padding: 1rem 2rem;
-		border-radius: 12px;
-		backdrop-filter: blur(10px);
-	}
-
-	.post-scrolly-content p {
-		font-family: 'Atkinson Hyperlegible', sans-serif;
-		font-size: 1.2rem;
-		color: var(--color-neutral);
-		background: rgba(255, 255, 255, 0.95);
-		padding: 1rem 2rem;
-		border-radius: 12px;
-		backdrop-filter: blur(10px);
-		max-width: 600px;
-	}
 
 	@media (max-width: 768px) {
-		.metaphor-sticky-background {
-			position: sticky;
-			top: 0;
-			height: 100vh;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-		}
-
 		.metaphor-image-container {
 			position: relative;
 			display: flex;
@@ -504,21 +399,6 @@
 			top: 50%;
 			left: 50%;
 			transform: translate(-50%, -50%);
-		}
-
-		.metaphor-narrative-step {
-			justify-content: center;
-			padding: 1rem;
-		}
-
-		.metaphor-text-block {
-			padding: 1.5rem;
-			margin-left: 0;
-			max-width: 400px;
-		}
-
-		.metaphor-text-block p {
-			font-size: 1.1rem;
 		}
 
 		.collage-image {
@@ -550,15 +430,6 @@
 			top: 50%;
 			left: 50%;
 			transform: translate(-50%, -50%);
-		}
-
-		.metaphor-text-block {
-			padding: 1.25rem;
-			max-width: 320px;
-		}
-
-		.metaphor-text-block p {
-			font-size: 1rem;
 		}
 
 		.collage-image {
