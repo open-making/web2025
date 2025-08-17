@@ -73,7 +73,7 @@
 </script>
 
 <SEO
-	title="WEB2025 Gallery"
+	title="The web2025 gallery"
 	description="A showcase of student work from the WEB2025 module at DAIICT, featuring web design and development projects from M.DES students."
 	contentType="website"
 	author="DAIICT WEB2025 Students"

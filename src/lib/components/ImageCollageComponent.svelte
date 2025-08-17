@@ -70,7 +70,7 @@
 	// Define the unified scrollytelling steps (metaphor + collage)
 	const steps = [
 		{
-			text: 'This module began with a metaphor that would guide all activities that were to follow (and, as we will describe later, only one condition). This was the metaphor of the web as a physical space.The internet today has become boring and more or less the same.',
+			text: 'The guiding metaphor for this module was of the web as a physical space. The internet today has become boring and more or less the same.',
 			type: 'metaphor',
 			image: Same,
 			className: 'contain'
@@ -81,7 +81,7 @@
 			image: Garden1
 		},
 		{
-			text: "...we'd much rather have it be the more organic, interesting, and messy garden",
+			text: "...we'd much rather have it be the more organic, interesting, and messy garden.",
 			type: 'metaphor',
 			image: Garden2
 		},
@@ -91,7 +91,7 @@
 			image: Shelf1
 		},
 		{
-			text: "...we'd prefer one that wasn't the same old stuff we see everywhere",
+			text: "...we'd prefer one that wasn't the same old stuff we see everywhere.",
 			type: 'metaphor',
 			image: Shelf2
 		},
@@ -106,13 +106,13 @@
 			image: City2
 		},
 		{
-			text: 'The agenda was this. Not for optimizing user "conversions" and sales, or thinking in terms of sterile "user-centricity" but a space that reflected and accommodated us and our tastes.',
+			text: 'This was the point. Not for optimizing user "conversions" and sales, or thinking in terms of sterile "user-centricity" but a handmade space that reflected and accommodated us and our tastes.',
 			type: 'metaphor',
 			image: Artisanal,
 			className: 'contain'
 		},
 		{
-			text: 'To do this effectively, we needed to draw ourselves out of Behance, Dribbble, Pinterest and all of these places and look back at the early eras of the web.',
+			text: 'To do this effectively, we needed to draw ourselves out of Behance, Dribbble, Pinterest and all of these places and look at a different kind of web, the early and the small web.',
 			type: 'collage',
 			images: allImageSources.slice(0, 4)
 		},
@@ -137,7 +137,7 @@
 	let visibleImages: any[] = [];
 
 	// Find where collage steps start
-	const collageStartIndex = steps.findIndex(step => step.type === 'collage');
+	const collageStartIndex = steps.findIndex((step) => step.type === 'collage');
 
 	// Calculate how many images to show based on scroll progress
 	$: {
@@ -152,10 +152,12 @@
 			const collageScrollIndex = scrollIndex - collageStartIndex;
 			const currentStep = Math.floor(collageScrollIndex);
 			const stepProgress = collageScrollIndex - currentStep;
-			
-			const collageSteps = steps.filter(step => step.type === 'collage');
+
+			const collageSteps = steps.filter((step) => step.type === 'collage');
 			const currentStepImages = collageSteps[currentStep]?.images?.length || 0;
-			const nextStepImages = collageSteps[Math.min(currentStep + 1, collageSteps.length - 1)]?.images?.length || currentStepImages;
+			const nextStepImages =
+				collageSteps[Math.min(currentStep + 1, collageSteps.length - 1)]?.images?.length ||
+				currentStepImages;
 
 			// Smoothly interpolate between current and next step image count
 			const imageCount = Math.floor(
@@ -173,7 +175,7 @@
 		<img src={HeaderSticker} alt="hacker scenes" class="max-h-56 rotate-16 drop-shadow-sm" />
 		<h1 class="mb-6 font-heading text-7xl font-bold text-foreground md:text-9xl">WEB2025</h1>
 		<p class="max-w-4xl font-body leading-relaxed text-balance text-foreground md:text-xl">
-			The M.DES (2026) students at DAIICT just wrapped up an intense crash course in web design and
+			The M.DES (2024) students at DAIICT just wrapped up an intense crash course in web design and
 			development. With little to no prior experience in HTML, CSS, Git, or Astro, we threw
 			ourselves into the <a href="https://teaching.aman.bh/web2025">web2025</a> module and made it through
 			pretty nicely! Here is a gallery of (almost) all our work made during this ambitious undertaking.
@@ -190,11 +192,12 @@
 	<div class="sticky-background bg-none">
 		<!-- Metaphor images -->
 		<div class="metaphor-image-container">
-			{#each steps.filter(step => step.type === 'metaphor') as step, index}
+			{#each steps.filter((step) => step.type === 'metaphor') as step, index}
 				{#if step.image}
 					{@const isActive = Math.floor(scrollIndex) === index}
 					{@const nextIsActive = Math.floor(scrollIndex) === index - 1}
-					{@const opacity = (index === 0 && scrollIndex <= 0) ? 1 : isActive ? 1 : nextIsActive ? scrollIndex % 1 : 0}
+					{@const opacity =
+						index === 0 && scrollIndex <= 0 ? 1 : isActive ? 1 : nextIsActive ? scrollIndex % 1 : 0}
 					<img
 						src={step.image}
 						alt="Web metaphor"
@@ -205,7 +208,7 @@
 				{/if}
 			{/each}
 		</div>
-		
+
 		<!-- Collage images -->
 		<div class="image-canvas">
 			{#each allImageSources as imageSrc, index}
@@ -236,13 +239,15 @@
 							--y: {gridY}%;
 							--scale: {scaleVal};
 						"
-						in:fly={index === 0 ? { duration: 0, delay: 0 } : {
-							x: transitionOffsetX,
-							y: transitionOffsetY,
-							duration: 800,
-							delay: transitionDelay,
-							easing: quintOut
-						}}
+						in:fly={index === 0
+							? { duration: 0, delay: 0 }
+							: {
+									x: transitionOffsetX,
+									y: transitionOffsetY,
+									duration: 800,
+									delay: transitionDelay,
+									easing: quintOut
+								}}
 						out:scale={{
 							duration: 400,
 							delay: ((seed * 2222) % 1) * 200,
@@ -380,7 +385,6 @@
 		color: var(--color-neutral);
 		margin: 0;
 	}
-
 
 	@media (max-width: 768px) {
 		.metaphor-image-container {
